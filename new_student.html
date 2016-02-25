@@ -6,19 +6,19 @@
 </head>
 <body>
 <header>
-    <h1><img src="http://friendsinternational.uk/images/master-site/logos/fi-logo.png" alt="Friends International"/> Friendship Link Creator</h1>
+    <h1><a href="index.html"><img src="http://friendsinternational.uk/images/master-site/logos/fi-logo.png" alt="Friends International"/> Friendship Link Creator</a></h1>
     <nav>
         <ul>
             <li><a href="#">New</a></li>
             <ul>
-                <li><a href="#">New Student details</a></li>
-                <li><a href="#">New Family Details</a></li>
+                <li><a href="new_student.html">New Student Details</a></li>
+                <li><a href="new_host.html">New Host Details</a></li>
             </ul>
             <li><a href="#">View</a></li>
             <ul>
                 <li><a href="#">View Students </a></li>
                 <li><a href="#">View Hosts</a></li>
-                <li><a href="#">View match</a></li>
+                <li><a href="#">View Match</a></li>
             </ul>
             <li><a href="#">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
@@ -27,4 +27,45 @@
     </header>
 
 </body>
+    <main>
+        <header>
+            <h2>New Student Details</h2>
+        </header>
+
+        <form>
+            <label>First Name:</label>
+            <input type="text" name="First name" value=""/>
+            <br>
+            <br>
+            <label>Last Name:</label>
+            <input type="text" name="Last name" value=""/>
+            <br>
+            <br>
+            Date of Birth:
+            <input type="date" name="DoB">
+            <br>
+            <br>
+            <label >Email:</label>
+            <input type="text" name="email" value=""/>
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="fmale">Female
+            <br>
+            <br>
+            <label>phoneNbr</label>
+            <input type="text" name="phoneNbr" value=""/>
+            <br>
+            <br>
+            <label>Nationality</label>
+            <input type="text" name="Nationality" value=""/>
+            <br>
+            <input type="submit" value="Submit" />
+
+        </form>
+
+    </main>
+
+    <footer>(c) 2016 friends International (team B)</footer>
 </html>

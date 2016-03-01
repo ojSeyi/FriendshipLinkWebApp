@@ -14,13 +14,14 @@ $Nationality= $_POST['Nationality'];
 
 
 if(submit){
+    /*
     try {
         $sql = "INSERT INTO host (lastname, address,nationality,phoneNbr) VALUES ('$Lastname', '$Address', '$Nationality', '$phoneNbr')";
         $sth = $db->query($sql);
     } catch(PDOException $e) {
         echo $e->getMessage();
     }
-
+*/
     echo 'Successful';
 }else{
     header('Location:index.html');

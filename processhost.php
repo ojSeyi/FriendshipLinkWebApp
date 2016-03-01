@@ -5,14 +5,25 @@
  * Date: 3/1/2016
  * Time: 12:47 PM
  */
-$Firstname = $_POST['Firstname'];
+
+
 $Lastname = $_POST['Lastname'];
+$Address = $_POST['address'];
 $phoneNbr = $_POST['phoneNbr'];
 $Nationality= $_POST['Nationality'];
 
-echo '<p> '. $Firstname.'</p> ';
-echo '<p> '. $Lastname.'</p> ';
-echo '<p> '. $phoneNbr.'</p> ';
-echo '<p> '. $Nationality.'</p> ';
+
+if(submit){
+    try {
+        $sql = "INSERT INTO host (lastname, address,nationality,phoneNbr) VALUES ('$Lastname', '$Address', '$phoneNbr', '$Nationality')";
+        $sth = $db->query($sql);
+    } catch(PDOException $e) {
+        echo $e->getMessage();
+    }
+
+    echo 'Successful';
+}else{
+    header('Location:index.html');
+}
 
 ?>

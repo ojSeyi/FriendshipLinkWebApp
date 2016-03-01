@@ -24,7 +24,7 @@ if(submit){
         echo $e->getMessage();
     }
 
-    echo 'Successful';
+    header('Location:new_host.html?s=1');
 }else{
     header('Location:index.html');
 }

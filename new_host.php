@@ -32,7 +32,9 @@
         <header>
             <h2>New Host Details</h2>
         </header>
-        <span><?php if($GET['s']) {echo '<span style="color: blue;">Record Added! </span>';}?></span>
+        <span>
+            <?php if($GET['s']) {echo '<span style="color: blue;">Record Added! </span>';}?>
+        </span>
 
         <form action="processhost.php" method="POST">
             <label>First Name:</label>

@@ -41,20 +41,66 @@
         </span>
 
         <form action="processhost.php" method="POST">
-            <label>First Name:</label>
-            <input type="text" name="Lastname" value=""/>
+            <label>Name:</label>
+            <input type="text" name="name" value=""/>
             <br>
             <br>
             <label>Address:</label>
             <input type="text" name="address" value=""/>
             <br>
             <br>
-            <label>phoneNbr</label>
+            <label>Postcode:</label>
+            <input type="text" name="postcode" value=""/>
+            <br>
+            <br>
+            <label>Telephone Number:</label>
             <input type="text" name="phoneNbr" value=""/>
             <br>
             <br>
-            <label>Nationality</label>
-            <input type="text" name="Nationality" value=""/>
+            <label>E-mail address:</label>
+            <input type="email" name="email" value=""/>
+            <br>
+            <br>
+            <label>Marital Status:</label>
+            <input type="radio" name="status" value="Married"/>Married
+            <input type="radio" name="status" value="Single"/>Single
+            <br>
+            <br>
+            <label>No. of Children</label>
+            <input type="text" name="children" value=""/>
+            <br>
+            <br>
+            <label>Are you happy to provide Vegetarian food?</label>
+            <input type="radio" name="vegan" value="yes"/>Yes
+            <input type="radio" name="vegan" value="no"/>No
+            <br>
+            <br>
+            <label>Would you prefer us to link you with male or female students? Or no preference?</label>
+            <input type="radio" name="preference" value="male"/>Male
+            <input type="radio" name="preference" value="female"/>Female
+            <input type="radio" name="preference" value="noPref"/>No Preference
+            <br>
+            <br>
+            <label>Church attended</label>
+            <input type="text" name="Church" value=""/>
+            <br>
+            <br>
+            <label>Name of minister/pastor</label>
+            <input type="text" name="pastor" value=""/>
+            <br>
+            <br>
+            <label>Special interests (sport, music, hobbies):</label>
+            <textarea name="interests" cols="45" rows="5"></textarea>
+            <br>
+            <br>
+            <label>Interest in particular areas of the world:</label>
+            <textarea name="interest_nation" cols="45" rows="5"></textarea>
+            <br>
+            <br>
+            <label>Any other relevant information:</label>
+            <textarea name="comments" cols="45" rows="5"></textarea>
+            <br>
+            <br>
             <br>
             <br>
             <input type="submit" value="Submit" name="submit"/>

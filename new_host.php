@@ -90,15 +90,15 @@
             <br>
             <br>
             <label>Special interests (sport, music, hobbies):</label>
-            <textarea name="interests" cols="45" rows="5"></textarea>
+            <textarea name="interests" cols="45" rows="5" value="Test0"></textarea>
             <br>
             <br>
             <label>Interest in particular areas of the world:</label>
-            <textarea name="interest_nation" cols="45" rows="5"></textarea>
+            <textarea name="interest_nation" cols="45" rows="5" value="Test1"></textarea>
             <br>
             <br>
             <label>Any other relevant information:</label>
-            <textarea name="comments" cols="45" rows="5"></textarea>
+            <textarea name="comments" cols="45" rows="5" value="Test2"></textarea>
             <br>
             <br>
             <br>

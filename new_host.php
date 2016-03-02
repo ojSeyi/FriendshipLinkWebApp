@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>FriendshipLinkWebApp</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+
 </head>
 <body>
 

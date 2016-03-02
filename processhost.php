@@ -25,13 +25,28 @@ $interests_nation = $_POST['interests_nation'];
 $comments = $_POST['comments'];
 
 
+echo '<p>'.$Name. '</p>';
+echo '<p>'.$Address. '</p>';
+echo '<p>'.$Postcode. '</p>';
+echo '<p>'.$phoneNbr. '</p>';
+echo '<p>'.$Email. '</p>';
+echo '<p>'.$Status. '</p>';
+echo '<p>'.$Children. '</p>';
+echo '<p>'.$vegan. '</p>';
+echo '<p>'.$preference. '</p>';
+echo '<p>'.$Church. '</p>';
+echo '<p>'.$pastor. '</p>';
+echo '<p>'.$interests. '</p>';
+echo '<p>'.$interests_nation. '</p>';
+echo '<p>'.$comments. '</p>';
+
 
 /*$Nationality= $_POST['Nationality'];
 $Lastname = $_POST['Lastname'];
 $Address = $_POST['address'];
 
 $Nationality= $_POST['Nationality'];*/
-
+/*
 if(submit){
 
     try {
@@ -46,5 +61,5 @@ if(submit){
 }else{
     header('Location:index.html');
 }
-
+*/
 ?>

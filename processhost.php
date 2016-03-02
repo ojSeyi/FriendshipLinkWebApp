@@ -18,10 +18,10 @@ $Status = $_POST['status'];
 $Children = $_POST['children'];
 $vegan = $_POST['vegan'];
 $preference = $_POST['preference'];
-$Church = $_POST['church'];
+$Church = $_POST['Church'];
 $pastor = $_POST['pastor'];
 $interests = $_POST['interests'];
-$interests_nation = $_POST['interests_nation'];
+$interests_nation = $_POST['interest_nation'];
 $comments = $_POST['comments'];
 
 

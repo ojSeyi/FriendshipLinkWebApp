@@ -51,7 +51,7 @@ $Nationality= $_POST['Nationality'];*/
 if(submit){
 
     try {
-        $sql = "INSERT INTO host (Name, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interests_nationality,comments)
+        $sql = "INSERT INTO host (name, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interest_nationality,comments)
                   VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$Email', '$Status', $Children, '$vegan','$preference', '$Church', '$pastor', '$interests','$interests_nation','$comments')";
         $sth = $db->query($sql);
     } catch(PDOException $e) {

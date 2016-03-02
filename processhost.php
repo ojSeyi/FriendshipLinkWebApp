@@ -25,6 +25,7 @@ $interests_nation = $_POST['interest_nation'];
 $comments = $_POST['comments'];
 
 
+/*
 echo '<p>'.$Name. '</p>';
 echo '<p>'.$Address. '</p>';
 echo '<p>'.$Postcode. '</p>';
@@ -39,14 +40,14 @@ echo '<p>'.$pastor. '</p>';
 echo '<p>'.$interests. '</p>';
 echo '<p>'.$interests_nation. '</p>';
 echo '<p>'.$comments. '</p>';
-
+*/
 
 /*$Nationality= $_POST['Nationality'];
 $Lastname = $_POST['Lastname'];
 $Address = $_POST['address'];
 
 $Nationality= $_POST['Nationality'];*/
-/*
+
 if(submit){
 
     try {
@@ -61,5 +62,5 @@ if(submit){
 }else{
     header('Location:index.html');
 }
-*/
+
 ?>

@@ -23,6 +23,9 @@ $pastor = $_POST['pastor'];
 $interests = $_POST['interests'];
 $interests_nation = $_POST['interests_nation'];
 $comments = $_POST['comments'];
+
+
+
 /*$Nationality= $_POST['Nationality'];
 $Lastname = $_POST['Lastname'];
 $Address = $_POST['address'];
@@ -33,7 +36,7 @@ if(submit){
 
     try {
         $sql = "INSERT INTO host (Name, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interests_nationality,comments)
-                  VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$Email', '$Status', '$Children', '$vegan','$preference', '$Church', '$pastor', '$interests',$interests_nation,$comments)";
+                  VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$Email', '$Status', '$Children', '$vegan','$preference', '$Church', '$pastor', '$interests','$interests_nation','$comments')";
         $sth = $db->query($sql);
     } catch(PDOException $e) {
         echo $e->getMessage();

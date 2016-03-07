@@ -123,7 +123,7 @@
 
     </main>
 </body>
-
+<div id="quickfix"></div>
 <footer>(c) 2016 friends International (team B)</footer>
 
 

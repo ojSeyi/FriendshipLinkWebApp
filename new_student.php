@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FriendshipLinkWebApp</title>
+    <title></title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
     <!--<link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>-->
-
 </head>
-<body>
+
 <body>
 <header>
     <div id ="logo">
@@ -20,10 +19,10 @@
     <nav>
         <ul>
             <li><a href="#">New</a></li>
-            <ul>
-                <li><a href="new_student.php">New Student Details</a></li>
-                <li><a href="new_host.html">New Host Details</a></li>
-            </ul>
+                <ul>
+                    <li><a href="new_student.php">New Student Details</a></li>
+                    <li><a href="new_host.php">New Host Details</a></li>
+                </ul>
             <li><a href="#">View</a></li>
             <ul>
                 <li><a href="#">View Students </a></li>
@@ -34,28 +33,31 @@
             <li><a href="#">Generate Report</a></li>
         </ul>
     </nav>
-</header>
+    </header>
+
 
     <main>
         <br>
         <br>
         <br>
         <br>
+        <div id="title">
         <header>
-            <h2>New Host Details</h2>
+            <h2>New Student Details</h2>
         </header>
+        </div>
 
         <span>
             <?php if($_GET['s']) {
                 echo '<span style="color: blue;">Record Added! </span>';
-            }
+        }
 
-            ?>
+        ?>
         </span>
         <br>
         <br>
 
-        <form action="processhost.php" method="POST">
+        <form action="processstudent.php" method="post">
             <label>Name:</label>
             <input type="text" name="name" value=""/>
             <br>
@@ -76,57 +78,58 @@
             <input type="email" name="email" value=""/>
             <br>
             <br>
+            <!--Date of Birth:
+            <input type="date" name="DoB">
+            <br>
+            <br>-->
+            <label>Home Country:</label>
+            <input type="text" name="nationality" value=""/>
+            <br>
+            <br>
+            <label>Age:</label>
+            <input type="number" name="age" value=""/>
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="fmale">Female
+            <br>
+            <br>
             <label>Marital Status:</label>
             <input type="radio" name="status" value="Married"/>Married
             <input type="radio" name="status" value="Single"/>Single
             <br>
             <br>
-            <label>No. of Children</label>
-            <input type="text" name="children" value=""/>
+            <label>If married, Enter details(if not applicable enter null):</label>
+            <textarea name="ifMarried" cols="45" rows="5" value=""></textarea>
             <br>
             <br>
-            <label>Are you happy to provide Vegetarian food?</label>
-            <input type="radio" name="vegan" value="yes"/>Yes
-            <input type="radio" name="vegan" value="no"/>No
+            <label>University:</label>
+            <input type="radio" name="university" value="RGU"/>Robert Gordon
+            <input type="radio" name="university" value="Aberdeen University"/>Aberdeen University
             <br>
             <br>
-            <label>Would you prefer us to link you with male or female students? Or no preference?</label>
-            <input type="radio" name="preference" value="male"/>Male
-            <input type="radio" name="preference" value="female"/>Female
-            <input type="radio" name="preference" value="noPref"/>No Preference
+            <label>Course of study</label>
+            <input type="text" name="course" value=""/>
             <br>
             <br>
-            <label>Church attended</label>
-            <input type="text" name="Church" value=""/>
-            <br>
-            <br>
-            <label>Name of minister/pastor</label>
-            <input type="text" name="pastor" value=""/>
+            <label>End of Study date:</label>
+            <input type="date" name="endOfStudy" value=""/>
             <br>
             <br>
             <label>Special interests (sport, music, hobbies):</label>
             <textarea name="interests" cols="45" rows="5" value=""></textarea>
             <br>
             <br>
-            <label>Interest in particular areas of the world:</label>
-            <textarea name="interest_nation" cols="45" rows="5" value=""></textarea>
+            <label>Special diet:</label>
+            <textarea name="diet" cols="45" rows="5" value=""></textarea>
             <br>
             <br>
-            <label>Any other relevant information:</label>
-            <textarea name="comments" cols="45" rows="5" value=""></textarea>
-            <br>
-            <br>
-            <br>
-            <br>
-            <input type="submit" value="Submit" name="submit"/>
+            <input type="submit" value="Submit" />
 
         </form>
 
     </main>
 </body>
-<div id="quickfix"></div>
-<footer>(c) 2016 friends International (team B)</footer>
-
-
-
+    <footer>(c) 2016 friends International (team B)</footer>
 </html>

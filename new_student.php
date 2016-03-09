@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Student</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
@@ -59,71 +60,71 @@
         <br>
 
         <form action="processstudent.php" method="post">
-            <label>Name:</label>
-            <input type="text" name="name" value=""/>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="" required/>
             <br>
             <br>
-            <label>Address:</label>
-            <input type="text" name="address" value=""/>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" value="" required/>
             <br>
             <br>
-            <label>Postcode:</label>
-            <input type="text" name="postcode" value=""/>
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode" value="" required/>
             <br>
             <br>
-            <label>Telephone Number:</label>
-            <input type="number" name="phoneNbr" value=""/>
+            <label for="number">Telephone Number:</label>
+            <input type="number" id="number" name="phoneNbr" value="" required/>
             <br>
             <br>
-            <label>E-mail address:</label>
-            <input type="email" name="email" value=""/>
+            <label for="email">E-mail address:</label>
+            <input type="email" id="email" name="email" value="" required/>
             <br>
             <br>
             <!--Date of Birth:
             <input type="date" name="DoB">
             <br>
             <br>-->
-            <label>Home Country:</label>
-            <input type="text" name="nationality" value=""/>
+            <label for="nationality">Home Country:</label>
+            <input type="text" id="nationality" required name="nationality" value=""/>
             <br>
             <br>
-            <label>Age:</label>
-            <input type="number" name="age" value=""/>
+            <label for="age">Age:</label>
+            <input required type="number" id="age" name="age" value=""/>
             <br>
             <br>
-            <label>Gender:</label>
-            <input type="radio" name="gender" value="male">Male
-            <input type="radio" name="gender" value="fmale">Female
+            <label for="gender">Gender:</label>
+            <input required type="radio" id="gender" name="gender" value="male">Male
+            <input required type="radio" id="gender" name="gender" value="fmale">Female
             <br>
             <br>
-            <label>Marital Status:</label>
-            <input type="radio" name="status" value="Married"/>Married
-            <input type="radio" name="status" value="Single"/>Single
+            <label for="status">Marital Status:</label>
+            <input required type="radio" id="status" name="status" value="Married"/>Married
+            <input required type="radio" id="status" name="status" value="Single"/>Single
             <br>
             <br>
-            <label>If married, Enter details(if not applicable enter null):</label>
-            <textarea name="ifMarried" cols="45" rows="5" value=""></textarea>
+            <label for="ifMarried">If married, Enter details(if not applicable enter null):</label>
+            <textarea required name="ifMarried" id="ifMarried" cols="45" rows="5" value=""></textarea>
             <br>
             <br>
-            <label>University:</label>
-            <input type="radio" name="university" value="RGU"/>Robert Gordon
-            <input type="radio" name="university" value="Aberdeen University"/>Aberdeen University
+            <label for="university">University:</label>
+            <input required type="radio" id="university" name="university" value="RGU"/>Robert Gordon
+            <input required type="radio" id="university" name="university" value="Aberdeen University"/>Aberdeen University
             <br>
             <br>
-            <label>Course of study</label>
-            <input type="text" name="course" value=""/>
+            <label for="course">Course of study</label>
+            <input required type="text" id="course" name="course" value=""/>
             <br>
             <br>
-            <label>End of Study date:</label>
-            <input type="date" name="endOfStudy" value=""/>
+            <label for="endOfStudy">End of Study date:</label>
+            <input required type="date" id="endOfStudy" name="endOfStudy" value=""/>
             <br>
             <br>
-            <label>Special interests (sport, music, hobbies):</label>
-            <textarea name="interests" cols="45" rows="5" value=""></textarea>
+            <label for="interests">Special interests (sport, music, hobbies):</label>
+            <textarea required name="interests" id="interests" cols="45" rows="5" value=""></textarea>
             <br>
             <br>
-            <label>Special diet:</label>
-            <textarea name="diet" cols="45" rows="5" value=""></textarea>
+            <label for="diet">Special diet:</label>
+            <textarea required name="diet" id="diet" cols="45" rows="5" value=""></textarea>
             <br>
             <br>
             <input type="submit" value="Submit" />

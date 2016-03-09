@@ -2,44 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Student</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 </head>
 
 <body>
-
 <header>
     <div id ="logo">
-        <a class="uk-navbar-brand uk-hidden-small" href="index.html">
-            <img src="images/fi-logo.png" alt="Demo" width="200"></a>
+        <a href="index.html"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
     </div>
-    <h1><a href="index.html">Friendship Link Creator</a></h1>
+
+    <h1><a href="index.html">FriendshipLink WebApp</a></h1>
+
     <nav>
         <ul>
-            <li><a href="#">New</a></li>
-                <ul>
-                    <li><a href="new_student.php">New Student Details</a></li>
-                    <li><a href="new_host.php">New Host Details</a></li>
-                </ul>
-            <li><a href="#">View</a></li>
-            <ul>
-                <li><a href="#">View Students </a></li>
-                <li><a href="#">View Hosts</a></li>
-                <li><a href="#">View Match</a></li>
-            </ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn" href="#">New</a>
+                <div class="dropdown-content">
+                    <a href="new_student.php">New Student Details</a>
+                    <a href="new_host.php">New Host Details</a>
+                </div>
+            </li>
+            <li  class="dropdown">
+                <a href="#" class="dropbtn">View</a>
+                <div class="dropdown-content">
+                <a href="#">View Students </a>
+                <a href="#">View Hosts</a>
+                <a href="#">View Match</a>
+                </div>
+            </li>
             <li><a href="#">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
         </ul>
     </nav>
-    </header>
+</header>
 
 
     <main>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <div id="title">
         <header>
             <h2>New Student Details</h2>
@@ -127,7 +129,10 @@
             <input type="submit" value="Submit" />
 
         </form>
-
     </main>
+
+<footer>
+    <p>(c) 2016 Team B(eta) </p>
+</footer>
 </body>
 </html>

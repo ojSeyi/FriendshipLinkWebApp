@@ -5,9 +5,6 @@
     <title>FriendshipLinkWebApp</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-    <!--<link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>-->
-
 </head>
 <body>
 <body>
@@ -69,7 +66,7 @@
             <br>
             <br>
             <label>Telephone Number:</label>
-            <input type="text" name="phoneNbr" value=""/>
+            <input type="number" name="phoneNbr" value=""/>
             <br>
             <br>
             <label>E-mail address:</label>
@@ -82,7 +79,7 @@
             <br>
             <br>
             <label>No. of Children</label>
-            <input type="text" name="children" value=""/>
+            <input type="number" name="children" value=""/>
             <br>
             <br>
             <label>Are you happy to provide Vegetarian food?</label>
@@ -124,9 +121,4 @@
 
     </main>
 </body>
-<div id="quickfix"></div>
-<footer>(c) 2016 friends International (team B)</footer>
-
-
-
 </html>

@@ -30,7 +30,7 @@ if(submit){
 
     try {
         $sql = "INSERT INTO student (name, address,postcode,phoneNbr,email,nationality,age,gender,status,ifMarried,university,course,endOfStudy,interests,diet)
-                VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$email', '$nationality', $age, '$gender','$Status', '$ifMarried', '$university', '$course',$endOfStudy,'$interests','$diet')";
+                VALUES ('$Name', '$Address', '$Postcode',$phoneNbr,'$email', '$nationality', $age, '$gender','$Status', '$ifMarried', '$university', '$course',$endOfStudy,'$interests','$diet')";
         $sth = $db->query($sql);
     } catch(PDOException $e) {
         echo $e->getMessage();

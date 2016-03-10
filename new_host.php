@@ -128,7 +128,11 @@
     </main>
 
 <footer>
-    <p>(c) 2016 Team B(eta) </p>
+    <p>
+        <a href="#top"><img alt="" src="images/fi-logo-reverse.png" style="width: 200px; height: 100px;" title="Back to top"></a>
+    </p>
+    <p>Copyright © 2016 Team B(eta) </p>
+
 </footer>
 </body>
 </html>

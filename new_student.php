@@ -102,7 +102,7 @@
             <input required type="radio" id="status" name="status" value="Single"/>Single
             <br>
             <br>
-            <?php if($_GET[$Status] == "Married") {
+            <?php if($_GET['status'] == "Married") {
 
                 echo '<label for="ifMarried">If married, Enter details(if not applicable enter null):</label>
             <textarea required name="ifMarried" id="ifMarried" cols="45" rows="5" value=""></textarea>

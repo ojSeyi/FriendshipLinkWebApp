@@ -7,7 +7,8 @@
  */
 
 
-$db = new PDO('mysql:host=ap-cdbr-azure-east-c.cloudapp.net;dbname=friendshiplink;charset=utf8mb4', 'b3c438583f3e44', '3cf27899',array(PDO::ATTR_EMULATE_PREPARES => false,
+$db = new PDO('mysql:host=ap-cdbr-azure-east-c.cloudapp.net;dbname=friendshiplink;charset=utf8mb4', 'b3c438583f3e44', '3cf27899',
+    array(PDO::ATTR_EMULATE_PREPARES => false,
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
 $Name = $_POST['name'];
@@ -27,7 +28,9 @@ $interests = $_POST['interests'];
 $diet = $_POST['diet'];
 
 if(submit){
-
+           if($ifMarried == ""){
+               $ifMarried = "Not married";
+           }
     try {
         $sql = "INSERT INTO student (name, address,postcode,phoneNbr,email,nationality,age,gender,status,ifMarried,university,course,endOfStudy,interests,diet)
                 VALUES ('$Name', '$Address', '$Postcode',$phoneNbr,'$email', '$nationality', $age, '$gender','$Status', '$ifMarried', '$university', '$course',$endOfStudy,'$interests','$diet')";

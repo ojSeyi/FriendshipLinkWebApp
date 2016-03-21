@@ -2,7 +2,7 @@
 
 include "dbConnect.php";
 
-$sql_query = "SELECT * FROM students";
+$sql_query = "SELECT * FROM student";
 $result = $db->query($sql_query);
 while($row = $result->fetch_array())
 {

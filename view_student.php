@@ -63,7 +63,6 @@
             <th class="table-style">Special Diet</th>
 
         <?php
-
             $sql_query = "SELECT * FROM student";
             $result =  $dbs->query($sql_query);
 
@@ -78,7 +77,7 @@
             <td><?php echo $counter;?></td>
             <td><?php echo $row['name'];?></td>
             <td><?php echo $row['address'];?></td>
-            <td><?php echo $row['postcode'];?></td>;
+            <td><?php echo $row['postcode'];?></td>
             <td><?php echo $row['phoneNbr'];?></td>
             <td><?php echo $row['email'];?></td>
             <td><?php echo $row['nationality'];?></td>
@@ -100,6 +99,14 @@
         ?>
 </table>
 </main>
+
+<footer>
+    <p>
+        <a href="#top"><img alt="" src="images/fi-logo-reverse.png" style="width: 200px; height: 100px;" title="Back to top"></a>
+    </p>
+    <p>Copyright © 2016 Team B(eta) </p>
+
+</footer>
 </body>
 </html>
 

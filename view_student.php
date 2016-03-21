@@ -43,7 +43,7 @@
 
 <main>
     <h2>Student List</h2>
-    <ul>
+    <section>
 
 <?
 $sql_query = "SELECT * FROM student";
@@ -84,7 +84,7 @@ while($row = $result->fetch_array())
     echo "<br>";
 }
 ?>
-   </ul>
+    </section>
     </main>
 </body>
 </html>

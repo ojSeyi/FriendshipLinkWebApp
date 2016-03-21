@@ -76,6 +76,7 @@
                 $counter++;
             ?>
         <tr>
+            <td><?php echo $counter;?></td>
             <td><?php echo $row['name'];?></td>
             <td><?php echo $row['address'];?></td>
             <td><?php echo $row['postcode'];?></td>;

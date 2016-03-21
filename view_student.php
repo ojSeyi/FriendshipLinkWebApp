@@ -58,6 +58,17 @@
             while ($row = $result->fetch_array())
             {
                 echo "<p>" .$row['name'] ." </p>";
+                echo "<p>" .$row['address'] ." </p>";
+                echo "<p>" .$row['postcode'] ." </p>";
+                echo "<p>" .$row['phoneNbr'] ." </p>";
+                echo "<p>" .$row['email'] ." </p>";
+                echo "<p>" .$row['age'] ." </p>";
+                echo "<p>" .$row['gender'] ." </p>";
+                echo "<p>" .$row['status'] ." </p>";
+                echo "<p>" .$row['ifMarried'] ." </p>";
+                echo "<p>" .$row['university'] ." </p>";
+                echo "<p>" .$row['course'] ." </p>";
+
 
             }
         $result->close();

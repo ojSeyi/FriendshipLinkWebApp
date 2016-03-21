@@ -1,5 +1,6 @@
+<?php include 'dbConnect.php';?>
 
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -45,93 +46,60 @@
 
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
-            <th class="table-style">Sr. #</th>
+            <th class="table-style">S_ID</th>
             <th class="table-style">Name</th>
-            <th class="table-style">address</th>
-            <th class="table-style">postcode</th>
+            <th class="table-style">Address</th>
+            <th class="table-style">PostCode</th>
+            <th class="table-style">Telephone Number</th>
+            <th class="table-style">E-mail Address</th>
+            <th class="table-style">Home Country</th>
+            <th class="table-style">Age:</th>
+            <th class="table-style">Gender:</th>
+            <th class="table-style">Marital Status</th>
+            <th class="table-style">Married Details</th>
+            <th class="table-style">University</th>
+            <th class="table-style">Course of Study</th>
+            <th class="table-style">End of Study Date</th>
+            <th class="table-style">Special Interests</th>
+            <th class="table-style">Special Diet</th>
             -->
-        <?php include 'dbConnect.php';
+        <?php
 
             $sql_query = "SELECT * FROM student";
             $result =  $dbs->query($sql_query);
 
+            if(mysqli_num_rows($result)>0){
+                $counter = 0;
+
             while ($row = $result->fetch_array())
             {
-                echo "<p>" .$row['name'] ." </p>";
-                echo "<p>" .$row['address'] ." </p>";
-                echo "<p>" .$row['postcode'] ." </p>";
-                echo "<p>" .$row['phoneNbr'] ." </p>";
-                echo "<p>" .$row['email'] ." </p>";
-                echo "<p>" .$row['age'] ." </p>";
-                echo "<p>" .$row['gender'] ." </p>";
-                echo "<p>" .$row['status'] ." </p>";
-                echo "<p>" .$row['ifMarried'] ." </p>";
-                echo "<p>" .$row['university'] ." </p>";
-                echo "<p>" .$row['course'] ." </p>";
-                echo "<p>" .$row['endOfStudy'] ." </p>";
-                echo "<p>" .$row['interests'] ." </p>";
-                echo "<p>" .$row['diet'] ." </p>";
-
-
+                $counter++;
+            ?>
+        <tr>
+            <td><?php echo $row['name'];?></td>
+            <td><?php echo $row['address'];?></td>
+            <td><?php echo $row['postcode'];?></td>;
+            <td><?php echo $row['phoneNbr'];?></td>
+            <td><?php echo $row['email'];?></td>
+            <td><?php echo $row['age'];?></td>
+            <td><?php echo $row['gender'];?></td>
+            <td><?php echo $row['status'];?></td>
+            <td><?php echo $row['ifMarried'];?></td>
+            <td><?php echo $row['university'];?></td>
+            <td><?php echo $row['course'];?></td>
+            <td><?php echo $row['endOfStudy'];?></td>
+            <td><?php echo $row['interests'];?></td>
+            <td><?php echo $row['diet'];?></td>
+        </tr>
+        <?php
             }
+        }
         $result->close();
-        $db->close();
-
-
+        $dbs->close();
         ?>
-
-
-
-<!--
-
-include "dbConnect.php";
-
-
-$sql_query = "SELECT * FROM student";
-
-$result =  mysqli_query($dbs,$sql);
-
-while($row = $result->fetch_array())
-{
-    $Name = $row['name'];
-    $Address = $row['address'];
-    $Postcode = $row['postcode'];
-    $phoneNbr = $row['phoneNbr'];
-    $email = $row['email'];
-    $nationality = $row['nationality'];
-   /* $age = $row['age'];
-    $gender = $row['gender'];
-    $Status = $row['status'];
-    $ifMarried = $row['ifMarried'];
-    $university = $row['university'];
-    $course = $row['course'];
-    $endOfStudy = $row['endOfStudy'];
-    $interests = $row['interests'];
-    $diet = $row['diet'];*/
-
-    echo "<p>{$Name}</p>";
-    echo "<p>{$Address}</p>";
-    echo "<p>{$Postcode}</p>";
-    echo "<p>{$phoneNbr}</p>";
-    echo "<p>{$email}</p>";
-    echo "<p>{$nationality}</p>";
-   /* echo "<p>{$age}</p>";
-    echo "<p>{$gender}</p>";
-    echo "<p>{$Status}</p>";
-    echo "<p>{$ifMarried}</p>";
-    echo "<p>{$university}</p>";
-    echo "<p>{$course}</p>";
-    echo "<p>{$endOfStudy}</p>";
-    echo "<p>{$interests}</p>";
-    echo "<p>{$diet}</p>";*/
-    echo "<br>";
-}
-?>
 </table>
-
-
 </main>
 </body>
 </html>
--->
+
 

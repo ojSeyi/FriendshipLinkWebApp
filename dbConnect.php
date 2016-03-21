@@ -4,6 +4,6 @@ define('DB_USERNAME','b3c438583f3e44');
 define('DB_PASSWORD','3cf27899');
 define('DB_DATABASE','friendshiplink');
 
-$db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+$dbs = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 ?>
 

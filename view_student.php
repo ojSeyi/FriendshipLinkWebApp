@@ -4,7 +4,9 @@ include "dbConnect.php";
 
 
 $sql_query = "SELECT * FROM student";
-$result =  mysqli_query($db,$sql);
+
+$result =  mysqli_query($dbs,$sql);
+
 while($row = $result->fetch_array())
 {
     $Name = $row['name'];
@@ -13,7 +15,7 @@ while($row = $result->fetch_array())
     $phoneNbr = $row['phoneNbr'];
     $email = $row['email'];
     $nationality = $row['nationality'];
-    $age = $row['age'];
+   /* $age = $row['age'];
     $gender = $row['gender'];
     $Status = $row['status'];
     $ifMarried = $row['ifMarried'];
@@ -21,7 +23,7 @@ while($row = $result->fetch_array())
     $course = $row['course'];
     $endOfStudy = $row['endOfStudy'];
     $interests = $row['interests'];
-    $diet = $row['diet'];
+    $diet = $row['diet'];*/
 
     echo "<p>{$Name}</p>";
     echo "<p>{$Address}</p>";
@@ -29,7 +31,7 @@ while($row = $result->fetch_array())
     echo "<p>{$phoneNbr}</p>";
     echo "<p>{$email}</p>";
     echo "<p>{$nationality}</p>";
-    echo "<p>{$age}</p>";
+   /* echo "<p>{$age}</p>";
     echo "<p>{$gender}</p>";
     echo "<p>{$Status}</p>";
     echo "<p>{$ifMarried}</p>";
@@ -37,7 +39,7 @@ while($row = $result->fetch_array())
     echo "<p>{$course}</p>";
     echo "<p>{$endOfStudy}</p>";
     echo "<p>{$interests}</p>";
-    echo "<p>{$diet}</p>";
+    echo "<p>{$diet}</p>";*/
     echo "<br>";
 }
 ?>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>View Students</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 </head>
@@ -43,7 +43,6 @@
 <main>
 <h2>Student Table</h2>
 
-
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
             <th class="table-style">S_ID</th>
@@ -62,7 +61,7 @@
             <th class="table-style">End of Study Date</th>
             <th class="table-style">Special Interests</th>
             <th class="table-style">Special Diet</th>
-            -->
+
         <?php
 
             $sql_query = "SELECT * FROM student";

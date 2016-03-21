@@ -1,5 +1,5 @@
-<?php include 'dbConnect.php';?>
-<!DOCTYPE html>
+
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,36 +49,22 @@
             <th class="table-style">Name</th>
             <th class="table-style">address</th>
             <th class="table-style">postcode</th>
-            <?php
+            -->
+        <?php include 'dbConnect.php';
 
             $sql_query = "SELECT * FROM student";
+            $result =  $dbs->query($sql_query);
 
-            $result =  mysqli_query($dbs,$sql);
-            if(mysqli_num_rows($result)>0)                                                {
-
-            $counter = 0;
-            while ($row=  mysqli_fetch_array($result))
+            while ($row = $result->fetch_array())
             {
-            $counter++;
-            ?>
-        <tr>
-            <td class="table-style"><?php echo $counter; ?></td>
-            <td class="table-style"><?php echo $row['name']; ?></td>
-            <td class="table-style"><?php echo $row['address']; ?></td>
-            <td class="table-style"><?php echo $row['postcode']; ?></td>
-        </tr>
-        <?php
+                echo "<p>" .$row['name'] ." </p>";
 
-        }//end of for loop
-        }//end if statement ?>
-
-    </table>
+            }
+        $result->close();
+        $db->close();
 
 
-</main>
-</body>
-</html>
-
+        ?>
 
 
 
@@ -126,4 +112,12 @@ while($row = $result->fetch_array())
     echo "<p>{$diet}</p>";*/
     echo "<br>";
 }
-?>-->
+?>
+</table>
+
+
+</main>
+</body>
+</html>
+-->
+

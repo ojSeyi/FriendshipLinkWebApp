@@ -68,6 +68,9 @@
                 echo "<p>" .$row['ifMarried'] ." </p>";
                 echo "<p>" .$row['university'] ." </p>";
                 echo "<p>" .$row['course'] ." </p>";
+                echo "<p>" .$row['endOfStudy'] ." </p>";
+                echo "<p>" .$row['interests'] ." </p>";
+                echo "<p>" .$row['diet'] ." </p>";
 
 
             }

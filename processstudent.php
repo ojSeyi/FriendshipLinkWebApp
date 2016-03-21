@@ -28,9 +28,7 @@ $interests = $_POST['interests'];
 $diet = $_POST['diet'];
 
 if(submit){
-           if($ifMarried == ""){
-               $ifMarried = "Not married";
-           }
+
     try {
         $sql = "INSERT INTO student (name, address,postcode,phoneNbr,email,nationality,age,gender,status,ifMarried,university,course,endOfStudy,interests,diet)
                 VALUES ('$Name', '$Address', '$Postcode',$phoneNbr,'$email', '$nationality', $age, '$gender','$Status', '$ifMarried', '$university', '$course',$endOfStudy,'$interests','$diet')";

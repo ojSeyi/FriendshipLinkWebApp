@@ -29,7 +29,7 @@
             <li  class="dropdown">
                 <a href="#" class="dropbtn">View</a>
                 <div class="dropdown-content">
-                <a href="#">View Students </a>
+                <a href="view_student.php">View Students </a>
                 <a href="#">View Hosts</a>
                 <a href="#">View Match</a>
                 </div>
@@ -65,11 +65,11 @@
             <br>
             <br>
             <label for="address">Address:</label>
-            <input type="text" id="address" name="address" value="" required/>
+            <input type="text" id="address" name="address" value=""/>
             <br>
             <br>
             <label for="postcode">Postcode:</label>
-            <input type="text" id="postcode" name="postcode" value="" required/>
+            <input type="text" id="postcode" name="postcode" value=""/>
             <br>
             <br>
             <label for="number">Telephone Number:</label>
@@ -85,7 +85,7 @@
             <br>
             <br>-->
             <label for="nationality">Home Country:</label>
-            <input type="text" id="nationality" required name="nationality" value=""/>
+            <input type="text" id="nationality" name="nationality" value=""/>
             <br>
             <br>
             <label for="age">Age:</label>
@@ -98,33 +98,33 @@
             <br>
             <br>
             <label for="status">Marital Status:</label>
-            <input required type="radio" id="status" name="status" value="Married"/>Married
-            <input required type="radio" id="status" name="status" value="Single"/>Single
+            <input type="radio" id="status" name="status" value="Married"/>Married
+            <input type="radio" id="status" name="status" value="Single"/>Single
             <br>
             <br>
             <label for="ifMarried">If married, Enter details(if not applicable enter null):</label>
-            <textarea required name="ifMarried" id="ifMarried" cols="45" rows="5" value=""></textarea>
+            <textarea name="ifMarried" id="ifMarried" cols="45" rows="5" ></textarea>
             <br>
             <br>
             <label for="university">University:</label>
-            <input required type="radio" id="university" name="university" value="RGU"/>Robert Gordon
-            <input required type="radio" id="university" name="university" value="Aberdeen University"/>Aberdeen University
+            <input type="radio" id="university" name="university" value="RGU"/>Robert Gordon
+            <input type="radio" id="university" name="university" value="Aberdeen University"/>Aberdeen University
             <br>
             <br>
             <label for="course">Course of study</label>
-            <input required type="text" id="course" name="course" value=""/>
+            <input type="text" id="course" name="course" value=""/>
             <br>
             <br>
             <label for="endOfStudy">End of Study date:</label>
-            <input required type="date" id="endOfStudy" name="endOfStudy" value=""/>
+            <input type="date" id="endOfStudy" name="endOfStudy" value=""/>
             <br>
             <br>
             <label for="interests">Special interests (sport, music, hobbies):</label>
-            <textarea required name="interests" id="interests" cols="45" rows="5" value=""></textarea>
+            <textarea name="interests" id="interests" cols="45" rows="5"></textarea>
             <br>
             <br>
             <label for="diet">Special diet:</label>
-            <textarea required name="diet" id="diet" cols="45" rows="5" value=""></textarea>
+            <textarea required name="diet" id="diet" cols="45" rows="5"></textarea>
             <br>
             <br>
             <input type="submit" value="Submit" />

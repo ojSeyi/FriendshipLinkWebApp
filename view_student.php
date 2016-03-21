@@ -47,7 +47,7 @@
 
 <?
 $sql_query = "SELECT * FROM student";
-$result = $db->query($sql_query);
+$result =  mysqli_query($db,$sql);
 while($row = $result->fetch_array())
 {
     $Name = $row['name'];

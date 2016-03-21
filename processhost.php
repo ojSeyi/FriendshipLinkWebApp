@@ -6,8 +6,7 @@
  * Time: 12:47 PM
  */
 
-$db = new PDO('mysql:host=ap-cdbr-azure-east-c.cloudapp.net;dbname=friendshiplink;charset=utf8mb4', 'b3c438583f3e44', '3cf27899',array(PDO::ATTR_EMULATE_PREPARES => false,
-    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+include "dbConnect.php";
 
 $Name = $_POST['name'];
 $Address = $_POST['address'];
@@ -53,7 +52,7 @@ if(submit){
     try {
         $sql = "INSERT INTO host (name, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interest_nationality,comments)
                   VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$Email', '$Status', $Children, '$vegan','$preference', '$Church', '$pastor', '$interests','$interests_nation','$comments')";
-        $sth = $db->query($sql);
+        $sth = $dbs->query($sql);
     } catch(PDOException $e) {
         echo $e->getMessage();
     }

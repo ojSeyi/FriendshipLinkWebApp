@@ -41,7 +41,11 @@
     </nav>
 </header>
 <main>
-<h2>Student Table</h2>
+<div id="title">
+            <header>
+                <h2>All Student Details</h2>
+            </header>
+        </div>
 
     <div style="overflow-x:auto;">
     <table style="margin-left: auto; margin-right: auto;">

@@ -180,17 +180,20 @@ footer p {
 
 
 /* -- Table Styling -- */
-
-table, td, th {
-    border: 1px solid black;
-}
-
 table {
     border-collapse: collapse;
     width: 100%;
 }
 
-th {
-    height: 50px;
+td, th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #006666;
 }
+
+td{
+    vertical-align: bottom;
+}
+
+tr:hover {background-color: orange}
 

@@ -41,8 +41,13 @@
     </nav>
 </header>
 <main>
-    <h2>Host Table</h2>
-
+   
+    <div id="title">
+            <header>
+                <h2>All Host Details</h2>
+            </header>
+        </div>
+        
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
             <th class="table-style">H_ID</th>

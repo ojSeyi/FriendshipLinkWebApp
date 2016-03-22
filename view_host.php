@@ -57,7 +57,7 @@
             <th class="table-style">Student Prefrence</th>
             <th class="table-style">Church Attended</th>
             <th class="table-style">Name of Pastor</th>
-            <th class="table-style">Special Interests/th>
+            <th class="table-style">Special Interests</th>
             <th class="table-style">Interested Nation</th>
             <th class="table-style">Other Information</th>
 

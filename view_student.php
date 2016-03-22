@@ -43,6 +43,7 @@
 <main>
 <h2>Student Table</h2>
 
+    <div style="overflow-x:auto;">
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
             <th class="table-style">S_ID</th>
@@ -97,7 +98,9 @@
         $result->close();
         $dbs->close();
         ?>
-</table>
+    </table>
+    </div>
+
 </main>
 
 <footer>

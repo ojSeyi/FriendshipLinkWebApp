@@ -184,6 +184,10 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
+th {
+    background-color: #006666;
+    color: white;
+}
 
 td, th {
     padding: 8px;
@@ -196,4 +200,5 @@ td{
 }
 
 tr:hover {background-color: orange}
+tr:nth-child(even){background-color: #f2f2f2}
 

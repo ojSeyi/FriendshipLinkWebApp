@@ -58,7 +58,10 @@ textarea{
 
 body{
 
-    max-width: 960px;
+   /* max-width: 960px; */
+    padding-right: 1%;
+    padding-left: 1%;
+
     margin: 0px auto;
     margin-top: 40px;
 }

@@ -1,6 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    /*font-weight: 400; */
     color: #066;
     text-transform: none;
 }
@@ -181,12 +181,15 @@ footer p {
 
 /* -- Table Styling -- */
 table {
+
     border-collapse: collapse;
     width: 100%;
 }
 th {
     background-color: #006666;
     color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 td, th {
@@ -199,6 +202,6 @@ td{
     vertical-align: bottom;
 }
 
-tr:hover {background-color: orange}
+tr:hover {background-color: orange;}
 tr:nth-child(even){background-color: #f2f2f2}
 

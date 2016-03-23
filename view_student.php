@@ -50,22 +50,22 @@
     <div style="overflow-x:auto;">
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
-            <th class="table-style">S_ID</th>
-            <th class="table-style">Name</th>
-            <th class="table-style">Address</th>
-            <th class="table-style">PostCode</th>
-            <th class="table-style">Telephone Number</th>
-            <th class="table-style">E-mail Address</th>
-            <th class="table-style">Home Country</th>
-            <th class="table-style">Age:</th>
-            <th class="table-style">Gender:</th>
-            <th class="table-style">Marital Status</th>
-            <th class="table-style">Married Details</th>
-            <th class="table-style">University</th>
-            <th class="table-style">Course of Study</th>
-            <th class="table-style">End of Study Date</th>
-            <th class="table-style">Special Interests</th>
-            <th class="table-style">Special Diet</th>
+            <th>S_ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>PostCode</th>
+            <th>Telephone Number</th>
+            <th>E-mail Address</th>
+            <th>Home Country</th>
+            <th>Age:</th>
+            <th>Gender:</th>
+            <th>Marital Status</th>
+            <th>Married Details</th>
+            <th>University</th>
+            <th>Course of Study</th>
+            <th>End of Study Date</th>
+            <th>Special Interests</th>
+            <th>Special Diet</th>
 
         <?php
             $sql_query = "SELECT * FROM student";

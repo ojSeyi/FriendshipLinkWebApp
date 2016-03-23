@@ -103,8 +103,8 @@
             <input required type="radio" id="status" name="status" value="Single"/>Single
             <br>
             <br>
-            <label for="ifMarried">If married, Enter details(Optional):</label>
-            <textarea name="ifMarried" id="ifMarried" cols="45" rows="5" ></textarea>
+            <label for="ifMarried">If Married, Enter Details:</label>
+            <textarea name="ifMarried" id="ifMarried" cols="15" rows="5" ></textarea>
             <br>
             <br>
             <label for="university">University:</label>
@@ -122,11 +122,11 @@
             <br>
             <br>
             <label for="interests">Special interests (sport, music, hobbies):</label>
-            <textarea name="interests" id="interests" cols="45" rows="5"></textarea>
+            <textarea name="interests" id="interests" cols="15" rows="5"></textarea>
             <br>
             <br>
             <label for="diet">Special diet:</label>
-            <textarea name="diet" id="diet" cols="45" rows="5"></textarea>
+            <textarea name="diet" id="diet" cols="15" rows="5"></textarea>
             <br>
             <br>
             <input type="submit" value="Submit" />

@@ -49,6 +49,7 @@
         </header>
         </div>
 
+
         <span>
             <?php if($_GET['s']) {
                 echo '<span style="color: blue;">Record Added! </span>';
@@ -85,7 +86,7 @@
             <br>
             <br>-->
             <label for="nationality">Home Country:</label>
-            <input type="text" id="nationality" name="nationality" value=""/>
+            <input required type="text" id="nationality" name="nationality" value=""/>
             <br>
             <br>
             <label for="age">Age:</label>
@@ -98,11 +99,11 @@
             <br>
             <br>
             <label for="status">Marital Status:</label>
-            <input type="radio" id="status" name="status" value="Married"/>Married
-            <input type="radio" id="status" name="status" value="Single"/>Single
+            <input required type="radio" id="status" name="status" value="Married"/>Married
+            <input required type="radio" id="status" name="status" value="Single"/>Single
             <br>
             <br>
-            <label for="ifMarried">If married, Enter details(if not applicable enter null):</label>
+            <label for="ifMarried">If married, Enter details(Optional):</label>
             <textarea name="ifMarried" id="ifMarried" cols="45" rows="5" ></textarea>
             <br>
             <br>
@@ -115,8 +116,9 @@
             <input type="text" id="course" name="course" value=""/>
             <br>
             <br>
-            <label for="endOfStudy">End of Study date:</label>
-            <input type="date" id="endOfStudy" name="endOfStudy" value=""/>
+            <label for="endOfStudy">End of Study date (<em>dd-mm-yyyy</em>): </label>
+            
+            <input type="text" id="endOfStudy" name="endOfStudy" value=""/>
             <br>
             <br>
             <label for="interests">Special interests (sport, music, hobbies):</label>
@@ -124,7 +126,7 @@
             <br>
             <br>
             <label for="diet">Special diet:</label>
-            <textarea required name="diet" id="diet" cols="45" rows="5"></textarea>
+            <textarea name="diet" id="diet" cols="45" rows="5"></textarea>
             <br>
             <br>
             <input type="submit" value="Submit" />

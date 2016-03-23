@@ -104,7 +104,7 @@
             <br>
             <br>
             <label for="ifMarried">If Married, Enter Details:</label>
-            <textarea name="ifMarried" id="ifMarried" cols="15" rows="5" ></textarea>
+            <textarea name="ifMarried" id="ifMarried" cols="45" rows="3" ></textarea>
             <br>
             <br>
             <label for="university">University:</label>
@@ -112,7 +112,7 @@
             <input type="radio" id="university" name="university" value="Aberdeen University"/>Aberdeen University
             <br>
             <br>
-            <label for="course">Course of study</label>
+            <label for="course">Course of study:</label>
             <input type="text" id="course" name="course" value=""/>
             <br>
             <br>
@@ -122,11 +122,11 @@
             <br>
             <br>
             <label for="interests">Special interests (sport, music, hobbies):</label>
-            <textarea name="interests" id="interests" cols="15" rows="5"></textarea>
+            <textarea name="interests" id="interests" cols="45" rows="3"></textarea>
             <br>
             <br>
             <label for="diet">Special diet:</label>
-            <textarea name="diet" id="diet" cols="15" rows="5"></textarea>
+            <textarea name="diet" id="diet" cols="45" rows="3"></textarea>
             <br>
             <br>
             <input type="submit" value="Submit" />

@@ -86,12 +86,12 @@
             <br>
             <br>
             <label for="children">No. of Children</label>
-            <input type="number" id="children" name="children" value="" required/>
+            <input type="number" id="children" name="children" value=""/>
             <br>
             <br>
             <label for="vegan">Are you happy to provide Vegetarian food?</label>
-            <input type="radio" id="vegan" name="vegan" value="yes"required/>Yes
-            <input type="radio" id="vegan" name="vegan" value="no"required/>No
+            <input type="radio" id="vegan" name="vegan" value="yes"/>Yes
+            <input type="radio" id="vegan" name="vegan" value="no"/>No
             <br>
             <br>
             <label for="pref">Would you prefer us to link you with male or female students? Or no preference?</label>
@@ -101,23 +101,23 @@
             <br>
             <br>
             <label for="Church">Church attended</label>
-            <input type="text" id="Church" name="Church" value=""required/>
+            <input type="text" id="Church" name="Church" value=""/>
             <br>
             <br>
             <label for="pastor">Name of minister/pastor</label>
-            <input type="text" id="pastor" name="pastor" value=""required/>
+            <input type="text" id="pastor" name="pastor" value=""/>
             <br>
             <br>
             <label for="interests">Special interests (sport, music, hobbies):</label>
-            <textarea name="interests" id="interests" cols="45" rows="5" required></textarea>
+            <textarea name="interests" id="interests" cols="45" rows="3"></textarea>
             <br>
             <br>
             <label for="interest_nation">Interest in particular areas of the world:</label>
-            <textarea name="interest_nation" id="interest_nation" cols="45" rows="5" required></textarea>
+            <textarea name="interest_nation" id="interest_nation" cols="45" rows="3"></textarea>
             <br>
             <br>
             <label for="comments">Any other relevant information:</label>
-            <textarea name="comments" id="comments" cols="45" rows="5" required></textarea>
+            <textarea name="comments" id="comments" cols="45" rows="3"></textarea>
             <br>
             <br>
             <br>

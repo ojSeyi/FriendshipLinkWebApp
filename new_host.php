@@ -50,8 +50,10 @@
         </div>
 
         <span>
-            <?php if($_GET['s']) {
+            <?php if($_GET['s=1']) {
                 echo '<span style="color: blue;">Record Added! </span>';
+            }elseif($_GET['s=2']){
+                echo '<span style="color: blue;">Error Record not added!</span>';
             }
 
             ?>
@@ -73,16 +75,16 @@
             <br>
             <br>
             <label for="phoneNbr">Telephone Number:</label>
-            <input type="number" id="phoneNbr" name="phoneNbr" value=""required/>
+            <input type="number" id="phoneNbr" name="phoneNbr" value="" required/>
             <br>
             <br>
             <label for="email">E-mail address:</label>
-            <input type="email" id="email" name="email" value=""required/>
+            <input type="email" id="email" name="email" value="" required/>
             <br>
             <br>
             <label for="status">Marital Status:</label>
-            <input type="radio" id="status" name="status" value="Married"required/>Married
-            <input type="radio" id="status" name="status" value="Single"required/>Single
+            <input type="radio" id="status" name="status" value="Married" required/>Married
+            <input type="radio" id="status" name="status" value="Single" required/>Single
             <br>
             <br>
             <label for="children">No. of Children</label>
@@ -95,9 +97,9 @@
             <br>
             <br>
             <label for="pref">Would you prefer us to link you with male or female students? Or no preference?</label>
-            <input type="radio" id="pref" name="preference" value="male"required/>Male
-            <input type="radio" id="pref" name="preference" value="female"required/>Female
-            <input type="radio" id="pref" name="preference" value="noPref"required/>No Preference
+            <input type="radio" id="pref" name="preference" value="male" required/>Male
+            <input type="radio" id="pref" name="preference" value="female" required/>Female
+            <input type="radio" id="pref" name="preference" value="noPref" required/>No Preference
             <br>
             <br>
             <label for="Church">Church attended</label>

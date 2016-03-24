@@ -181,7 +181,7 @@ footer p {
 
 /* -- Table Styling -- */
 table {
-
+    font-size: small;
     border-collapse: collapse;
     width: 100%;
 }

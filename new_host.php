@@ -53,7 +53,7 @@
             <?php if($_GET['s=1']) {
                 echo '<span style="color: blue;">Record Added! </span>';
             }elseif($_GET['s=2']){
-                echo '<span style="color: blue;">Error Record not added!</span>';
+                echo '<span style="color: red;">Error Record not added!</span>';
             }
 
             ?>

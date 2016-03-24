@@ -55,7 +55,7 @@ if(submit){
 
     header('Location:new_host.php?s=1');
 }else{
-    echo "Error: " . $sql . "<br>" . mysqli_error($dbs);
+    echo "Error:" . $sql . "<br>" . mysqli_error($dbs);
     header('Location:new_host.php?s=2');
 }
 

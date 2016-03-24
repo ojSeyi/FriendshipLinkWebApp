@@ -35,6 +35,7 @@ if(submit){
 
     header('Location:new_student.php?s=1');
 }else{
+    echo "Error: " . $sql . "<br>" . mysqli_error($dbs);
     header('Location:index.html');
 }
 

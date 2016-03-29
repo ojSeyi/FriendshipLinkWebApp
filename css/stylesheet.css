@@ -1,12 +1,12 @@
-*{
+/**{
     font-family: 'Open Sans', sans-serif;
     /*font-weight: 400; */
-    color: #066;
+    /*color: #066;
     text-transform: none;
-}
+}*/
 
 /* to control and design the forms, changes here will enable direct editing.....................................................................................*/
-label{
+/*label{
 
     width: 10em;
 
@@ -58,14 +58,14 @@ textarea{
 
 body{
 
-   /* max-width: 960px; */
-    padding-right: 1%;
+    max-width: 960px;
+   /* padding-right: 1%;
     padding-left: 1%;
 
     margin: 0px auto;
-    margin-top: 40px;
+    margin-top: 40px;*/
 }
-
+/*
 main {
     width: 100%;
     min-height: 100%;
@@ -100,7 +100,7 @@ h1 a {
 
 
 /* to control the hyper links, changes here will edit the headers */
-ul {
+/*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -156,13 +156,13 @@ li.dropdown {
 }
 
 /*--- message that appers after the form submission is sucessful*/
-span{
+/*span{
     background-color: orange;
 }
 
 /* -- footer --*/
 
-footer {
+/*footer {
     max-width: 100%;
     background-color: #066;
     color: white;
@@ -180,7 +180,7 @@ footer p {
 
 
 /* -- Table Styling -- */
-table {
+/*table {
     font-size: small;
     border-collapse: collapse;
     width: 100%;

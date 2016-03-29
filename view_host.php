@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>View Hosts</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-   <!-- <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/> -->
+   <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 </head>
 <body>
 <header>

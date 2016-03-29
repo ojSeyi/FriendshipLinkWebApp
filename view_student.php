@@ -47,7 +47,7 @@
             </header>
         </div>
 
-   <!-- <div style="overflow-x:auto;">-->
+    <div style="overflow-x:auto;">
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
             <th>S_ID</th>
@@ -103,7 +103,7 @@
         $dbs->close();
         ?>
     </table>
-    <!--</div>-->
+    </div>
 
 </main>
 

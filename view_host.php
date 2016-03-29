@@ -47,7 +47,7 @@
                 <h2>All Host Details</h2>
             </header>
         </div>
-   <!-- <div style="overflow-x:auto;"> -->
+    <div style="overflow-x:auto;">
     <table style="margin-left: auto; margin-right: auto;">
         <tr>
             <th class="table-style">H_ID</th>
@@ -102,7 +102,7 @@
         $dbs->close();
         ?>
     </table>
-   <!-- </div> -->
+    </div>
 </main>
 
 <footer>

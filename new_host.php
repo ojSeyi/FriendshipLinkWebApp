@@ -49,15 +49,14 @@
             </header>
         </div>
 
-        <span>
-            <?php if($_GET['s=1']) {
+       <span>
+            <?php if($_GET['s']) {
                 echo '<span style="color: blue;">Record Added! </span>';
-            }elseif($_GET['s=2']){
-                echo '<span style="color: red;">Error Record not added!</span>';
             }
-
             ?>
+
         </span>
+
         <br>
         <br>
 

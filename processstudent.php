@@ -5,6 +5,9 @@
  * Date: 3/8/2016
  * Time: 10:32 PM
  */
+
+echo 'end of study:' . $endOfStudy = $_POST['endOfStudy'];
+/*
 include "dbConnect.php";
 
 $Name = $_POST['name'];
@@ -19,11 +22,7 @@ $Status = $_POST['status'];
 $ifMarried = $_POST['ifMarried'];
 $university = $_POST['university'];
 $course = $_POST['course'];
-if(isset( $_POST['endOfStudy'])){
-    $endOfStudy = $_POST['endOfStudy'];
-}else{
-    $endOfStudy = NULL;
-}
+$endOfStudy = $_POST['endOfStudy'];
 $interests = $_POST['interests'];
 $diet = $_POST['diet'];
 
@@ -40,7 +39,7 @@ if($sth = $dbs->query($sql)){
     //header('Location:new_student.php?f=1');
 }
 
-
+*/
 
 
 

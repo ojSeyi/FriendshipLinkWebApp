@@ -6,7 +6,7 @@
     <title>Create Matches</title>
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <link type="text/css" rel="stylesheet" href="css/create_match.css"/>
     <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.12.0.min.js">
     </script>
     <script type="text/javascript" language="javascript" src="../../media/js/jquery.dataTables.js">

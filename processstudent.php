@@ -33,7 +33,7 @@ if($sth = $dbs->query($sql)){
     
 }else{
     echo "Error: " . $sql . "<br>" . mysqli_error($dbs);
-    header('Location:new_student.php?f=1');
+    //header('Location:new_student.php?f=1');
 }
 
 

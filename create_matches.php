@@ -119,12 +119,12 @@
                         ?>
                         <tr>
                             <td><?php echo $counter;?></td>
+                            <td><input type="checkbox" name="studentSelected" value="<?php echo $row["S_ID"]; ?>"</td>
                             <td><?php echo $row['name'];?></td>
                             <td><?php echo $row['age'];?></td>
                             <td><?php echo $row['gender'];?></td>
                             <td><?php echo $row['nationality'];?></td>
                             <td><?php echo $row['diet'];?></td>
-                            <input type="hidden" name="studentSelected" value="<?php {$row['S_ID'];} ?>" />
                         </tr>
                         <?php
                     }

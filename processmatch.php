@@ -10,7 +10,7 @@ $getHostId = $_POST['hostSelected'];
 foreach($_POST['studentSelected'] as $student){
 
     $sql = "INSERT INTO match (h_id, S_ID)
-            VALUES ($getHostId, $student)";
+            VALUES ('$getHostId', '$student')";
     if($query = $dbs ->query($sql)){
         echo "Successful";
         header("Location: create_matches.php?s=1");

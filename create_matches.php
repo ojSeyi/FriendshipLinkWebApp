@@ -93,7 +93,7 @@
 
     <button id="match">Match</button>
 
-    <div id="studenttable" style="border: dashed; width: 45%; float: right; font-size:small">
+    <div id="studenttable" style="border: dashed; width: 40%; float: right; font-size:small">
             <table id="student_table">
             <thead>
             <tr>

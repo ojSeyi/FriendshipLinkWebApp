@@ -97,6 +97,7 @@
             <table id="student_table">
             <thead>
             <tr>
+                <th></th>
                 <th>SN</th>
                 <th>Name</th>
                 <th>Age</th>

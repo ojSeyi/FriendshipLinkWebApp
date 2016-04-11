@@ -1,4 +1,5 @@
 <?php
+include 'dbConnect.php';
 /**
  * Created by PhpStorm.
  * User: Sommy B
@@ -7,10 +8,17 @@
  */
 $getHostId = $_POST['hostSelected'];
 foreach($_POST['studentSelected'] as $student){
-    echo 'Host Id:' . $getHostId. ' ' . '<br>'. 'Student Id:' .$student. '<br>';
+
+    $sql = "INSERT INTO match (h_id, S_ID)
+            VALUES ({$getHostId}, {$student})";
+    if($query = $dbs ->query($sql)){
+        echo "Successful";
+        header("Location: create_matches.php?s=1");
+    }else{
+        echo "Error" . $sql. '<br>'.mysqli_error($dbs);
+        header('Location: create_matches.php?f=1');
+    };
+
 }
-
-
-
 
 ?>

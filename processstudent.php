@@ -6,7 +6,12 @@
  * Time: 10:32 PM
  */
 
-echo 'end of study:' . $endOfStudy = $_POST['endOfStudy'];
+if(empty($_POST['endOfStudy'])){
+    echo 'Empty Value';
+}else{
+    echo 'end of study:' . $endOfStudy = $_POST['endOfStudy'];
+}
+
 /*
 include "dbConnect.php";
 

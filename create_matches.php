@@ -76,7 +76,7 @@
                     ?>
                     <tr>
                         <td><input type="checkbox" name="studentSelected" id="studentSelected" value="<?php
-                            echo $row["h_id"]; ?>" disabled = disabled/></td>
+                            echo $row["h_id"]; ?>" /></td>
                         <td><?php echo $counter;?></td>
                         <td><?php echo $row['name'];?></td>
                         <td><?php echo $row['preference'];?></td>
@@ -164,8 +164,9 @@
         var x = document.getElementById("studentSelected");
         x.setAttribute("disabled", "true");
     }
+
+    document.getElementById("studentSelected").addEventListener("load", disable);
     document.getElementById("studentSelected").addEventListener("change", enable);
-    //document.getElementById("btn2").addEventListener("click", disable);
 </script>
 
 </body>

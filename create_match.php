@@ -52,39 +52,43 @@
     <div id="studenttable" style="width: 45%">
 
         <script>$(document).ready( function () {
-        $('#table_id').DataTable();
+        $('#table_id').DataTable({
+            "processing": true,
+            "serverSide": true,
+            "ajax": {
+                "url": "scripts/post.php",
+                "type": "POST"
+            },
+
+            "columns": [
+                {"data": "name"},
+                {"data": "age"},
+                {"data": "gender"},
+                {"data": "nationality"},
+                {"data": "diet"}
+            ]
+        });
         } );</script>
 
         <table id="table_id" class="display" cellspacing="0" width="45%">
             <thead>
-            <tr>
-                <th>S_ID</th>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Gender</th>
-                <th>Country</th>
-                <th>Diet</th>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Country</th>
+                    <th>Diet</th>
             </tr>
             </thead>
-            <tbody>
-            <tr>
-                <td>Row 1 Data 1</td>
-                <td>Row 1 Data 2</td>
-                <td>Row 1 Data 3</td>
-                <td>Row 1 Data 4</td>
-                <td>Row 1 Data 5</td>
-                <td>Row 1 Data 6</td>
-            </tr>
-            <tr>
-                <td>Row 2 Data 1</td>
-                <td>Row 2 Data 2</td>
-                <td>Row 2 Data 3</td>
-                <td>Row 2 Data 4</td>
-                <td>Row 2 Data 5</td>
-                <td>Row 2 Data 6</td>
-            </tr>
-
-            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Country</th>
+                    <th>Diet</th>
+                </tr>
+            </tfoot>
         </table>
 
     </div>

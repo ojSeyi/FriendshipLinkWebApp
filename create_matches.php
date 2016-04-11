@@ -79,7 +79,7 @@
                         <!--<td><input type="checkbox" name="studentSelected" id="studentSelected" value="<?php
                             //echo $row["h_id"]; ?>" onchange="this.disabled = 'disabled';" /></td> -->
                         <td><?php echo $counter;?></td>
-                        <td><input type="checkbox" name="studentSelected" id="studentSelected" value="<?php
+                        <td><input type="checkbox" name="hostSelected" id="studentSelected" value="<?php
                             echo $row["h_id"]; ?>" /></td>
                         <td><?php echo $counter;?></td>
                         <td><?php echo $row['name'];?></td>

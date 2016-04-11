@@ -31,10 +31,10 @@
                 <div class="dropdown-content">
                 <a href="view_student.php">View Students </a>
                 <a href="view_host.php">View Hosts</a>
-                <a href="#">View Match</a>
+                <a href="view_match.html">View Match</a>
                 </div>
             </li>
-            <li><a href="#">Create Match</a></li>
+            <li><a href="create_match.php">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
         </ul>
     </nav>

@@ -15,6 +15,14 @@ $columns = array(
 );
 
 
+$sql_details = array(
+    'user' => 'b3c438583f3e44',
+    'pass' => '3cf27899',
+    'db'   => 'friendshiplink',
+    'host' => 'ap-cdbr-azure-east-c.cloudapp.net'
+);
+
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * If you just want to use the basic configuration for DataTables with PHP
  * server-side, there is no need to edit below this line.
@@ -23,5 +31,5 @@ $columns = array(
 require( 'ssp.class.php' );
 
 echo json_encode(
-    SSP::simple( $_POST, $dbs, $table, $primaryKey, $columns )
+    SSP::simple( $_POST, $sql_details, $table, $primaryKey, $columns )
 );

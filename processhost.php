@@ -47,16 +47,16 @@ $Address = $_POST['address'];
 
 $Nationality= $_POST['Nationality'];*/
 
-if(submit){
+
 
         $sql = "INSERT INTO host (name, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interest_nationality,comments)
                   VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$Email', '$Status', $Children, '$vegan','$preference', '$Church', '$pastor', '$interests','$interests_nation','$comments')";
-        $sth = $dbs->query($sql);
+       if($sth = $dbs->query($sql)){
 
     header('Location:new_host.php?s=1');
 }else{
     echo "Error:" . $sql . "<br>" . mysqli_error($dbs);
-    header('Location:new_host.php?s=2');
+    header('Location:new_host.php?f=1');
 }
 
 ?>

@@ -52,7 +52,7 @@
        <span>
             <?php if($_GET['s']) {
                 echo '<span style="color: blue;">Record Added! </span>';
-            }
+            }else {echo'<span style="color: blue;">Not Added! </span>';}
             ?>
 
         </span>

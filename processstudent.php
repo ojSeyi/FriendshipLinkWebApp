@@ -23,17 +23,17 @@ $endOfStudy = $_POST['endOfStudy'];
 $interests = $_POST['interests'];
 $diet = $_POST['diet'];
 
-if(submit){
+
 
         $sql = "INSERT INTO student (name, address,postcode,phoneNbr,email,nationality,age,gender,status,ifMarried,university,course,endOfStudy,interests,diet)
                 VALUES ('$Name', '$Address', '$Postcode',$phoneNbr,'$email', '$nationality', $age, '$gender','$Status', '$ifMarried', '$university', '$course','$endOfStudy','$interests','$diet')";
-        $sth = $dbs->query($sql);
+if($sth = $dbs->query($sql)){
         
     header('Location:new_student.php?s=1');
     
 }else{
     echo "Error: " . $sql . "<br>" . mysqli_error($dbs);
-    header('Location:index.html');
+    header('Location:new_student.php?f=1');
 }
 
 

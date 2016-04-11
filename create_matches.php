@@ -76,7 +76,7 @@
                     ?>
                     <tr>
                         <td><input type="checkbox" name="studentSelected" id="studentSelected" disabled value="<?php
-                            echo $row["h_id"]; ?>" onclick="alert('disabled');" /></td>
+                            echo $row["h_id"]; ?>" onchange="alert('disabled');" /></td>
                         <td><?php echo $counter;?></td>
                         <td><?php echo $row['name'];?></td>
                         <td><?php echo $row['preference'];?></td>

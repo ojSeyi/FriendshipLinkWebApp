@@ -5,8 +5,8 @@
  * Date: 4/11/2016
  * Time: 10:34 PM
  */
-$getHostId = $_POST['h_id'];
-$getStudentId = $_POST['S_ID'];
+$getHostId = $_POST['hostSelected'];
+$getStudentId = $_POST['studentSelected'];
 
 
 echo 'Host Id:' . $getHostId. ' ' . '<br>'. 'Student Id:' .$getStudentId;

@@ -9,7 +9,7 @@ include 'dbConnect.php';
 $getHostId = $_POST['hostSelected'];
 foreach($_POST['studentSelected'] as $student){
 
-    $sql = "INSERT INTO match (h_id, S_ID)
+    $sql = "INSERT INTO `match` (`h_id`, `S_ID`)
             VALUES ('$getHostId', '$student')";
     if($query = $dbs ->query($sql)){
         echo "Successful";

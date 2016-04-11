@@ -49,7 +49,7 @@
 <!-- Start of Main-->
 <main>
 
-    <div id="studenttable">
+    <div id="studenttable" style="width: 45%">
 
         <script>$(document).ready( function () {
         $('#table_id').DataTable();

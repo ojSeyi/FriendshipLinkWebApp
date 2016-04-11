@@ -23,7 +23,7 @@ $ifMarried = $_POST['ifMarried'];
 $university = $_POST['university'];
 $course = $_POST['course'];
 if(empty($_POST['endOfStudy'])){
-    $endOfStudy = 00/00/0000;
+    $endOfStudy = "00/00/0000";
 }else{
     $endOfStudy = $_POST['endOfStudy'];
 }

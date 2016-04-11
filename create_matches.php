@@ -98,6 +98,7 @@
             <thead>
             <tr>
                 <th>SN</th>
+                <th>Select</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Gender</th>

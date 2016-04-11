@@ -50,6 +50,7 @@
 
     <div id="hosttable" style=" border: dashed; border-color: red; width: 50%; float: left; font-size: small;">
 
+        <form name="submitMatch" id="submitMatch" action="processmatch.php" method="post">
         <table id="host_table">
             <thead>
             <tr>
@@ -98,7 +99,7 @@
 
     </div>
 
-    <button id="match">Match</button>
+    <button id="match" type="submit">Match</button>
 
     <div id="studenttable" style="border: dashed; width: 40%; float: right; font-size:small">
             <table id="student_table">
@@ -142,8 +143,8 @@
                 ?>
                 </tbody>
         </table>
-
     </div>
+    </form>
 
 
 </main>

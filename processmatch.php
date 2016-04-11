@@ -7,7 +7,7 @@
  */
 $getHostId = $_POST['hostSelected'];
 foreach($_POST['studentSelected'] as $student){
-    echo 'Host Id:' . $getHostId. ' ' . '<br>'. 'Student Id:' .$student;
+    echo 'Host Id:' . $getHostId. ' ' . '<br>'. 'Student Id:' .$student. '<br>';
 }
 
 

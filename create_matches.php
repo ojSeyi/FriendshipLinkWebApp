@@ -74,7 +74,8 @@
                     $counter++;
                     ?>
                     <tr>
-                        <td><input type="checkbox" name="studentSelected" disabled value="<?php echo $row["h_id"]; ?>" onselect="this.disabled ='false'" /></td>
+                        <td><input type="checkbox" name="studentSelected" id="studentSelected" disabled value="<?php
+                            echo $row["h_id"]; ?>" onclick="div.getElementById('studentSelected').disabled = 'false';" /></td>
                         <td><?php echo $counter;?></td>
                         <td><?php echo $row['name'];?></td>
                         <td><?php echo $row['preference'];?></td>

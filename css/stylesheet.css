@@ -180,12 +180,12 @@ footer p {
 
 
 /* -- Table Styling -- */
-table {
+.table_sommy {
     font-size: small;
     border-collapse: collapse;
     width: 100%;
 }
-th {
+.table_sommy th {
     background-color: #006666;
     color: white;
     padding-top: 10px;
@@ -193,16 +193,16 @@ th {
     
 }
 
-td, th {
+.table_sommy td, th {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #006666;
 }
 
-td{
+.table_sommy td{
     vertical-align: bottom;
 }
 
-tr:hover {background-color: orange;}
+.table_sommy tr:hover {background-color: orange;}
 /* tr:nth-child(even){background-color: #f2f2f2}*/
 

@@ -48,7 +48,7 @@
         </div>
 
     <div style="overflow-x:auto;">
-    <table style="margin-left: auto; margin-right: auto;">
+    <table class="table_sommy" style="margin-left: auto; margin-right: auto;">
         <tr>
             <th>S_ID</th>
             <th>Name</th>

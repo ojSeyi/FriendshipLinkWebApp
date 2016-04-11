@@ -154,6 +154,19 @@
     <p>Copyright © 2016 Team B(eta) </p>
 
 </footer>
+<script type="application/javascript">
+    function enable() {
+        var x = document.getElementById("studentSelected");
+        x.removeAttribute("disabled", "false");
+    }
+
+    function disable() {
+        var x = document.getElementById("studentSelected");
+        x.setAttribute("disabled", "true");
+    }
+    document.getElementById("studentSelected").addEventListener("change", enable);
+    //document.getElementById("btn2").addEventListener("click", disable);
+</script>
 
 </body>
 </html>

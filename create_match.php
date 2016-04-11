@@ -49,17 +49,17 @@
 <!-- Start of Main-->
 <main>
 
-    <div id="studenttable"style="float: left">
+    <div id="studenttable" style="float: left">
 
         <script>$(document).ready( function () {
-        $('#table_id').DataTable({
+        $('#student_table').DataTable({
             "processing": true,
             "serverSide": true,
             "ajax": "server_processing.php"
         });
         } );</script>
 
-        <table id="table_id" class="display" cellspacing="0" width="45%" >
+        <table id="student_table" class="display" cellspacing="0" width="45%" >
             <thead>
                 <tr>
                     <th>Name</th>
@@ -86,12 +86,14 @@
     <div id="hosttable" style=" float: right">
 
         <script>$(document).ready( function () {
-                $('#table_id').DataTable({
+                $('#host_table').DataTable({
+                    "processing": true,
+                    "serverSide": true,
                     "ajax": "host_processing.php"
                 });
             } );</script>
 
-        <table id="table_id" class="display" cellspacing="0" width="45%" >
+        <table id="host_table" class="display" cellspacing="0" width="45%" >
             <thead>
             <tr>
                 <th>Name</th>

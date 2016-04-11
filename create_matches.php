@@ -52,15 +52,6 @@
         <table id="host_table">
             <thead>
             <tr>
-                <th>Name</th>
-                <th>Student preference</th>
-                <th>Interests</th>
-                <th>Country</th>
-                <th>Accomodate Vegans</th>
-            </tr>
-            </thead>
-            <tfoot>
-            <tr>
                 <th>SN</th>
                 <th>Name</th>
                 <th>Student preference</th>
@@ -68,7 +59,35 @@
                 <th>Country</th>
                 <th>Accomodate Vegans</th>
             </tr>
-            </tfoot>
+            </thead>
+            <tbody>
+            <?php
+            $sql_query = "SELECT * FROM host";
+            $result =  $dbs->query($sql_query);
+
+            if(mysqli_num_rows($result)>0){
+                $counter = 0;
+
+                while ($row = $result->fetch_array())
+                {
+                    $counter++;
+                    ?>
+                    <tr>
+                        <td><?php echo $counter;?></td>
+                        <td><?php echo $row['name'];?></td>
+                        <td><?php echo $row['preference'];?></td>
+                        <td><?php echo $row['interests'];?></td>
+                        <td><?php echo $row['interest_nationality'];?></td>
+                        <td><?php echo $row['vegan'];?></td>
+                    </tr>
+                    <?php
+                }
+            }
+            $result->close();
+            $dbs->close();
+            ?>
+            </tbody>
+
         </table>
 
     </div>

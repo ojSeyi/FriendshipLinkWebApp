@@ -84,7 +84,6 @@
                 }
             }
             $result->close();
-            $dbs->close();
             ?>
             </tbody>
 

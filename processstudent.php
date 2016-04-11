@@ -6,13 +6,8 @@
  * Time: 10:32 PM
  */
 
-if(empty($_POST['endOfStudy'])){
-    echo 'Empty Value';
-}else{
-    echo 'end of study:' . $endOfStudy = $_POST['endOfStudy'];
-}
 
-/*
+
 include "dbConnect.php";
 
 $Name = $_POST['name'];
@@ -27,7 +22,13 @@ $Status = $_POST['status'];
 $ifMarried = $_POST['ifMarried'];
 $university = $_POST['university'];
 $course = $_POST['course'];
-$endOfStudy = $_POST['endOfStudy'];
+if(empty($_POST['endOfStudy'])){
+    $endOfStudy = 00/00/0000;
+}else{
+    $endOfStudy = $_POST['endOfStudy'];
+}
+
+
 $interests = $_POST['interests'];
 $diet = $_POST['diet'];
 
@@ -44,7 +45,7 @@ if($sth = $dbs->query($sql)){
     //header('Location:new_student.php?f=1');
 }
 
-*/
+
 
 
 

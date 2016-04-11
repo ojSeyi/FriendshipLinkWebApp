@@ -98,7 +98,6 @@
             <thead>
             <tr>
                 <th>SN</th>
-                <th>Select</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Gender</th>
@@ -119,8 +118,8 @@
                         $counter++;
                         ?>
                         <tr>
-                            <td><?php echo $counter;?></td>
                             <td><input type="checkbox" name="studentSelected" value="<?php echo $row["S_ID"]; ?>" /></td>
+                            <td><?php echo $counter;?></td>
                             <td><?php echo $row['name'];?></td>
                             <td><?php echo $row['age'];?></td>
                             <td><?php echo $row['gender'];?></td>

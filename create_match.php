@@ -49,25 +49,17 @@
 <!-- Start of Main-->
 <main>
 
-    <div id="studenttable" style="width: 45%">
+    <div id="studenttable"style="float: left">
 
         <script>$(document).ready( function () {
         $('#table_id').DataTable({
             "processing": true,
             "serverSide": true,
             "ajax": "server_processing.php"
-
-           /* "columns": [
-                {"data": "name"},
-                {"data": "age"},
-                {"data": "gender"},
-                {"data": "nationality"},
-                {"data": "diet"}
-            ]*/
         });
         } );</script>
 
-        <table id="table_id" class="display" cellspacing="0" width="45%">
+        <table id="table_id" class="display" cellspacing="0" width="45%" >
             <thead>
                 <tr>
                     <th>Name</th>
@@ -85,6 +77,40 @@
                     <th>Country</th>
                     <th>Diet</th>
                 </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+
+    <div id="hosttable" style=" float: right">
+
+        <script>$(document).ready( function () {
+                $('#table_id').DataTable({
+                    "processing": true,
+                    "serverSide": true,
+                    "ajax": "host_processing.php"
+                });
+            } );</script>
+
+        <table id="table_id" class="display" cellspacing="0" width="45%" >
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Student preference</th>
+                <th>Interests</th>
+                <th>Country</th>
+                <th>Accomodate Vegans</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Student preference</th>
+                <th>Interests</th>
+                <th>Country</th>
+                <th>Accomodate Vegans</th>
+            </tr>
             </tfoot>
         </table>
 

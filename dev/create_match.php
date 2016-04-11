@@ -8,7 +8,7 @@
     <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!--<link type="text/css" rel="stylesheet" href="css/create_match.css"/>-->
+    <link type="text/css" rel="stylesheet" href="../css/create_match.css"/>
 
 </head>
 
@@ -19,27 +19,27 @@
 
 <header>
     <div id ="logo">
-        <a href="index.html"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
+        <a href="../index.html"><img src="../images/fi-logo.png" alt="Demo" width="200"></a>
     </div>
 
-    <h1><a href="index.html">FriendshipLink WebApp</a></h1>
+    <h1><a href="../index.html">FriendshipLink WebApp</a></h1>
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li class="dropdown">
                 <a class="active dropbtn" href="#">New</a>
                 <div class="dropdown-content">
-                    <a href="new_student.php">New Student Details</a>
-                    <a href="new_host.php">New Host Details</a>
+                    <a href="../new_student.php">New Student Details</a>
+                    <a href="../new_host.php">New Host Details</a>
                 </div>
             </li>
             <li  class="dropdown">
                 <a href="#" class="dropbtn">View</a>
                 <div class="dropdown-content">
-                    <a href="view_student.php">View Students </a>
-                    <a href="view_host.php">View Hosts</a>
-                    <a href="view_match.html">View Match</a>
+                    <a href="../view_student.php">View Students </a>
+                    <a href="../view_host.php">View Hosts</a>
+                    <a href="../view_match.html">View Match</a>
                 </div>
             </li>
             <li><a href="create_match.php">Create Match</a></li>
@@ -135,7 +135,7 @@
 
 <footer>
     <p>
-        <a href="#top"><img alt="" src="images/fi-logo-reverse.png" style="width: 200px; height: 100px;" title="Back to top"></a>
+        <a href="#top"><img alt="" src="../images/fi-logo-reverse.png" style="width: 200px; height: 100px;" title="Back to top"></a>
     </p>
     <p>Copyright © 2016 Team B(eta) </p>
 

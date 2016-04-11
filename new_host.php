@@ -35,7 +35,7 @@
                     <a href="view_match.html">View Match</a>
                 </div>
             </li>
-            <li><a href="create_match.php">Create Match</a></li>
+            <li><a href="dev/create_match.php">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
         </ul>
     </nav>

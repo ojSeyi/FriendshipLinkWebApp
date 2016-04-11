@@ -28,7 +28,7 @@ $sql_details = array(
  * server-side, there is no need to edit below this line.
  */
 
-require( 'ssp.class.php' );
+require('ssp.class.php');
 
 echo json_encode(
     SSP::simple( $_POST, $sql_details, $table, $primaryKey, $columns )

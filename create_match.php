@@ -55,7 +55,7 @@
         $('#table_id').DataTable();
         } );</script>
 
-        <table id="table_id" class="display">
+        <table id="table_id" class="display" cellspacing="0" width="45%">
             <thead>
             <tr>
                 <th>S_ID</th>

@@ -127,7 +127,7 @@
                         $counter++;
                         ?>
                         <tr>
-                            <td><input type="checkbox" name="studentSelected" value="<?php echo $row["S_ID"]; ?>" /></td>
+                            <td><input type="checkbox" name="studentSelected[]" value="<?php echo $row["S_ID"]; ?>" /></td>
                             <td><?php echo $counter;?></td>
                             <td><?php echo $row['name'];?></td>
                             <td><?php echo $row['age'];?></td>

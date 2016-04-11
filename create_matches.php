@@ -52,6 +52,7 @@
         <table id="host_table">
             <thead>
             <tr>
+                <th></th>
                 <th>SN</th>
                 <th>Name</th>
                 <th>Student preference</th>
@@ -73,6 +74,7 @@
                     $counter++;
                     ?>
                     <tr>
+                        <td><input type="checkbox" name="studentSelected" value="<?php echo $row["h_id"]; ?>" /></td>
                         <td><?php echo $counter;?></td>
                         <td><?php echo $row['name'];?></td>
                         <td><?php echo $row['preference'];?></td>

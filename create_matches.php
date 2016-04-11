@@ -47,7 +47,7 @@
 <!-- Start of Main-->
 <main>
 
-    <div id="hosttable" style=" border: dashed; border-color: red; width: 45%; float: left; font-size: small;">
+    <div id="hosttable" style=" border: dashed; border-color: red; width: 50%; float: left; font-size: small;">
 
         <table id="host_table">
             <thead>

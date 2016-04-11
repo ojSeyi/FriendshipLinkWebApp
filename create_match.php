@@ -55,18 +55,15 @@
         $('#table_id').DataTable({
             "processing": true,
             "serverSide": true,
-            "ajax": {
-                "url": "post.php",
-                "type": "POST"
-            },
+            "ajax": "server_processing.php"
 
-            "columns": [
+           /* "columns": [
                 {"data": "name"},
                 {"data": "age"},
                 {"data": "gender"},
                 {"data": "nationality"},
                 {"data": "diet"}
-            ]
+            ]*/
         });
         } );</script>
 

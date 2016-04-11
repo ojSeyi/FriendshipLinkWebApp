@@ -7,11 +7,11 @@ $table ='student';
 $primaryKey= 'S_ID';
 
 $columns = array(
-    array( 'db' => 'name', 'dt' => 'Name' ),
-    array( 'db' => 'age',  'dt' => 'Age' ),
-    array( 'db' => 'gender',   'dt' => 'Gender' ),
-    array( 'db' => 'nationality',     'dt' => 'Country' ),
-    array( 'db' => 'diet',     'dt' => 'Diet' )
+    array( 'db' => 'name', 'dt' => 0 ),
+    array( 'db' => 'age',  'dt' => 1 ),
+    array( 'db' => 'gender',   'dt' => 2 ),
+    array( 'db' => 'nationality',     'dt' => 3 ),
+    array( 'db' => 'diet',     'dt' => 4 )
 );
 
 

@@ -87,8 +87,6 @@
 
         <script>$(document).ready( function () {
                 $('#table_id').DataTable({
-                    "processing": true,
-                    "serverSide": true,
                     "ajax": "host_processing.php"
                 });
             } );</script>

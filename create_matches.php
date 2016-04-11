@@ -85,6 +85,7 @@
                 <th>Diet</th>
             </tr>
             </thead>
+                <tbody>
                 <?php
                 $sql_query = "SELECT * FROM student";
                 $result =  $dbs->query($sql_query);
@@ -120,6 +121,7 @@
                 $result->close();
                 $dbs->close();
                 ?>
+                </tbody>
             <tfoot>
             <tr>
                 <th>Name</th>

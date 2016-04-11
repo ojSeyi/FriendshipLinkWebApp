@@ -4,39 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Create Matches</title>
-    <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.12.0.min.js">
-    </script>
-    <script type="text/javascript" language="javascript" src="../../media/js/jquery.dataTables.js">
-    </script>
-    <script type="text/javascript" language="javascript" src="../resources/syntax/shCore.js">
-    </script>
-    <script type="text/javascript" language="javascript" src="../resources/demo.js">
-    </script>
-    <script type="text/javascript" language="javascript" class="init">
-
-        $(document).ready( function () {
-            $('#student_table').DataTable({
-                "processing": true,
-                "serverSide": true,
-                "ajax": "server_processing.php"
-            });
-        } );
-
-        $(document).ready( function () {
-            $('#host_table').DataTable({
-                "processing": true,
-                "serverSide": true,
-                "ajax": "host_processing.php"
-            });
-        } );
-
-    </script>
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--<link type="text/css" rel="stylesheet" href="css/create_match.css"/>-->
 
-
 </head>
+
+
+
 <body>
 
 
@@ -78,6 +55,17 @@
 
     <div id="studenttable" style="float: left">
 
+        <script>
+
+            $(document).ready( function () {
+                $('#student_table').DataTable({
+                    "processing": true,
+                    "serverSide": true,
+                    "ajax": "server_processing.php"
+                });
+            } );
+        </script>
+
 
         <table id="student_table" class="display" cellspacing="0" width="45%" >
             <thead>
@@ -105,7 +93,16 @@
 
     <div id="hosttable" style=" float: right">
 
+        <script>
+            $(document).ready( function () {
+                $('#host_table').DataTable({
+                    "processing": true,
+                    "serverSide": true,
+                    "ajax": "host_processing.php"
+                });
+            } );
 
+        </script>
 
         <table id="host_table" class="display" cellspacing="0" width="45%" >
             <thead>

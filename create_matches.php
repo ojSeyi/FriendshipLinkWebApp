@@ -61,6 +61,7 @@
             </thead>
             <tfoot>
             <tr>
+                <th>SN</th>
                 <th>Name</th>
                 <th>Student preference</th>
                 <th>Interests</th>
@@ -78,6 +79,7 @@
             <table id="student_table">
             <thead>
             <tr>
+                <th>SN</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Gender</th>
@@ -100,20 +102,11 @@
                         <tr>
                             <td><?php echo $counter;?></td>
                             <td><?php echo $row['name'];?></td>
-                            <td><?php echo $row['address'];?></td>
-                            <td><?php echo $row['postcode'];?></td>
-                            <td><?php echo $row['phoneNbr'];?></td>
-                            <td><?php echo $row['email'];?></td>
-                            <td><?php echo $row['nationality'];?></td>
                             <td><?php echo $row['age'];?></td>
                             <td><?php echo $row['gender'];?></td>
-                            <td><?php echo $row['status'];?></td>
-                            <td><?php echo $row['ifMarried'];?></td>
-                            <td><?php echo $row['university'];?></td>
-                            <td><?php echo $row['course'];?></td>
-                            <td><?php echo $row['endOfStudy'];?></td>
-                            <td><?php echo $row['interests'];?></td>
+                            <td><?php echo $row['nationality'];?></td>
                             <td><?php echo $row['diet'];?></td>
+                            <input type="hidden" name="studentSelected" value="<?php {$row['S_ID'];} ?>" />
                         </tr>
                         <?php
                     }
@@ -122,15 +115,6 @@
                 $dbs->close();
                 ?>
                 </tbody>
-            <tfoot>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Gender</th>
-                <th>Country</th>
-                <th>Diet</th>
-            </tr>
-            </tfoot>
         </table>
 
     </div>

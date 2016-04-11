@@ -2,7 +2,7 @@
 
 include 'dbConnect.php';
 
-$table ='hostt';
+$table ='host';
 
 $primaryKey= 'h_id';
 

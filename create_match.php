@@ -33,7 +33,7 @@
     </script>
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="css/create_match.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="css/create_match.css"/>-->
 
 
 </head>

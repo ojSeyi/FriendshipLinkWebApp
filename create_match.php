@@ -56,7 +56,7 @@
             "processing": true,
             "serverSide": true,
             "ajax": {
-                "url": "scripts/post.php",
+                "url": "post.php",
                 "type": "POST"
             },
 

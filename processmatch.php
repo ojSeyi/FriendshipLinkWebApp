@@ -6,9 +6,12 @@
  * Time: 10:34 PM
  */
 $getHostId = $_POST['hostSelected'];
-$getStudentId = $_POST['studentSelected'];
+
+foreach($_POST['studentSelected'] as $student){
+    echo $student;
+}
 
 
-echo 'Host Id:' . $getHostId. ' ' . '<br>'. 'Student Id:' .$getStudentId;
+echo 'Host Id:' . $getHostId. ' ' . '<br>'. 'Student Id:' .$student;
 
 ?>

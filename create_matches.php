@@ -165,7 +165,7 @@
         x.setAttribute("disabled", "true");
     }
 
-    document.getElementById("studentSelected").addEventListener("load", disable);
+    document.getElementById("studentSelected").addEventListener("onload", disable);
     document.getElementById("studentSelected").addEventListener("change", enable);
 </script>
 

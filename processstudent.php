@@ -19,7 +19,11 @@ $Status = $_POST['status'];
 $ifMarried = $_POST['ifMarried'];
 $university = $_POST['university'];
 $course = $_POST['course'];
-$endOfStudy = $_POST['endOfStudy'];
+if(isset( $_POST['endOfStudy'])){
+    $endOfStudy = $_POST['endOfStudy'];
+}else{
+    $endOfStudy = NULL;
+}
 $interests = $_POST['interests'];
 $diet = $_POST['diet'];
 

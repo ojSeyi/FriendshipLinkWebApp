@@ -126,7 +126,7 @@
             <textarea name="interests" id="interests" cols="45" rows="3"></textarea>
             <br>
             <br>
-            <label for="diet">Special diet:</label>
+            <label for="diet">Special diet (Vegan, Allergies):</label>
             <textarea name="diet" id="diet" cols="45" rows="3"></textarea>
             <br>
             <br>

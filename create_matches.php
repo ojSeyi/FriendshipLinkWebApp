@@ -50,7 +50,7 @@
 
     <div id="title">
         <header>
-            <h2>Friendship Link Creator</h2>
+            <h2> Student & Host - Table Explorer </h2>
         </header>
     </div>
 

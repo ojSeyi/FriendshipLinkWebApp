@@ -58,7 +58,7 @@
 
 
 
-    <table class="table_sommy">
+    <table class="">
         <thead>
             <tr>
                 <th>SN</th>
@@ -78,48 +78,44 @@
         if(mysqli_num_rows($result)>0) {
         $counter = 0;
 
-        while ($row = $result->fetch_array())
-        {
-        $counter++;
-        ?>
+        while ($row = $result->fetch_array()) {
+            $counter++;
+            ?>
 
-        <tr>
-            <td class="btn"><?php echo $counter;?></td>
-            <td><?php echo $row['name'];?></td>
-            <td><?php echo $row['preference'];?></td>
-            <td><?php echo $row['interests'];?></td>
-            <td><?php echo $row['interest_nationality'];?></td>
-            <td><?php echo $row['vegan'];?></td>
-        </tr>
+            <tr>
+                <td class="btn"><?php echo $counter; ?></td>
+                <td><?php echo $row['name']; ?></td>
+                <td><?php echo $row['preference']; ?></td>
+                <td><?php echo $row['interests']; ?></td>
+                <td><?php echo $row['interest_nationality']; ?></td>
+                <td><?php echo $row['vegan']; ?></td>
+            </tr>
+            <tr>
+                <th class="expand1">SN</th>
+                <th class="expand1">Name</th>
+                <th class="expand1">Age</th>
+                <th class="expand1">Gender</th>
+                <th class="expand1">Country</th>
+                <th class="expand1">Diet</th>
+            </tr>
             <?php
-        }
-        }
-        $result->close();
-        ?>
-        <tr><th class="expand1">SN</th>
-            <th class="expand1">Name</th>
-            <th class="expand1">Age</th>
-            <th class="expand1">Gender</th>
-            <th class="expand1">Country</th>
-            <th class="expand1">Diet</th>
-        </tr>
-        <?php
-        $sql_query2 = "SELECT * FROM student";
-        $result2 =  $dbs->query($sql_query2);
+            $sql_query2 = "SELECT * FROM student";
+            $result2 = $dbs->query($sql_query2);
 
-            while ($row2 = $result2->fetch_array())
-            {
+            while ($row2 = $result2->fetch_array()) {
                 ?>
 
-        <tr>
-            <td class="expand1"><?php echo $counter;?></td>
-            <td class="expand1"><?php echo $row2['name'];?></td>
-            <td class="expand1"><?php echo $row2['age'];?></td>
-            <td class="expand1"><?php echo $row2['gender'];?></td>
-            <td class="expand1"><?php echo $row2['nationality'];?></td>
-            <td class="expand1"><?php echo $row2['diet'];?></td>
-        </tr>
-            <?php
+                <tr>
+                    <td class="expand1"><?php echo $counter; ?></td>
+                    <td class="expand1"><?php echo $row2['name']; ?></td>
+                    <td class="expand1"><?php echo $row2['age']; ?></td>
+                    <td class="expand1"><?php echo $row2['gender']; ?></td>
+                    <td class="expand1"><?php echo $row2['nationality']; ?></td>
+                    <td class="expand1"><?php echo $row2['diet']; ?></td>
+                </tr>
+                <?php
+            }
+        }
 
         }
         $result->close();
@@ -128,7 +124,7 @@
         </tbody>
 
 
-       <!-- <tr><td class="expand1">2</td><td class="expand1">Stepahne</td><td class="expand1">24</td><td class="expand1">male</td><td class="expand1">ghana</td><td class="expand1">vegan</td></tr>
+       <tr><td class="expand1">2</td><td class="expand1">Stepahne</td><td class="expand1">24</td><td class="expand1">male</td><td class="expand1">ghana</td><td class="expand1">vegan</td></tr>
 
         <tr><td class="btn2">available</td><td>1gb</td><td>2gb</td></tr>
         <tr><td class="expand2">drive 1</td><td class="expand2">0.5gb</td><td class="expand2">1gb</td></tr>

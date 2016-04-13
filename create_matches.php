@@ -7,7 +7,7 @@
     <title>Create Link</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-    <script   src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -34,7 +34,7 @@
                 <div class="dropdown-content">
                     <a href="view_student.php">View Students </a>
                     <a href="view_host.php">View Hosts</a>
-                    <a href="view_match.html">View Match</a>
+                    <a href="view_match.php">View Match</a>
                 </div>
             </li>
             <li><a href="create_matches.php">Create Match</a></li>

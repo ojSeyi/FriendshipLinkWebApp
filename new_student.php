@@ -53,7 +53,7 @@
          <span>
             <?php if($_GET['s']) {
                 echo '<span style="color: blue;">Record Added! </span>';
-            }elseif ($_GET['f']) {echo'<span style="color: blue;">Not Added! </span>';}
+            }elseif ($_GET['f']) {echo'<span style="color: blue;">Record Not Added! </span>';}
             ?>
 
         </span>

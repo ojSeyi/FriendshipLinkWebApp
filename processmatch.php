@@ -16,7 +16,7 @@ foreach($_POST['studentSelected'] as $student){
         header("Location: create_matches.php?s=1");
     }else{
         echo "Error" . $sql. '<br>'.mysqli_error($dbs);
-        //header('Location: create_matches.php?f=1');
+        header('Location: create_matches.php?f=1');
     };
 
 }

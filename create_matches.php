@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Create Matches</title>
+    <title>Create Link</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
     <script   src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
@@ -48,10 +48,27 @@
 <!-- Start of Main-->
 <main>
 
-    <div id="hosttable" style=" border: dashed; border-color: red; width: 50%; float: left; font-size: small;">
+    <div id="title">
+        <header>
+            <h2>Friendship Link Creator</h2>
+        </header>
+    </div>
+
+
+     <span>
+            <?php if($_GET['s']) {
+                echo '<span style="color: blue;">Link created!</span>';
+            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Link not created! </span>';}
+            ?>
+
+        </span>
+
+
+    <div id="hosttable" style="  /*border: dashed; border-color: red;*/ width: 50%; float: left; font-size: small;">
 
         <form name="submitMatch" id="submitMatch" action="processmatch.php" method="post">
-        <table id="host_table">
+        <table id="host_table" class="table_sommy">
+            <caption>Select Host to Link</caption>
             <thead>
             <tr>
                 <th></th>
@@ -78,7 +95,7 @@
                     <tr>
                         <!--<td><input type="checkbox" name="studentSelected" id="studentSelected" value="<?php
                             //echo $row["h_id"]; ?>" onchange="this.disabled = 'disabled';" /></td> -->
-                        <td><?php echo $counter;?></td>
+
                         <td><input type="checkbox" name="hostSelected" id="studentSelected" value="<?php
                             echo $row["h_id"]; ?>" /></td>
                         <td><?php echo $counter;?></td>
@@ -99,10 +116,11 @@
 
     </div>
 
-    <button id="match" type="submit">Match</button>
+    <button id="match" type="submit">Link</button>
 
-    <div id="studenttable" style="border: dashed; width: 40%; float: right; font-size:small">
-            <table id="student_table">
+    <div id="studenttable" style="/*border: dashed;*/ width: 40%; float: right; font-size:small">
+            <table id="student_table" class="table_sommy">
+                <caption>Select Student(s) to Link</caption>
             <thead>
             <tr>
                 <th></th>

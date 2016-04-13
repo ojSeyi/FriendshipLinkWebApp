@@ -185,9 +185,8 @@ footer p {
 }
 
 #match {
-    margin-left: 10px;
-    position: relative;
-    top: 20px;
+    margin-left:auto;
+    margin-right:auto
 
 }
 

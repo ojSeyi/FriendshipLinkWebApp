@@ -34,7 +34,7 @@
                 <div class="dropdown-content">
                     <a href="view_student.php">View Students </a>
                     <a href="view_host.php">View Hosts</a>
-                    <a href="view_match.html">View Match</a>
+                    <a href="view_match.php">View Match</a>
                 </div>
             </li>
             <li><a href="create_matches.php">Create Match</a></li>

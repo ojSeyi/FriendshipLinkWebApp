@@ -61,7 +61,7 @@
             <th>Student preference</th>
             <th>Interests</th>
             <th>Country</th>
-            <th>Accomodate Vegans</th>
+            <th>Accommodate Vegans</th>
         </tr>
         </thead>
         <tbody>
@@ -77,12 +77,12 @@
         $counter++;
         ?>
         <tr>
-            <td>+</td>
-            <td><p><?php echo $row['name'];?></p></td>
-            <td><p><?php echo $row['preference'];?></p></td>
-            <td><p><?php echo $row['interests'];?></p></td>
-            <td><p><?php echo $row['interest_nationality'];?></p></td>
-            <td><p><?php echo $row['vegan'];?></p></td>
+            <td><?php echo $counter;?></td>
+            <td><?php echo $row['name'];?></td>
+            <td><?php echo $row['preference'];?></td>
+            <td><?php echo $row['interests'];?></td>
+            <td><?php echo $row['interest_nationality'];?></td>
+            <td><?php echo $row['vegan'];?></td>
         </tr>
         <?php
                 }
@@ -90,52 +90,8 @@
             $result->close();
         ?>
 
-
-        <tr>
-            <td colspan="1"><p></p></td>
-            <td colspan="1"><p>Blah</p></td>
-            <td colspan="1"><p>Blah</p></td>
-            <td colspan="1"><p>Blah</p></td>
-            <td colspan="1"><p>Blah</p></td>
-            <td colspan="1"><p>Blah</p></td>
-        </tr>
-
-        <tr><td>+</td><td><p>Name</p></td><td><p>Age</p></td></tr>
-        <tr><td colspan="1"><p>Blah blah blah blah blah blah blah blah blah blah blah
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
-            </td></tr>
-
-        <tr><td>+</td><td><p>Name</p></td><td><p>Age</p></td></tr>
-        <tr><td colspan="1"><p>Blah blah blah blah blah blah blah blah blah blah blah
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-                    blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
-            </td></tr>
-        </tbody>
-
-
     </table>
 
-
-    <script>
-        $(function() {
-            $("td[colspan=1]").find("p").hide();
-            $("table").click(function(event) {
-                event.stopPropagation();
-                var $target = $(event.target);
-                if ( $target.closest("td").attr("colspan") > 1 ) {
-                    $target.slideUp();
-                    $target.closest("tr").prev().find("td:first").html("+");
-                } else {
-                    $target.closest("tr").next().find("p").slideToggle();
-                    if ($target.closest("tr").find("td:first").html() == "+")
-                        $target.closest("tr").find("td:first").html("-");
-                    else
-                        $target.closest("tr").find("td:first").html("+");
-                }
-            });
-        });
-    </script>
 
 
 </main>

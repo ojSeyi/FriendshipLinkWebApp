@@ -185,7 +185,7 @@ footer p {
 }
 
 #match {
-    float: left;
+    display: inline-block;
 
 }
 

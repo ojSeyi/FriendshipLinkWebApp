@@ -64,7 +64,7 @@
         </span>
 
 
-    <div id="hosttable" style="  /*border: dashed; border-color: red;*/ width: 50%; float: left; font-size: small;">
+    <div id="hosttable" style=" overflow-y: scroll;/*border: dashed; border-color: red;*/ width: 50%; float: left; font-size: small;">
 
         <form name="submitMatch" id="submitMatch" action="processmatch.php" method="post">
         <table id="host_table" class="table_sommy">

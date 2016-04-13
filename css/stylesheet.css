@@ -185,8 +185,10 @@ footer p {
 }
 
 #match {
-    display: inline-block;
-
+    margin-left:auto;
+    margin-right:auto;
+    display:table-cell;
+    vertical-align:middle;
 }
 
 /* -- Table Styling -- */

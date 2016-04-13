@@ -64,7 +64,7 @@
         </span>
 
 
-    <div id="hosttable" style=" overflow-y: scroll ;width: 50%; float: left; font-size: small; height: 400px">
+    <div id="hosttable" style=" overflow-y: scroll ;width: 40%; float: left; font-size: small; height: 400px; margin-bottom: 50px;">
 
         <form name="submitMatch" id="submitMatch" action="processmatch.php" method="post">
         <table id="host_table" class="table_sommy">
@@ -118,7 +118,7 @@
 
     <button id="match" type="submit">Link</button>
 
-    <div id="studenttable" style=" overflow-y: scroll; width:40%; float: left; font-size: small; height: 400px">
+    <div id="studenttable" style=" overflow-y: scroll; width:40%; float: left; font-size: small; height: 400px; margin-bottom: 50px;">
             <table id="student_table" class="table_sommy">
                 <caption>Select Student(s) to Link</caption>
             <thead>

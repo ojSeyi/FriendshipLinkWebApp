@@ -118,7 +118,7 @@
 
     <button id="match" type="submit">Link</button>
 
-    <div id="studenttable" style="/*border: dashed;*/ width: 40%; float: right; font-size:small">
+    <div id="studenttable" style=" overflow-y: scroll; width: 50%; float: left; font-size: small; height: 50%">
             <table id="student_table" class="table_sommy">
                 <caption>Select Student(s) to Link</caption>
             <thead>

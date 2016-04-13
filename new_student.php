@@ -53,7 +53,7 @@
          <span>
             <?php if($_GET['s']) {
                 echo '<span style="color: blue;">Record Added! </span>';
-            }elseif ($_GET['f']) {echo "Error: " . $sql . "<br>" . mysqli_error($dbs);}
+            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Added! </span>';}
             ?>
 
         </span>

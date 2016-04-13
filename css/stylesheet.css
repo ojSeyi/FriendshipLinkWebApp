@@ -98,9 +98,12 @@ h1 a {
 #title{
     text-align:center;
     font-weight: 300;
-    color: orange;
+
 }
 
+h2{
+    color: orange;
+}
 
 /* to control the hyper links, changes here will edit the headers */
 ul {

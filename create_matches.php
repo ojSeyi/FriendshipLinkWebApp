@@ -131,11 +131,11 @@
     </div>
 
 <div class="middle">
-    <p> <----- </p>
+    <strong> <----------</strong>
    <button id="match" type="submit" style=" color:darkorange;border-radius: 5000px ">MATCH</button>
-    <p> -----> </p>
+    <strong> ----------> </strong>
 
-    </div>
+</div>
 
     <div id="studenttable" style=" overflow-y: scroll; width:40%; float: right; font-size: small; height: 400px; margin-bottom: 50px;">
             <table id="student_table" class="table_sommy">

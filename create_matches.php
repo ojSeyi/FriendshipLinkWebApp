@@ -8,6 +8,20 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+        #match{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translate(-50%);
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -117,7 +131,7 @@
     </div>
 
 
-    <h1> <button id="match" type="submit">Link</button></h1>
+   <button id="match" type="submit">Link</button>
 
 
     <div id="studenttable" style=" overflow-y: scroll; width:40%; float: left; font-size: small; height: 400px; margin-bottom: 50px;">

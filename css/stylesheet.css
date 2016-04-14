@@ -3,8 +3,7 @@
     /*font-weight: 400; */
     color: #066;
     text-transform: none;
-    margin: 0;
-    padding: 0;
+
 }
 
 /* to control and design the forms, changes here will enable direct editing.....................................................................................*/
@@ -187,11 +186,7 @@ footer p {
 }
 
 #match {
- position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translate(-50%);
-    text-align: center;
+
 }
 
 

@@ -131,9 +131,9 @@
     </div>
 
 <div class="middle">
-        <marquee> <--------- </marquee>
+                     <marquee direction=LEFT> <--------- </marquee>
    <button id="match" type="submit" style=" color:darkorange;border-radius: 5000px ">MATCH</button>
-    <marquee> ---------> </marquee>
+                     <marquee direction=RIGHT> ---------> </marquee>
 
 </div>
 

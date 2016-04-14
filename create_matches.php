@@ -131,7 +131,9 @@
     </div>
 
 <div class="middle">
-   <button id="match" type="submit" style="border-width: 3px; border-style:solid;border-color: #066;" >Link</button>
+   <button id="match" type="submit" style="border-width: 3px; border-style:solid;border-color: #066;
+    -moz-border-radius-bottomright: 50px 25px; border-bottom-right-radius:50px 25px ;"
+      >Link</button>
     </div>
 
     <div id="studenttable" style=" overflow-y: scroll; width:40%; float: right; font-size: small; height: 400px; margin-bottom: 50px;">

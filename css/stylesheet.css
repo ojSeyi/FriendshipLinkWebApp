@@ -185,8 +185,13 @@ footer p {
 }
 
 #match {
-
+ position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translate(-50%);
+    text-align: center;
 }
+
 
 /* -- Table Styling -- */
 .table_sommy {

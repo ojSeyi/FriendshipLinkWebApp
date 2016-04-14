@@ -131,7 +131,7 @@
     </div>
 
 <div class="middle">
-   <button id="match" type="submit" style="border-radius: 5000px">MATCH</button>
+   <button id="match" type="submit" style=" color:darkgreen;border-radius: 5000px ">MATCH</button>
 
 
     </div>

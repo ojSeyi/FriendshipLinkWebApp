@@ -133,7 +133,7 @@
 <div class="middle">
         <marquee> <--------- </marquee>
    <button id="match" type="submit" style=" color:darkorange;border-radius: 5000px ">MATCH</button>
-          <p> ---------> </p>
+    <marquee> ---------> </marquee>
 
 </div>
 

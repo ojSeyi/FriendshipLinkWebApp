@@ -13,7 +13,7 @@
         margin: 0;
         padding: 0;
     }
-        #match{
+    .middle{
             position: absolute;
             left: 50%;
             top: 50%;
@@ -130,9 +130,9 @@
 
     </div>
 
-
+<div class="middle">
    <button id="match" type="submit">Link</button>
-
+    </div>
 
     <div id="studenttable" style=" overflow-y: scroll; width:40%; float: left; font-size: small; height: 400px; margin-bottom: 50px;">
             <table id="student_table" class="table_sommy">

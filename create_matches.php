@@ -69,10 +69,10 @@
     </div>
 
 
-     <span>
+     <span style="text-align: center">
             <?php if($_GET['s']) {
-                echo '<span style="color: blue;">Link created!</span>';
-            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Link not created! </span>';}
+                echo '<span style="color: blue; text-align: center; font-size: smaller"   >Link created!</span>';
+            }elseif ($_GET['f']) {echo'<span style="color: blue; text-align: center; font-size: smaller"> Link not created! Duplicate Entry </span>';}
             ?>
 
         </span>

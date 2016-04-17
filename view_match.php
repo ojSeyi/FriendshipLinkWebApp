@@ -52,7 +52,7 @@
 
 <main>
 
-    Click on a host to see current matches:
+    Click on a host to see current matche:
     <table>
         <thead>
         <tr>
@@ -89,14 +89,6 @@
             <td><?php echo $row['vegan'];?></td>
         </tr>
         <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Gender</th>
-            <th>Country</th>
-            <th>Diet</th>
-        </tr>
-
-        <tr>
             <td><?php echo $row2['name'];?></td>
             <td><?php echo $row2['age'];?></td>
             <td><?php echo $row2['gender'];?></td>
@@ -104,9 +96,6 @@
             <td><?php echo $row2['diet'];?></td>
 
         </tr>
-
-
-
         <?php
 
             }

@@ -102,7 +102,7 @@
 
         <br>
         <tr>
-
+            <th>Students Matched</th>
             <th>Name</th>
             <th>Age</th>
             <th>Gender</th>
@@ -118,6 +118,7 @@
                     $result2= $dbs->query($sql);
                     while( $row2 = $result2->fetch_array()){
         ?>
+            <td></td>
             <td><?php echo $row2['name'];?></td>
             <td><?php echo $row2['age'];?></td>
             <td><?php echo $row2['gender'];?></td>

@@ -93,7 +93,7 @@
             <th>Age</th>
             <th>Gender</th>
             <th>Country</th>
-            <th">Diet</th>
+            <th>Diet</th>
         </tr>
         <tr><?php
 

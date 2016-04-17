@@ -72,7 +72,7 @@
         if(mysqli_num_rows($result)>0){
         $counter = 0;
 
-        while ($row = $result->fetch_array())
+        foreach ($row = $result->fetch_array() as $hostid )
         {
         $counter++;
            // $sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID = " + $row['h_id'] + ";";
@@ -82,10 +82,10 @@
 
         <tr>
             <td class="btn"><?php echo $counter;?></td>
-            <td><?php echo $row['name'];?></td>
-            <td><?php echo $row['preference'];?></td>
-            <td><?php echo $row['interests'];?></td>
-            <td><?php echo $row['interest_nationality'];?></td>
+            <td><?php echo $hostid['name'];?></td>
+            <td><?php echo $hostid['preference'];?></td>
+            <td><?php echo $hostid['interests'];?></td>
+            <td><?php echo $hostid['interest_nationality'];?></td>
             <td><?php echo $row['vegan'];?></td>
         </tr>
             <tr><?php

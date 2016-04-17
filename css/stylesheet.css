@@ -196,6 +196,8 @@ footer p {
     font-size: small;
     border-collapse: collapse;
     width: 100%;
+
+    empty-cells: hide;
 }
 .table_sommy th {
     background-color: #006666;

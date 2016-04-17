@@ -53,10 +53,10 @@
 <main>
 
     Click on a host to see current matche:
-    <table class="table2">
+    <table class="table_sommy">
         <thead>
-        <tr  class="header expand">
-            <th colspan="2"><span class="sign"></span></th>
+        <tr>
+            <th></th>
             <th>Name</th>
             <th>Student preference</th>
             <th>Interests</th>
@@ -77,7 +77,7 @@
                 {
                     $counter++;
         ?>
-
+        <tr></tr>
         <tr>
             <td ><?php echo $counter;?></td>
             <td><?php echo $row['name'];?></td>
@@ -86,13 +86,14 @@
             <td><?php echo $row['interest_nationality'];?></td>
             <td><?php echo $row['vegan'];?></td>
         </tr>
+
         <tr>
-            <th class="expand1"></th>
-            <th class="expand1">Name</th>
-            <th class="expand1">Age</th>
-            <th class="expand1">Gender</th>
-            <th class="expand1">Country</th>
-            <th class="expand1">Diet</th>
+
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Country</th>
+            <th">Diet</th>
         </tr>
         <tr><?php
 
@@ -103,7 +104,6 @@
                     $result2= $dbs->query($sql);
                     while( $row2 = $result2->fetch_array()){
         ?>
-            <td ><?php echo $counter;?></td>
             <td><?php echo $row2['name'];?></td>
             <td><?php echo $row2['age'];?></td>
             <td><?php echo $row2['gender'];?></td>

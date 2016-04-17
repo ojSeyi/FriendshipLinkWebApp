@@ -105,8 +105,6 @@
 
         }
         }
-            $result->close();
-        $dbs->close();
         ?>
     </table>
 

@@ -58,6 +58,8 @@
         </header>
     </div>
 
+    <p>The Table below shows the Host first with the students matched to the host directly below it</p>
+
 
     <table class="table_sommy">
         <thead>

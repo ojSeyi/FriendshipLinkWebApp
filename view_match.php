@@ -84,15 +84,15 @@
                     $counter++;
         ?>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><p>+</p></td>
+                        <td><p>+</p></td>
+                        <td><p>+</p></td>
+                        <td><p>+</p></td>
+                        <td><p>+</p></td>
+                        <td><p>+</p></td>
                     </tr>
         <tr>
-            <td ><?php echo $counter;?></td>
+            <td ><?php echo "Host ". $counter;?></td>
             <td><?php echo $row['name'];?></td>
             <td><?php echo $row['preference'];?></td>
             <td><?php echo $row['interests'];?></td>

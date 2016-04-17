@@ -26,10 +26,11 @@ while ($row = $result->fetch_array()) {
 
 }
 
-foreach($row as $host){
-    $sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID = $host";
+do{
+    $sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID = " + $row['h_id'] + ";";
     $result2 = $dbs->query($sql);
-    while ($row2 = $result2->fetch_array()) {
+
+} while ($row2 = $result2->fetch_array()); {
 
         echo $row2['name'];
         echo $row2['age'];
@@ -53,7 +54,7 @@ while ($row2 = $result2->fetch_array()) {
     echo $row2['diet'];
     echo "<br><br>";*/
 
-}
+
 
 
 ?>

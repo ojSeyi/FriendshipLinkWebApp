@@ -103,6 +103,7 @@
                     $result2= $dbs->query($sql);
                     while( $row2 = $result2->fetch_array()){
         ?>
+            <td ><?php echo $counter;?></td>
             <td><?php echo $row2['name'];?></td>
             <td><?php echo $row2['age'];?></td>
             <td><?php echo $row2['gender'];?></td>

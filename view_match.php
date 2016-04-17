@@ -83,7 +83,14 @@
                 {
                     $counter++;
         ?>
-        <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
         <tr>
             <td ><?php echo $counter;?></td>
             <td><?php echo $row['name'];?></td>
@@ -92,6 +99,7 @@
             <td><?php echo $row['interest_nationality'];?></td>
             <td><?php echo $row['vegan'];?></td>
         </tr>
+
 
         <tr style="margin-left: auto; margin-right: auto;">
 

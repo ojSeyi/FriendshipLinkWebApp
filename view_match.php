@@ -100,8 +100,9 @@
             <td><?php echo $row['vegan'];?></td>
         </tr>
 
-         <caption>Student(s) matched with this host</caption>
+        <br>
         <tr>
+
             <th>Name</th>
             <th>Age</th>
             <th>Gender</th>

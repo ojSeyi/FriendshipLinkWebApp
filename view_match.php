@@ -52,7 +52,7 @@
 
 <main>
 
-    Click on a host to see current matche:
+
     <table class="table_sommy">
         <thead>
         <tr>
@@ -87,7 +87,7 @@
             <td><?php echo $row['vegan'];?></td>
         </tr>
 
-        <tr>
+        <tr style="margin-left: auto; margin-right: auto;">
 
             <th>Name</th>
             <th>Age</th>

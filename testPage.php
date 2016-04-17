@@ -1,3 +1,5 @@
+<?php include 'dbConnect.php' ?>
+
 <?php
 /**
  * Created by PhpStorm.

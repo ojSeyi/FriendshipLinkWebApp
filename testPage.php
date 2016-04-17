@@ -24,11 +24,26 @@ while ($row = $result->fetch_array()) {
     echo $row['vegan'];
    echo "<br><br><br><br><br>";
 
+}
 
+foreach($row as $host){
+    $sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID = $host";
+    $result2 = $dbs->query($sql);
+    while ($row2 = $result2->fetch_array()) {
 
+        echo $row2['name'];
+        echo $row2['age'];
+        echo $row2['gender'];
+        echo $row2['nationality'];
+        echo $row2['diet'];
+        echo "<br><br>";
+
+//}
+
+}
 
 /*$sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID =" + $row['h_id'] + ";";
-$result2 = $dbs->query($sql);
+$
 while ($row2 = $result2->fetch_array()) {
 
     echo $row2['name'];
@@ -37,8 +52,8 @@ while ($row2 = $result2->fetch_array()) {
     echo $row2['nationality'];
     echo $row2['diet'];
     echo "<br><br>";*/
+
 }
-//}
 
 
 ?>

@@ -52,6 +52,12 @@
 
 <main>
 
+    <div id="title">
+        <header>
+            <h2>Match Details</h2>
+        </header>
+    </div>
+
 
     <table class="table_sommy">
         <thead>

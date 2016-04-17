@@ -90,12 +90,12 @@
             <td><?php echo $row['vegan'];?></td>
         </tr>
         <tr>
-            <th class="expand1"></th>
-            <th class="expand1">Name</th>
-            <th class="expand1">Age</th>
-            <th class="expand1">Gender</th>
-            <th class="expand1">Country</th>
-            <th class="expand1">Diet</th>
+            <th></th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Country</th>
+            <th>Diet</th>
         </tr>
         <tr>
             <td><?php echo $counter;?></td>

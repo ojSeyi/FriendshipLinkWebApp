@@ -101,7 +101,7 @@
         </tr>
 
 
-        <tr style="margin-left: auto; margin-right: auto;">
+        <tr style="margin-left: 30%">
 
             <th>Name</th>
             <th>Age</th>

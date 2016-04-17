@@ -84,12 +84,12 @@
                     $counter++;
         ?>
                     <tr>
-                        <td><p>+</p></td>
-                        <td><p>+</p></td>
-                        <td><p>+</p></td>
-                        <td><p>+</p></td>
-                        <td><p>+</p></td>
-                        <td><p>+</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
         <tr>
             <td ><?php echo "Host ". $counter;?></td>

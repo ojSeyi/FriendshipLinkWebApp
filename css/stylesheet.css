@@ -218,3 +218,10 @@ footer p {
 .table_sommy tr:hover {background-color: orange;}
 /* tr:nth-child(even){background-color: #f2f2f2}*/
 
+/*test*/
+
+.expand1 { display: none;
+}
+
+.expand2 { display: none;
+}

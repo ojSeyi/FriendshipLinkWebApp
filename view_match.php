@@ -67,17 +67,15 @@
         <tbody>
         <?php
             $sql_query = "SELECT host.* FROM host, `match` where host.h_id = `match`.h_id Group by `match`.h_id;";
+
             $result =  $dbs->query($sql_query);
 
-        if(mysqli_num_rows($result)>0){
-        $counter = 0;
+            if(mysqli_num_rows($result)>0){
+                $counter = 0;
 
-        while ($row = $result->fetch_array())
-        {
-        $counter++;
-           // $sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID = " + $row['h_id'] + ";";
-           // $result2= $dbs->query($sql);
-           // while( $row2 = $result2->fetch_array()){
+                while ($row = $result->fetch_array())
+                {
+                    $counter++;
         ?>
 
         <tr>
@@ -88,25 +86,23 @@
             <td><?php echo $row['interest_nationality'];?></td>
             <td><?php echo $row['vegan'];?></td>
         </tr>
-            </tbody>
-        </table>
-            <table>
-                <tr>
-                <th class="expand1"></th>
-                <th class="expand1">Name</th>
-                <th class="expand1">Age</th>
-                <th class="expand1">Gender</th>
-                <th class="expand1">Country</th>
-                <th class="expand1">Diet</th>
-                </tr>
+        <tr>
+            <th class="expand1"></th>
+            <th class="expand1">Name</th>
+            <th class="expand1">Age</th>
+            <th class="expand1">Gender</th>
+            <th class="expand1">Country</th>
+            <th class="expand1">Diet</th>
+        </tr>
+        <tr><?php
 
-                <tr><?php
-                    foreach($row as $hostid){
-
-                $sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID = $hostid";
-                $result2= $dbs->query($sql);
-                while( $row2 = $result2->fetch_array()){
-                ?>
+                $sql = "SELECT student.*
+                        FROM student
+                          inner Join `match` on student.S_ID = `match`.S_ID
+                        WHERE `match`.h_ID = {$row['h_id']}";
+                    $result2= $dbs->query($sql);
+                    while( $row2 = $result2->fetch_array()){
+        ?>
             <td class="expand1"><?php echo $row2['name'];?></td>
             <td class="expand1"><?php echo $row2['age'];?></td>
             <td class="expand1"><?php echo $row2['gender'];?></td>
@@ -117,7 +113,7 @@
         }
             }
 
-        }
+
         }
             $result->close();
         $dbs->close();

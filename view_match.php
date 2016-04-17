@@ -55,8 +55,8 @@
     Click on a host to see current matche:
     <table class="table2">
         <thead>
-        <tr>
-            <th></th>
+        <tr  class="header expand">
+            <th colspan="2"><span class="sign"></span></th>
             <th>Name</th>
             <th>Student preference</th>
             <th>Interests</th>
@@ -79,7 +79,7 @@
         ?>
 
         <tr>
-            <td class="btn"><?php echo $counter;?></td>
+            <td ><?php echo $counter;?></td>
             <td><?php echo $row['name'];?></td>
             <td><?php echo $row['preference'];?></td>
             <td><?php echo $row['interests'];?></td>
@@ -103,11 +103,11 @@
                     $result2= $dbs->query($sql);
                     while( $row2 = $result2->fetch_array()){
         ?>
-            <td class="expand1"><?php echo $row2['name'];?></td>
-            <td class="expand1"><?php echo $row2['age'];?></td>
-            <td class="expand1"><?php echo $row2['gender'];?></td>
-            <td class="expand1"><?php echo $row2['nationality'];?></td>
-            <td class="expand1"><?php echo $row2['diet'];?></td>
+            <td><?php echo $row2['name'];?></td>
+            <td><?php echo $row2['age'];?></td>
+            <td><?php echo $row2['gender'];?></td>
+            <td><?php echo $row2['nationality'];?></td>
+            <td><?php echo $row2['diet'];?></td>
         </tr>
         <?php
         }
@@ -121,14 +121,9 @@
     </table>
 
     <script>
-        $(document).ready(function(){
-            $(".btn").click(function(){
-                $(".expand1").toggle();
-            });
-            $(".btn2").click(function(){
-                $(".expand2").toggle();
-            });
-        })
+        $('.header').click(function(){
+            $(this).toggleClass('expand').nextUntil('tr.header').slideToggle(100);
+        });
 
     </script>
 

@@ -163,7 +163,7 @@ li.dropdown {
 }
 
 /*--- message that appers after the form submission is sucessful*/
-span{
+main > span{
     background-color: orange;
 }
 
@@ -220,8 +220,20 @@ footer p {
 
 /*test*/
 
-.expand1 { display: none;
+table, tr, td, th
+{
+    border-collapse:collapse;
 }
 
-.expand2 { display: none;
+tr.header
+{
+    cursor:pointer;
+}
+
+.header .sign:after{
+    content:"+";
+    display:inline-block;
+}
+.header.expand .sign:after{
+    content:"-";
 }

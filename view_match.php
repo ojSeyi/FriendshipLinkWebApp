@@ -88,20 +88,23 @@
             <td><?php echo $row['interest_nationality'];?></td>
             <td><?php echo $row['vegan'];?></td>
         </tr>
-       <!-- <tr>
+            <tr><?php
+                $sql = "SELECT student.* FROM student inner Join `match` on student.S_ID = `match`.S_ID  WHERE `match`.h_ID = " + $row['h_id'] + ";";
+                $result2= $dbs->query($sql);
+                while( $row2 = $result2->fetch_array()){
+                ?>
             <td><?php echo $row2['name'];?></td>
             <td><?php echo $row2['age'];?></td>
             <td><?php echo $row2['gender'];?></td>
             <td><?php echo $row2['nationality'];?></td>
             <td><?php echo $row2['diet'];?></td>
-
-        </tr>-->
+        </tr>
         <?php
 
             }
 
         }
-           // }
+        }
             $result->close();
         $dbs->close();
         ?>

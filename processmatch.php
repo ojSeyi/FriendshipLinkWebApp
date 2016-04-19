@@ -7,7 +7,7 @@ include 'dbConnect.php';
  * Time: 10:34 PM
  */
  
- if(isset(submitMatch)){
+ if(isset(match)){
 
 $getHostId = $_POST['hostSelected'];
 foreach($_POST['studentSelected'] as $student){

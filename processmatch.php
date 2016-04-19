@@ -6,6 +6,9 @@ include 'dbConnect.php';
  * Date: 4/11/2016
  * Time: 10:34 PM
  */
+ 
+ if(isset(submitMatch)){
+
 $getHostId = $_POST['hostSelected'];
 foreach($_POST['studentSelected'] as $student){
 
@@ -19,6 +22,13 @@ foreach($_POST['studentSelected'] as $student){
         header('Location: create_matches.php?f=1');
     };
 
+}else{
+    header('Location: create_matches.php');
 }
+
+
+ }
+
+
 
 ?>

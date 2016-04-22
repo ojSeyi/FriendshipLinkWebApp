@@ -9,6 +9,11 @@ include ("dbConnect.php");
     <title> Admin </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<header>
+<div id ="logo">
+    <a href="home.php"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
+</div>
+</header>
 
 <body>
 

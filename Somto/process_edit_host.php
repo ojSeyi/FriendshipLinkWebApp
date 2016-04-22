@@ -59,5 +59,7 @@ if(isset($_POST['update'])) {
 }
 
 else{
-    header('Location: view_host.php');}
+    header('Location: view_host.php');
+
+}
 ?>

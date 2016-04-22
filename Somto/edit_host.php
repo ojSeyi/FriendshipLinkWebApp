@@ -1,9 +1,9 @@
 <?php
 include 'dbConnect.php';
 
-if(isset($_GET['name'])){
-    $user_login=$_GET['name'];
-    $sql_query="select * from host where `name` ='$user_login'";
+if(isset($_GET['h_id'])){
+    $user_login=$_GET['h_id'];
+    $sql_query="select * from host where `h_id` ='$user_login'";
     $result=$dbs->query($sql_query);
     $row = $result->fetch_assoc();
 
@@ -178,7 +178,7 @@ else{
         <br>
         <br>
         <br>
-        <input type="submit" value="Update" name="update"/>
+        <input type="submit" value="<?php echo $row['h_id'];?>" name="update"/>
 
 
     </form>

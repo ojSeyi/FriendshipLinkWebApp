@@ -92,7 +92,7 @@
             ?>
         <tr>
             <td><?php echo $counter;?></td>
-            <td><a href="edit_host.php?name=<?php echo $row['name'];?>"><?php echo $row['name'];?></a></td>
+            <td><a href="edit_host.php?h_id=<?php echo $row['h_id'];?>"><?php echo $row['name'];?></a></td>
             <td><?php echo $row['address'];?></td>
             <td><?php echo $row['postcode'];?></td>
             <td><?php echo $row['phoneNbr'];?></td>

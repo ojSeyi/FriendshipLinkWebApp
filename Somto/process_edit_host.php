@@ -11,7 +11,7 @@ include "dbConnect.php";
 include 'edit_host.php';
 
 
-$user_login=$_GET['name'];
+
 
 if(isset($_POST['update'])) {
     $Name = $_POST['name'];
@@ -28,7 +28,7 @@ if(isset($_POST['update'])) {
     $interests = $_POST['interests'];
     $interests_nation = $_POST['interest_nation'];
     $comments = $_POST['comments'];
-
+    $h_id = $_POST['update'];
 
     $sql = "UPDATE host
             SET name ='$Name',
@@ -45,7 +45,7 @@ if(isset($_POST['update'])) {
             interests = '$interests',
             interest_nationality = '$interests_nation' ,
             comments = '$comments'
-            WHERE `name` = '$Name'";
+            WHERE `h_id` = '$h_id'";
 
     if ($sth = $dbs->query($sql)) {
 

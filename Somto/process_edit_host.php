@@ -46,7 +46,7 @@ if(isset($_POST['update'])) {
             interest_nationality = '$interests_nation' ,
             comments = '$comments'
             WHERE `h_id` = '$h_id'";
-
+//
     if ($sth = $dbs->query($sql)) {
 
         header('Location:view_host.php?s=1');

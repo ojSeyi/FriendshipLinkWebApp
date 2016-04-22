@@ -1,13 +1,7 @@
-<!--
-
 <?php
 
 echo $_GET['name'];
-
-?>
-
 /*
-
 if(isset($_GET['name']))
 {
     $user_login=$_GET['name'];
@@ -17,16 +11,9 @@ if(isset($_GET['name']))
 }else {
     header("location: view_host.php");
 }
-
+*/
+/*
 ?>
-
-
-
-
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -164,3 +151,4 @@ if(isset($_GET['name']))
 </footer>
 </body>
 </html>-->
+*/

@@ -2,33 +2,48 @@
 include ("dbConnect.php");
 ?>
 
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html >
 <head>
-    <meta charset="utf-8">
-    <title> Admin Login </title>
-  <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+    <meta charset="UTF-8">
+    <title> Admin </title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<header>
+<div id ="logo">
+    <a href="home.php"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
+</div>
+</header>
+
 <body>
-<h1><a href="home.php">FriendshipLink WebApp - Admin Login </a></h1>
 
-    <fieldset>
-    <form method="post" action="login.php" >
-        <label>Username </label> <input type="text" name="username" placeholder="username" required />
+<div class="login-page">
+    <div class="form">
+        <form method="post" action="login.php" >
+            <label>Username </label> <input type="text" name="username" placeholder="username" required />
 
-        <br>
-        <br>
-        <label>Password </label> <input type="password" name="password" placeholder="password"  />
-
-        <br>
-        <br>
-        <div class="submit">
-        <input type="submit" name="submit" value = "login" style="float: right" />
             <br>
             <br>
-      </div>
-      </form>
-    </fieldset>
+            <label>Password </label> <input type="password" name="password" placeholder="password"  />
+
+            <br>
+            <br>
+            <div class="submit">
+                <input type="submit" name="submit" value = "login"/>
+                <br>
+                <br>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script src="js/index.js"></script>
+
+
 
 
 </body>

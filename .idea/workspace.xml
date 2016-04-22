@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Somto/edit_host.php" afterPath="$PROJECT_DIR$/Somto/edit_host.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Somto/process_edit_host.php" afterPath="$PROJECT_DIR$/Somto/process_edit_host.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Somto/view_host.php" afterPath="$PROJECT_DIR$/Somto/view_host.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/index.php" afterPath="$PROJECT_DIR$/Wale/index.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,74 +25,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="view_host.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Wale/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32741934">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wale/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.115385">
+              <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wale/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.653847">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <marker date="1461337545837" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wale/home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-9.807693">
-              <caret line="55" column="82" selection-start-line="55" selection-start-column="82" selection-end-line="55" selection-end-column="82" />
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
-                <marker date="1461344433283" expanded="true" signature="1700:1712" placeholder="..." />
-                <marker date="1461344433283" expanded="true" signature="1791:1803" placeholder="..." />
-                <marker date="1461344433283" expanded="true" signature="2869:2887" placeholder="SELECT * FRO... host" />
-                <marker date="1461344433283" expanded="true" signature="4104:4303" placeholder="..." />
-                <marker date="1461344433283" expanded="true" signature="4112:4251" placeholder="..." />
-                <marker date="1461344433283" expanded="true" signature="4189:4217" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="processmatch.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Somto/processmatch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55689657">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-              <folding>
-                <marker date="1461332512345" expanded="true" signature="262:344" placeholder="INSERT INTO `match`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_host.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.423077">
-              <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1461344433210" expanded="true" signature="105:151" placeholder="select * fro... host" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_edit_host.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/process_edit_host.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.038462">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1461344843917" expanded="true" signature="655:985" placeholder="UPDATE host " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="processstudent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/processstudent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <marker date="1461332512345" expanded="true" signature="671:1009" placeholder="INSERT INTO student... " />
+                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -103,10 +85,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index69.php" />
-        <option value="$PROJECT_DIR$/Somto/edit_host.php" />
-        <option value="$PROJECT_DIR$/Somto/view_host.php" />
-        <option value="$PROJECT_DIR$/Somto/process_edit_host.php" />
+        <option value="$PROJECT_DIR$/Wale/index.html" />
+        <option value="$PROJECT_DIR$/Wale/home.html" />
+        <option value="$PROJECT_DIR$/Wale/session.php" />
+        <option value="$PROJECT_DIR$/Wale/logout.php" />
+        <option value="$PROJECT_DIR$/Wale/view_student.php" />
+        <option value="$PROJECT_DIR$/Wale/view_match.php" />
+        <option value="$PROJECT_DIR$/Wale/view_host.php" />
+        <option value="$PROJECT_DIR$/Wale/new_student.php" />
+        <option value="$PROJECT_DIR$/Wale/new_host.php" />
+        <option value="$PROJECT_DIR$/Wale/create_matches.php" />
+        <option value="$PROJECT_DIR$/Wale/home.php" />
+        <option value="$PROJECT_DIR$/Wale/login.php" />
+        <option value="$PROJECT_DIR$/Wale/css/style.css" />
+        <option value="$PROJECT_DIR$/Wale/index.php" />
       </list>
     </option>
   </component>
@@ -119,8 +111,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1376" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -147,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -176,22 +169,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Somto" />
+              <option name="myItemId" value="Wale" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Somto" />
-    </key>
+    <property name="last_opened_file_path" value="C:/xampp/htdocs" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -229,100 +218,310 @@
       <option name="number" value="Default" />
       <updated>1461329091619</updated>
     </task>
-    <task id="LOCAL-00001" summary="test edit">
-      <created>1461338244274</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1461338244274</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test edit">
-      <created>1461338810843</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1461338810843</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test edit">
-      <created>1461339235102</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1461339235102</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test edit">
-      <created>1461341057388</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1461341057388</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test edit">
-      <created>1461341216125</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1461341216125</updated>
-    </task>
-    <task id="LOCAL-00006" summary="test edit">
-      <created>1461341646699</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1461341646699</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test edit">
-      <created>1461342365165</created>
+    <task id="LOCAL-00007" summary="home page">
+      <created>1461333576453</created>
       <option name="number" value="00007" />
       <option name="project" value="LOCAL" />
-      <updated>1461342365165</updated>
+      <updated>1461333576453</updated>
     </task>
-    <task id="LOCAL-00008" summary="test edit">
-      <created>1461342544911</created>
+    <task id="LOCAL-00008" summary="home page">
+      <created>1461333683969</created>
       <option name="number" value="00008" />
       <option name="project" value="LOCAL" />
-      <updated>1461342544911</updated>
+      <updated>1461333683969</updated>
     </task>
-    <task id="LOCAL-00009" summary="test edit">
-      <created>1461342687569</created>
+    <task id="LOCAL-00009" summary="home page">
+      <created>1461333730578</created>
       <option name="number" value="00009" />
       <option name="project" value="LOCAL" />
-      <updated>1461342687569</updated>
+      <updated>1461333730578</updated>
     </task>
-    <task id="LOCAL-00010" summary="test edit">
-      <created>1461343019845</created>
+    <task id="LOCAL-00010" summary="home page">
+      <created>1461334210926</created>
       <option name="number" value="00010" />
       <option name="project" value="LOCAL" />
-      <updated>1461343019845</updated>
+      <updated>1461334210926</updated>
     </task>
-    <task id="LOCAL-00011" summary="test edit">
-      <created>1461343148327</created>
+    <task id="LOCAL-00011" summary="home page">
+      <created>1461334269690</created>
       <option name="number" value="00011" />
       <option name="project" value="LOCAL" />
-      <updated>1461343148327</updated>
+      <updated>1461334269690</updated>
     </task>
-    <task id="LOCAL-00012" summary="test edit">
-      <created>1461343236528</created>
+    <task id="LOCAL-00012" summary="home page">
+      <created>1461334588283</created>
       <option name="number" value="00012" />
       <option name="project" value="LOCAL" />
-      <updated>1461343236528</updated>
+      <updated>1461334588283</updated>
     </task>
-    <task id="LOCAL-00013" summary="test edit">
-      <created>1461343429229</created>
+    <task id="LOCAL-00013" summary="home page">
+      <created>1461334630474</created>
       <option name="number" value="00013" />
       <option name="project" value="LOCAL" />
-      <updated>1461343429229</updated>
+      <updated>1461334630474</updated>
     </task>
-    <task id="LOCAL-00014" summary="test edit">
-      <created>1461343503683</created>
+    <task id="LOCAL-00014" summary="home page">
+      <created>1461334725372</created>
       <option name="number" value="00014" />
       <option name="project" value="LOCAL" />
-      <updated>1461343503683</updated>
+      <updated>1461334725372</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="home page">
+      <created>1461334777604</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1461334777604</updated>
+    </task>
+    <task id="LOCAL-00016" summary="home page">
+      <created>1461334847023</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1461334847023</updated>
+    </task>
+    <task id="LOCAL-00017" summary="home page">
+      <created>1461334914051</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1461334914051</updated>
+    </task>
+    <task id="LOCAL-00018" summary="home page">
+      <created>1461334968973</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1461334968973</updated>
+    </task>
+    <task id="LOCAL-00019" summary="home page">
+      <created>1461335012946</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335012946</updated>
+    </task>
+    <task id="LOCAL-00020" summary="home page">
+      <created>1461335177546</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335177546</updated>
+    </task>
+    <task id="LOCAL-00021" summary="home page">
+      <created>1461335225097</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335225097</updated>
+    </task>
+    <task id="LOCAL-00022" summary="home page">
+      <created>1461335271753</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335271753</updated>
+    </task>
+    <task id="LOCAL-00023" summary="home page">
+      <created>1461335322796</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335322796</updated>
+    </task>
+    <task id="LOCAL-00024" summary="home page">
+      <created>1461335543849</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335543849</updated>
+    </task>
+    <task id="LOCAL-00025" summary="home page">
+      <created>1461335607292</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335607292</updated>
+    </task>
+    <task id="LOCAL-00026" summary="home page">
+      <created>1461335666282</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335666282</updated>
+    </task>
+    <task id="LOCAL-00027" summary="home page">
+      <created>1461335741789</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335741789</updated>
+    </task>
+    <task id="LOCAL-00028" summary="home page">
+      <created>1461335954902</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1461335954902</updated>
+    </task>
+    <task id="LOCAL-00029" summary="home page">
+      <created>1461336086187</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336086187</updated>
+    </task>
+    <task id="LOCAL-00030" summary="home page">
+      <created>1461336355665</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336355665</updated>
+    </task>
+    <task id="LOCAL-00031" summary="home page">
+      <created>1461336528931</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336528931</updated>
+    </task>
+    <task id="LOCAL-00032" summary="home page">
+      <created>1461336817524</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336817524</updated>
+    </task>
+    <task id="LOCAL-00033" summary="home page">
+      <created>1461336837743</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336837743</updated>
+    </task>
+    <task id="LOCAL-00034" summary="home page">
+      <created>1461336869331</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336869331</updated>
+    </task>
+    <task id="LOCAL-00035" summary="home page">
+      <created>1461337130754</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337130754</updated>
+    </task>
+    <task id="LOCAL-00036" summary="home page">
+      <created>1461337254721</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337254721</updated>
+    </task>
+    <task id="LOCAL-00037" summary="home page">
+      <created>1461337407496</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337407496</updated>
+    </task>
+    <task id="LOCAL-00038" summary="home page">
+      <created>1461337486905</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337486905</updated>
+    </task>
+    <task id="LOCAL-00039" summary="home page">
+      <created>1461337572819</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337572819</updated>
+    </task>
+    <task id="LOCAL-00040" summary="home page">
+      <created>1461337657883</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337657883</updated>
+    </task>
+    <task id="LOCAL-00041" summary="home page">
+      <created>1461337776172</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337776172</updated>
+    </task>
+    <task id="LOCAL-00042" summary="home page">
+      <created>1461347778155</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347778155</updated>
+    </task>
+    <task id="LOCAL-00043" summary="home page">
+      <created>1461347844632</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347844632</updated>
+    </task>
+    <task id="LOCAL-00044" summary="home page">
+      <created>1461347887872</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347887872</updated>
+    </task>
+    <task id="LOCAL-00045" summary="home page">
+      <created>1461347996428</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347996428</updated>
+    </task>
+    <task id="LOCAL-00046" summary="home page">
+      <created>1461348089400</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348089400</updated>
+    </task>
+    <task id="LOCAL-00047" summary="home page">
+      <created>1461348259957</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348259957</updated>
+    </task>
+    <task id="LOCAL-00048" summary="home page">
+      <created>1461348304014</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348304014</updated>
+    </task>
+    <task id="LOCAL-00049" summary="home page">
+      <created>1461348426170</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348426170</updated>
+    </task>
+    <task id="LOCAL-00050" summary="home page">
+      <created>1461348445737</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348445738</updated>
+    </task>
+    <task id="LOCAL-00051" summary="home page">
+      <created>1461348529205</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348529205</updated>
+    </task>
+    <task id="LOCAL-00052" summary="home page">
+      <created>1461349125788</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1461349125788</updated>
+    </task>
+    <task id="LOCAL-00053" summary="home page">
+      <created>1461349248601</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1461349248601</updated>
+    </task>
+    <task id="LOCAL-00054" summary="home page">
+      <created>1461349388938</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1461349388939</updated>
+    </task>
+    <task id="LOCAL-00055" summary="home page">
+      <created>1461349509649</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1461349509649</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1376" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14934114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17867647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880846" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -353,92 +552,181 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="test edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test edit" />
+    <MESSAGE value="from wale..." />
+    <MESSAGE value="home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Somto/testPage.php">
+    <entry file="file://$PROJECT_DIR$/Wale/dbConnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.10967742">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5209677">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1461336598127" expanded="true" signature="123:258" placeholder="select usern... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/view_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.038462">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812284" expanded="true" signature="2368:2389" placeholder="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/view_match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3076925">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812284" expanded="true" signature="2291:2376" placeholder="SELECT host.... host" />
+            <marker date="1461336812284" expanded="true" signature="3629:3804" placeholder="SELECT stude... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/testPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0016129032">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1461332172860" expanded="true" signature="134:219" placeholder="SELECT host.... host" />
+            <marker date="1461332172860" expanded="true" signature="232:333" placeholder="SELECT stude... student" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/processhost.php">
+    <entry file="file://$PROJECT_DIR$/Wale/view_host.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.72931033">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="23" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="-14.692307">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812268" expanded="true" signature="2671:2689" placeholder="SELECT * FRO... host" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/dbConnect.php">
+    <entry file="file://$PROJECT_DIR$/Wale/new_student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-13.346154">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812300" expanded="true" signature="1704:1716" placeholder="..." />
+            <marker date="1461336812300" expanded="true" signature="1794:1806" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/processstudent.php">
+    <entry file="file://$PROJECT_DIR$/Wale/new_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812300" expanded="true" signature="1719:1731" placeholder="..." />
+            <marker date="1461336812300" expanded="true" signature="1809:1821" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/create_matches.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
           <folding>
-            <marker date="1461332512345" expanded="true" signature="671:1009" placeholder="INSERT INTO student... " />
+            <marker date="1461336812268" expanded="true" signature="2276:2327" placeholder="..." />
+            <marker date="1461336812268" expanded="true" signature="2407:2458" placeholder="..." />
+            <marker date="1461336812268" expanded="true" signature="3235:3253" placeholder="SELECT * FRO... host" />
+            <marker date="1461336812268" expanded="true" signature="5321:5342" placeholder="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
+    <entry file="file://$PROJECT_DIR$/Wale/processstudent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332171372" expanded="true" signature="671:1009" placeholder="INSERT INTO student... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/processmatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332171371" expanded="true" signature="262:344" placeholder="INSERT INTO `match`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/processhost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332171371" expanded="true" signature="1136:1475" placeholder="INSERT INTO host... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.115385">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.653847">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <marker date="1461337545837" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.807693">
-          <caret line="55" column="82" selection-start-line="55" selection-start-column="82" selection-end-line="55" selection-end-column="82" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <marker date="1461344433283" expanded="true" signature="1700:1712" placeholder="..." />
-            <marker date="1461344433283" expanded="true" signature="1791:1803" placeholder="..." />
-            <marker date="1461344433283" expanded="true" signature="2869:2887" placeholder="SELECT * FRO... host" />
-            <marker date="1461344433283" expanded="true" signature="4104:4303" placeholder="..." />
-            <marker date="1461344433283" expanded="true" signature="4112:4251" placeholder="..." />
-            <marker date="1461344433283" expanded="true" signature="4189:4217" placeholder="..." />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/process_edit_host.php">
+    <entry file="file://$PROJECT_DIR$/Wale/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.038462">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461344843917" expanded="true" signature="655:985" placeholder="UPDATE host " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.423077">
-          <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1461344433210" expanded="true" signature="105:151" placeholder="select * fro... host" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/processmatch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55689657">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <marker date="1461332512345" expanded="true" signature="262:344" placeholder="INSERT INTO `match`... " />
-          </folding>
+        <state vertical-scroll-proportion="0.32741934">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

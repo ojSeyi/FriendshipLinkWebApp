@@ -127,7 +127,7 @@ else{
         <br>
         <br>
         <input type="submit" value="Update" name="update"/>
-        <input type="reset" value="" class="form-reset"  name="reset" />
+
 
     </form>
 </main>

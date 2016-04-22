@@ -60,7 +60,7 @@ include 'dbConnect.php';
 
             $message = \Swift_Message::newInstance()
                 ->setSubject($param['title'])
-                ->setFrom(array('mfonukpeh@outlook.com' => 'Freindship link'))
+                ->setFrom(array('mfonukpeh@outlook.com' => 'Friendship link'))
                 ->setTo(array($h_email => $h_email))
                 ->addPart($txt,'text/html')
             ;

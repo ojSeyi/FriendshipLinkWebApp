@@ -7,13 +7,13 @@
  */
 
 include "dbConnect.php";
+
 include 'edit_host.php';
 
 
 $user_login=$_GET['name'];
 
-/*if(isset($_POST['update'])) {*/
-
+if(isset($_POST['update'])) {
     $Name = $_POST['name'];
     $Address = $_POST['address'];
     $Postcode = $_POST['postcode'];
@@ -28,7 +28,6 @@ $user_login=$_GET['name'];
     $interests = $_POST['interests'];
     $interests_nation = $_POST['interest_nation'];
     $comments = $_POST['comments'];
-
 
 
     $sql = "UPDATE host
@@ -46,7 +45,7 @@ $user_login=$_GET['name'];
             interests = '$interests',
             interest_nationality = '$interests_nation' ,
             comments = '$comments'
-            WHERE `name` = '$user_login'";
+            WHERE `name` = '$Name'";
 
     if ($sth = $dbs->query($sql)) {
 
@@ -57,9 +56,9 @@ $user_login=$_GET['name'];
         header('Location:view_host.php?f=1');
     }
 
-
-/*else{
+}
+else{
     header('Location: view_host.php');
 
-}*/
+}
 ?>

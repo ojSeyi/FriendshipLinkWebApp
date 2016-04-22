@@ -1,6 +1,7 @@
 <?php
+include("dbConnect.php");
 
-
+session_start();
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     // username and password sent from form
     $username = mysqli_real_escape_string($dbConnected,$_POST['username']);

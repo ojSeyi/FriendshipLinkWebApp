@@ -18,6 +18,7 @@ include ("dbConnect.php");
             <input type="text" placeholder="name"/>
             <input type="password" placeholder="password"/>
             <input type="text" placeholder="email address"/>
+
             <button>create</button>
             <p class="message">Already registered? <a href="login.php">Sign In</a></p>
         </form>

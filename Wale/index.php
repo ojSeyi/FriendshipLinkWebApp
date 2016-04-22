@@ -8,11 +8,11 @@ include ("dbConnect.php");
 <head>
     <meta charset="utf-8">
     <title> Admin Login </title>
-  <!--  <link rel="stylesheet" href="style1.css" type="text/css" /> -->
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
 <body>
-<h1>  COMPANY & STAFF REGISTRATION SYSTEM  </h1>
-<h4> Note to self: more work on the login admin UI...and make the user password md5 encryption to make it more secure </h4>
+<h1><a href="home.html">FriendshipLink WebApp - Admin Login </a></h1>
+
 <div class="loginBox">
     <h3> <STRONG> ADMIN LOGIN </STRONG> </h3>
     <br>

@@ -2,33 +2,46 @@
 include ("dbConnect.php");
 ?>
 
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html >
 <head>
-    <meta charset="utf-8">
-    <title> Admin Login </title>
-  <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+    <meta charset="UTF-8">
+    <title>Flat HTML5/CSS3 Login Form</title>
+
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
 </head>
+
 <body>
-<h1><a href="home.php">FriendshipLink WebApp - Admin Login </a></h1>
 
-    <fieldset>
-    <form method="post" action="login.php" >
-        <label>Username </label> <input type="text" name="username" placeholder="username" required />
+<div class="login-page">
+    <div class="form">
+        <form class="register-form" action="login.php">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+    </div>
+</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-        <br>
-        <br>
-        <label>Password </label> <input type="password" name="password" placeholder="password"  />
+<script src="js/index.js"></script>
 
-        <br>
-        <br>
-        <div class="submit">
-        <input type="submit" name="submit" value = "login" style="float: right" />
-            <br>
-            <br>
-      </div>
-      </form>
-    </fieldset>
+
 
 
 </body>

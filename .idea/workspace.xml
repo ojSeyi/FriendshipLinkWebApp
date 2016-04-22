@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/index.php" afterPath="$PROJECT_DIR$/Wale/index.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wale/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.730769">
-              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.64354837">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -36,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wale/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6983871">
+            <state vertical-scroll-proportion="-16.653847">
               <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding>
                 <marker date="1461336351394" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
@@ -72,7 +73,6 @@
       <list>
         <option value="$PROJECT_DIR$/Wale/index.html" />
         <option value="$PROJECT_DIR$/Wale/home.html" />
-        <option value="$PROJECT_DIR$/Wale/index.php" />
         <option value="$PROJECT_DIR$/Wale/login.php" />
         <option value="$PROJECT_DIR$/Wale/session.php" />
         <option value="$PROJECT_DIR$/Wale/logout.php" />
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/Wale/new_host.php" />
         <option value="$PROJECT_DIR$/Wale/create_matches.php" />
         <option value="$PROJECT_DIR$/Wale/home.php" />
+        <option value="$PROJECT_DIR$/Wale/index.php" />
       </list>
     </option>
   </component>
@@ -404,7 +405,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461336869331</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="home page">
+      <created>1461337130754</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1461337130754</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,22 +604,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wale/index.php">
+    <entry file="file://$PROJECT_DIR$/Wale/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.730769">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        <state vertical-scroll-proportion="-16.653847">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461336351394" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wale/login.php">
+    <entry file="file://$PROJECT_DIR$/Wale/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6983871">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.64354837">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <marker date="1461336351394" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

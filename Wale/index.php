@@ -14,21 +14,20 @@ include ("dbConnect.php");
 
 <div class="login-page">
     <div class="form">
-        <form class="register-form" action="login.php" method="post">
-          <input type="text" name="username" placeholder="username" required />
+        <form method="post" action="login.php" >
+            <label>Username </label> <input type="text" name="username" placeholder="username" required />
 
             <br>
             <br>
-        <input type="password" name="password" placeholder="password"  />
+            <label>Password </label> <input type="password" name="password" placeholder="password"  />
 
-            <button>create</button>
-            <p class="message">Already registered? <a href="login.php" methods="post">Sign In</a></p>
-        </form>
-        <form class="login-form">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button>login</button>
-
+            <br>
+            <br>
+            <div class="submit">
+                <input type="submit" name="submit" value = "login" style="float: right" />
+                <br>
+                <br>
+            </div>
         </form>
     </div>
 </div>

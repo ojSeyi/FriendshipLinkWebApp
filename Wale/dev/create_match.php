@@ -19,14 +19,14 @@
 
 <header>
     <div id ="logo">
-        <a href="../home.html"><img src="../images/fi-logo.png" alt="Demo" width="200"></a>
+        <a href="../home.php"><img src="../images/fi-logo.png" alt="Demo" width="200"></a>
     </div>
 
-    <h1><a href="../home.html">FriendshipLink WebApp</a></h1>
+    <h1><a href="../home.php">FriendshipLink WebApp</a></h1>
 
     <nav>
         <ul>
-            <li><a href="../home.html">Home</a></li>
+            <li><a href="../home.php">Home</a></li>
             <li class="dropdown">
                 <a class="active dropbtn" href="#">New</a>
                 <div class="dropdown-content">

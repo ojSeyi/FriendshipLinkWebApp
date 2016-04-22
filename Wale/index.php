@@ -10,7 +10,7 @@ include ("dbConnect.php");
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
 <body>
-<h1><a href="home.html">FriendshipLink WebApp - Admin Login </a></h1>
+<h1><a href="home.php">FriendshipLink WebApp - Admin Login </a></h1>
 
     <fieldset>
     <form method="post" action="login.php" >

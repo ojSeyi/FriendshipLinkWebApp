@@ -65,7 +65,7 @@ include 'dbConnect.php';
             $mailer = \Swift_Mailer::newInstance($transporter);
 
 //the message supplies some more detailed info
-            $message = Swift_Message::newInstance('FriendshipLink Test Mail')
+            $message = \Swift_Message::newInstance('FriendshipLink Test Mail')
                 ->setFrom(array('ukpehmfon@gmail.com' => 'Mfon Ukpeh'))//shows my name when email arrives
                 ->setTo(array($h_email => $name))//shows volunteer name as linked to their email address
                 ->setBody($txt, "text/html");    //tells swiftmailer that we're using html text

@@ -5,7 +5,7 @@ session_start();
 
 $user_check = $_SESSION['login_user'];
 
-$ses_sql = mysqli_query($dbConnected," select username
+$ses_sql = mysqli_query($dbs," select username
                                        from users
                                        where username = '$user_check'
                                        ");

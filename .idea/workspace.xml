@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="update">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Master/Backup/default.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Master/Backup/fonts.css" afterPath="" />
@@ -13,6 +14,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Master/dev/server_processing.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Master/dev/ssp.class.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/index69.php" afterPath="" />
+=======
+    <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
+>>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
@@ -34,6 +38,7 @@
     <favorites_list name="FriendshipLinkWebApp" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="create_matches.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Master/create_matches.php">
@@ -55,6 +60,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="8.125">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wale/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.730769">
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+>>>>>>> origin/master
               <folding>
                 <marker date="1461331802000" expanded="true" signature="2236:2321" placeholder="SELECT host.... host" />
                 <marker date="1461331802000" expanded="true" signature="3574:3749" placeholder="SELECT stude... student" />
@@ -63,6 +76,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="processmatch.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Master/processmatch.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,6 +84,28 @@
               <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <marker date="1461336641000" expanded="true" signature="213:245" placeholder="select * fro... host" />
+=======
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Wale/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6983871">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <marker date="1461336351394" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wale/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> origin/master
               </folding>
             </state>
           </provider>
@@ -87,9 +123,16 @@
         <option value="$PROJECT_DIR$/Wale/index.html" />
         <option value="$PROJECT_DIR$/Wale/home.html" />
         <option value="$PROJECT_DIR$/Wale/index.php" />
-        <option value="$PROJECT_DIR$/Wale/home.php" />
         <option value="$PROJECT_DIR$/Wale/login.php" />
         <option value="$PROJECT_DIR$/Wale/session.php" />
+        <option value="$PROJECT_DIR$/Wale/logout.php" />
+        <option value="$PROJECT_DIR$/Wale/view_student.php" />
+        <option value="$PROJECT_DIR$/Wale/view_match.php" />
+        <option value="$PROJECT_DIR$/Wale/view_host.php" />
+        <option value="$PROJECT_DIR$/Wale/new_student.php" />
+        <option value="$PROJECT_DIR$/Wale/new_host.php" />
+        <option value="$PROJECT_DIR$/Wale/create_matches.php" />
+        <option value="$PROJECT_DIR$/Wale/home.php" />
       </list>
     </option>
   </component>
@@ -407,7 +450,31 @@
       <option name="project" value="LOCAL" />
       <updated>1461336355665</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="home page">
+      <created>1461336528931</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336528931</updated>
+    </task>
+    <task id="LOCAL-00032" summary="home page">
+      <created>1461336817524</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336817524</updated>
+    </task>
+    <task id="LOCAL-00033" summary="home page">
+      <created>1461336837743</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336837743</updated>
+    </task>
+    <task id="LOCAL-00034" summary="home page">
+      <created>1461336869331</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336869331</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -456,14 +523,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Wale/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+=======
+    <entry file="file://$PROJECT_DIR$/Wale/dbConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10967742">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Wale/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -476,32 +551,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/Wale/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5209677">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1461336598127" expanded="true" signature="123:258" placeholder="select usern... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Wale/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <marker date="1461336721000" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+=======
+    <entry file="file://$PROJECT_DIR$/Wale/view_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.038462">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812284" expanded="true" signature="2368:2389" placeholder="SELECT * FRO... student" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Wale/session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1461336721000" expanded="true" signature="131:266" placeholder="select usern... users" />
+=======
+    <entry file="file://$PROJECT_DIR$/Wale/view_match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3076925">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812284" expanded="true" signature="2291:2376" placeholder="SELECT host.... host" />
+            <marker date="1461336812284" expanded="true" signature="3629:3804" placeholder="SELECT stude... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/testPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0016129032">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332172860" expanded="true" signature="134:219" placeholder="SELECT host.... host" />
+            <marker date="1461332172860" expanded="true" signature="232:333" placeholder="SELECT stude... student" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wale/view_host.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.3967742">
           <caret line="102" column="10" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
         </state>
@@ -513,25 +635,93 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <marker date="1461336721000" expanded="true" signature="131:266" placeholder="select usern... users" />
+=======
+        <state vertical-scroll-proportion="-14.692307">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812268" expanded="true" signature="2671:2689" placeholder="SELECT * FRO... host" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Wale/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <marker date="1461336721000" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+=======
+    <entry file="file://$PROJECT_DIR$/Wale/new_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.346154">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812300" expanded="true" signature="1704:1716" placeholder="..." />
+            <marker date="1461336812300" expanded="true" signature="1794:1806" placeholder="..." />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wale/dbConnect.php">
+    <entry file="file://$PROJECT_DIR$/Wale/new_host.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding />
+=======
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812300" expanded="true" signature="1719:1731" placeholder="..." />
+            <marker date="1461336812300" expanded="true" signature="1809:1821" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/create_matches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="55" column="60" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+          <folding>
+            <marker date="1461336812268" expanded="true" signature="2276:2327" placeholder="..." />
+            <marker date="1461336812268" expanded="true" signature="2407:2458" placeholder="..." />
+            <marker date="1461336812268" expanded="true" signature="3235:3253" placeholder="SELECT * FRO... host" />
+            <marker date="1461336812268" expanded="true" signature="5321:5342" placeholder="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/processstudent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332171372" expanded="true" signature="671:1009" placeholder="INSERT INTO student... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/processmatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332171371" expanded="true" signature="262:344" placeholder="INSERT INTO `match`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wale/processhost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332171371" expanded="true" signature="1136:1475" placeholder="INSERT INTO host... " />
+          </folding>
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
@@ -545,6 +735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wale/home.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.56288344">
           <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
           <folding />
@@ -568,10 +759,18 @@
             <marker date="1461331802000" expanded="true" signature="2352:2403" placeholder="..." />
             <marker date="1461331802000" expanded="true" signature="3180:3198" placeholder="SELECT * FRO... host" />
             <marker date="1461331802000" expanded="true" signature="5266:5287" placeholder="SELECT * FRO... student" />
+=======
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Master/view_match.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.125">
@@ -579,16 +778,33 @@
           <folding>
             <marker date="1461331802000" expanded="true" signature="2236:2321" placeholder="SELECT host.... host" />
             <marker date="1461331802000" expanded="true" signature="3574:3749" placeholder="SELECT stude... student" />
+=======
+    <entry file="file://$PROJECT_DIR$/Wale/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.730769">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Master/processmatch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8619632">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <marker date="1461336641000" expanded="true" signature="213:245" placeholder="select * fro... host" />
+=======
+    <entry file="file://$PROJECT_DIR$/Wale/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6983871">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <marker date="1461336351394" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>

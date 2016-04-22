@@ -19,7 +19,7 @@ include 'dbConnect.php';
      $h_email = $row['email'];
 
      echo $h_email;
-    foreach($_POST['studentSelected'] as $student){
+    /*foreach($_POST['studentSelected'] as $student){
 
     $sql = "INSERT INTO `match` (`h_id`, `S_ID`)
             VALUES ('$getHostId', '$student')";
@@ -31,7 +31,7 @@ include 'dbConnect.php';
         echo "Error" . $sql. '<br>'.mysqli_error($dbs);
         header('Location: create_matches.php?f=1');
         }
-    }
+    }*/
 }
     else{
 header('Location: create_matches.php');

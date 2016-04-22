@@ -5,7 +5,7 @@ include ("dbConnect.php");
 $dbSuccess = false;
 $dbs = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
-if($dbConnected){
+if($dbs){
     echo 'successful!!!!';
 }
 

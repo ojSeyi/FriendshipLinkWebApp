@@ -57,15 +57,15 @@ include 'dbConnect.php';
             require_once '/Master/swiftmailer/lib/swift_required.php';
 
 //this is all swiftmailer magic, using the gmail smtp server of my account...
-            $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
+            $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
                 ->setUsername('ukpehmfon@gmail.com')
                 ->setPassword('seveneleven711');
 
 //Creates an instance of the mailer
-            $mailer = \Swift_Mailer::newInstance($transporter);
+            $mailer = Swift_Mailer::newInstance($transporter);
 
 //the message supplies some more detailed info
-            $message = \Swift_Message::newInstance('FriendshipLink Test Mail')
+            $message = Swift_Message::newInstance('FriendshipLink Test Mail')
                 ->setFrom(array('ukpehmfon@gmail.com' => 'Mfon Ukpeh'))//shows my name when email arrives
                 ->setTo(array($h_email => $name))//shows volunteer name as linked to their email address
                 ->setBody($txt, "text/html");    //tells swiftmailer that we're using html text

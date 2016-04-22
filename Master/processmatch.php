@@ -53,26 +53,21 @@ include 'dbConnect.php';
 					The FrienshipLink Team";
 
 
-//take in the necessary swiftmailer code
-            require_once '/swiftmailer/lib/swift_required.php';
+            $transport = \Swift_SmtpTransport::newInstance()
+                ->setUsername('chukwudiezekwesili@windowslive.com')->setPassword('cryptex')
+                ->setHost('smtp-mail.windowslive.com')
+                ->setPort(587)->setEncryption('tls');
 
-//this is all swiftmailer magic, using the gmail smtp server of my account...
-            $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
-                ->setUsername('ukpehmfon@gmail.com')
-                ->setPassword('seveneleven711');
+            $mailer = \Swift_Mailer::newInstance($transport);
 
-//Creates an instance of the mailer
-            $mailer = Swift_Mailer::newInstance($transporter);
+            $message = \Swift_Message::newInstance()
+                ->setSubject($param['title'])
+                ->setFrom(array('chukwudiezekwesili@windowslive.com' => 'I am someone'))
+                ->setTo(array($h_email => $h_email))
+                ->addPart($txt,'text/html')
+            ;
 
-//the message supplies some more detailed info
-            $message = Swift_Message::newInstance('FriendshipLink Test Mail')
-                ->setFrom(array('ukpehmfon@gmail.com' => 'Mfon Ukpeh'))//shows my name when email arrives
-                ->setTo(array($h_email => $name))//shows volunteer name as linked to their email address
-                ->setBody($txt, "text/html");    //tells swiftmailer that we're using html text
-
-//Finally the mail is sent
             $result = $mailer->send($message);
-
 
             echo "Successful";
         header("Location: create_matches.php?s=1");

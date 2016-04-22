@@ -1,5 +1,5 @@
 <?php
-
+include 'dbConnect.php';
 if(isset($_GET['name']))
 {
     $user_login=$_GET['name'];

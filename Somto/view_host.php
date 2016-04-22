@@ -50,6 +50,14 @@
             </header>
     </div>
 
+       <span>
+            <?php if($_GET['s']) {
+                echo '<span style="color: blue;">Record Edited! </span>';
+            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Edited! </span>';}
+            ?>
+
+        </span>
+
 
     <div style="overflow-x:auto;">
     <table style="margin-left: auto; margin-right: auto;" class="table_sommy">

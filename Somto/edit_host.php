@@ -62,21 +62,11 @@ else{
 
     <div id="title">
         <header>
-            <h2>New Host Details</h2>
+            <h2>Edit Host Details</h2>
         </header>
     </div>
 
-       <span>
-            <?php if($_GET['s']) {
-                echo '<span style="color: blue;">Record Added! </span>';
-            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Added! </span>';}
-            ?>
 
-        </span>
-
-    <br>
-
-    <br>
 
     <form action="process_edit_host.php" method="POST">
         <label for="name">Name:</label>
@@ -100,7 +90,7 @@ else{
         <br>
         <br>
         <label for="status">Marital Status:</label>
-        <input type="radio" id="status" name="status" value="<?php echo $row['status'];?>" />
+        <input type="text" id="status" name="status" value="<?php echo $row['status'];?>" />
         <br>
         <br>
         <label for="children">No. of Children</label>
@@ -112,7 +102,7 @@ else{
         <br>
         <br>
         <label for="pref">Would you prefer us to link you with male or female students? Or no preference?</label>
-        <input type="radio" id="pref" name="preference" value="<?php echo $row['preference'];?>"/>
+        <input type="text" id="pref" name="preference" value="<?php echo $row['preference'];?>"/>
         <br>
         <label for="Church">Church attended</label>
         <input type="text" id="Church" name="Church" value="<?php echo $row['church'];?>"/>
@@ -137,7 +127,7 @@ else{
         <br>
         <br>
         <input type="submit" value="Update" name="update"/>
-        <input type="reset" value="" class="form-reset"  />
+
 
     </form>
 </main>

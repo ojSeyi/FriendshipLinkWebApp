@@ -11,7 +11,7 @@ label{
 
     width: 10em;
 
-    text-align: center;
+    text-align: left;
     margin-right: 0.5em;
     display: inline-block;
 
@@ -45,12 +45,14 @@ input
     color: #781351;
     background: #fee3ad;
     border: 1px solid #781351;
+    margin-left: 10em;
 
 }
 textarea{
     color: #781351;
     background: #fee3ad;
     border: 1px solid #781351;
+    margin-left: 10em;
 
 }
 /* ending of form control and design......................................................................................................................... */

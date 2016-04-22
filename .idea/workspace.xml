@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wale/logout.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/create_matches.php" afterPath="$PROJECT_DIR$/Wale/create_matches.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/home.php" afterPath="$PROJECT_DIR$/Wale/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/new_host.php" afterPath="$PROJECT_DIR$/Wale/new_host.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/new_student.php" afterPath="$PROJECT_DIR$/Wale/new_student.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/session.php" afterPath="$PROJECT_DIR$/Wale/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/view_host.php" afterPath="$PROJECT_DIR$/Wale/view_host.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/view_match.php" afterPath="$PROJECT_DIR$/Wale/view_match.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/view_student.php" afterPath="$PROJECT_DIR$/Wale/view_student.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +27,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wale/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5483871">
-              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.57580644">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -371,7 +362,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461336528931</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="home page">
+      <created>1461336817524</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336817524</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -575,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wale/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5483871">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.57580644">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />

@@ -12,7 +12,7 @@ else{
     header("location: view_host.php");
 }
 
-
+/*
 if(isset($_POST['update'])) {
 
     $Name = $_POST['name'];
@@ -61,6 +61,7 @@ if(isset($_POST['update'])) {
 
 else{
     header('Location: view_host.php');}
+?>*/
 ?>
 
 
@@ -119,7 +120,7 @@ else{
 
 
 
-    <form action="edit_host.php" method="POST">
+    <form action="process_edit_host.php" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" value="<?php echo $row['name'];?>" required/>
         <br>

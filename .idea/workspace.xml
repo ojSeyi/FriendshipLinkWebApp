@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Master/processmatch.php" afterPath="$PROJECT_DIR$/Master/processmatch.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +37,11 @@
       <file leaf-file-name="processmatch.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Master/processmatch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7833066">
-              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.33707866">
+              <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
               <folding>
-                <marker date="1461349600000" expanded="true" signature="212:244" placeholder="select * fro... host" />
-                <marker date="1461349600000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
+                <marker date="1461350850000" expanded="true" signature="212:244" placeholder="select * fro... host" />
+                <marker date="1461350850000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
               </folding>
             </state>
           </provider>
@@ -339,7 +338,19 @@
       <option name="project" value="LOCAL" />
       <updated>1461349243635</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="test edit">
+      <created>1461349622456</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1461349622456</updated>
+    </task>
+    <task id="LOCAL-00023" summary="test edit">
+      <created>1461350855962</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1461350855962</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -481,11 +492,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Master/processmatch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7833066">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.33707866">
+          <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
           <folding>
-            <marker date="1461349600000" expanded="true" signature="212:244" placeholder="select * fro... host" />
-            <marker date="1461349600000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
+            <marker date="1461350850000" expanded="true" signature="212:244" placeholder="select * fro... host" />
+            <marker date="1461350850000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
           </folding>
         </state>
       </provider>

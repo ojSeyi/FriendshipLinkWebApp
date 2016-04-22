@@ -1,4 +1,12 @@
+<!--
+
 <?php
+
+echo "{$_GET['name']}";
+
+?>
+
+/*
 
 if(isset($_GET['name']))
 {
@@ -155,4 +163,4 @@ if(isset($_GET['name']))
 
 </footer>
 </body>
-</html>
+</html>-->

@@ -35,26 +35,24 @@ include 'dbConnect.php';
 //ATTENTION, THE LINK MAY POINT TO THE MASTER DOMAIN, RATHER THAN YOUR OWN VOLUNTEERLOGIN.PHP
             $txt = "Dear $name,
 					<br><br>
-					An account has been set up in your name.
-					<br>
-					If you would like to fill out a survey concerning your experience with Befriend A Child,
-					please follow
-					<a href='http://befriendachildtestsurvey.azurewebsites.net/Master/volunteerlogin.php'>this link</a>
-					and login with:
+					You have a match.
+
+					you have been matched based on the prefrences made
+
 					<br><br>
 					User's Email address: $h_email
 					<br>
 					Name: $name
 					<br><br>
-					You will be able to change your password once logged in.
+					hope your happy with matches made based on your prefrences.
 					<br><br>
 					King Regards,
 					<br><br>
-					The FrienshipLink Team";
+					The Friendship link";
 
 
             $transport = \Swift_SmtpTransport::newInstance()
-                ->setUsername('chukwudiezekwesili@windowslive.com')->setPassword('cryptex')
+                ->setUsername('mfonukpeh@outlook.com')->setPassword('seventyseven77')
                 ->setHost('smtp-mail.windowslive.com')
                 ->setPort(587)->setEncryption('tls');
 
@@ -62,7 +60,7 @@ include 'dbConnect.php';
 
             $message = \Swift_Message::newInstance()
                 ->setSubject($param['title'])
-                ->setFrom(array('chukwudiezekwesili@windowslive.com' => 'I am someone'))
+                ->setFrom(array('mfonukpeh@outlook.com' => 'Freindship link'))
                 ->setTo(array($h_email => $h_email))
                 ->addPart($txt,'text/html')
             ;

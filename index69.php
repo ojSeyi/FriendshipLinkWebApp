@@ -1,14 +1,14 @@
 <?php
 include ("dbConnect.php");
 $dbSuccess = false;
-$dbConnected = mysqli_connect($dbs['hostname'],$dbs['DB_USERNAME'], $dbs['DB_PASSWORD']);
+$dbConnected = mysqli_connect($dbs['DB_SERVER'],$dbs['DB_USERNAME'], $dbs['DB_PASSWORD']);
 
 
 if($dbConnected) {
-    $dbSelected = mysqli_select_db($dbConnected, $dbs['database']);
+    $dbSelected = mysqli_select_db($dbConnected, $dbs['friendshiplink']);
 
     if ($dbSelected) {
-  echo 'DB success';
+  echo 'DB success!!!';
         $dbSuccess = true;
     } else {
         echo "DB Selection FAiled";

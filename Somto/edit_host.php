@@ -1,17 +1,19 @@
 <?php
 
-echo $_GET['name'];
-/*
 if(isset($_GET['name']))
 {
     $user_login=$_GET['name'];
     $sql_query = "select * from host where name ='$user_login'";
     $result = $dbs -> query($sql_query);
-    $row = mysqli_fetch_array($result);
+    $row = mysqli_fetch_assoc($result);
+
+    echo $row['email'];
+
+
 }else {
     header("location: view_host.php");
 }
-*/
+
 /*
 ?>
 

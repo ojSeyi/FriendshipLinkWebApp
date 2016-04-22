@@ -9,8 +9,7 @@
 include "dbConnect.php";
 
 
-if(isset($_POST['update']))
-{
+if(isset($_POST['update'])) {
 
     $Name = $_POST['name'];
     $Address = $_POST['address'];
@@ -28,18 +27,19 @@ if(isset($_POST['update']))
     $comments = $_POST['comments'];
 
 
-
-    $sql = "UPDATE host set (name, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interest_nationality,comments)
+    $sql = "UPDATE host set (`name`, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interest_nationality,comments)
         VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$Email', '$Status', $Children, '$vegan','$preference', '$Church', '$pastor', '$interests','$interests_nation','$comments')";
 
-    $result = $dbs->query($sql);
+    if ($sth = $dbs->query($sql)) {
 
-    header('Location:view_host.php?s=1');
+        header('Location:view_host.php?s=1');
 
-
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($dbs);
+        header('Location:view_host.php?f=1');
+    }
 }
+
 else{
-    echo "Error:" . $sql . "<br>" . mysqli_error($dbs);
-    header('Location:view_host.php?f=1');
-}
-
+    header('Location: view_host.php');}
+?>

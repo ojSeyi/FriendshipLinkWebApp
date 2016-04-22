@@ -50,12 +50,14 @@ include 'dbConnect.php';
 					<br><br>
 					The Friendship link";
 
+            //take in the necessary swiftmailer code
+            require_once 'swiftmailer/lib/swift_required.php';
 
-            $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465,'ssl')->setUsername('ukpehmfon@gmail.com')->setPassword('seveneleven711');
+            $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465,'ssl')->setUsername('ukpehmfon@gmail.com')->setPassword('seveneleven711');
 
-            $mailer = \Swift_Mailer::newInstance($transport);
-            $message = \Swift_Message::newInstance('Our Code World Newsletter')
-                ->setFrom(array('ukpehmfon@gmail.com' => 'FriendshipLink'))
+            $mailer = Swift_Mailer::newInstance($transport);
+            $message = Swift_Message::newInstance('FriendshipLink: student matched')
+                ->setFrom(array('ukpehmfon@gmail.com' => 'Friendship link'))
                 ->setTo(array($h_email => $h_email))
                 ->setBody($txt, 'text/html');
             $mailer->send($message);

@@ -55,19 +55,19 @@
       <file leaf-file-name="edit_host.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2637931">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state vertical-scroll-proportion="-1.7879311">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
-                <marker date="1461342534282" expanded="true" signature="83:127" placeholder="select * fro... host" />
-                <marker date="1461342534282" expanded="true" signature="333:352" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="646:669" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="655:669" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="846:884" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="859:884" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="1959:1971" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="2049:2061" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="5310:5335" placeholder="..." />
-                <marker date="1461342534282" expanded="true" signature="5318:5335" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="83:127" placeholder="select * fro... host" />
+                <marker date="1461342670745" expanded="true" signature="336:355" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="649:672" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="658:672" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="849:887" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="862:887" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="1964:1976" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="2054:2066" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="5373:5398" placeholder="..." />
+                <marker date="1461342670745" expanded="true" signature="5381:5398" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -263,7 +263,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461342365165</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test edit">
+      <created>1461342544911</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1461342544911</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,19 +369,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2637931">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state vertical-scroll-proportion="-1.7879311">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
-            <marker date="1461342534282" expanded="true" signature="83:127" placeholder="select * fro... host" />
-            <marker date="1461342534282" expanded="true" signature="333:352" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="646:669" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="655:669" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="846:884" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="859:884" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="1959:1971" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="2049:2061" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="5310:5335" placeholder="..." />
-            <marker date="1461342534282" expanded="true" signature="5318:5335" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="83:127" placeholder="select * fro... host" />
+            <marker date="1461342670745" expanded="true" signature="336:355" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="649:672" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="658:672" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="849:887" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="862:887" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="1964:1976" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="2054:2066" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="5373:5398" placeholder="..." />
+            <marker date="1461342670745" expanded="true" signature="5381:5398" placeholder="..." />
           </folding>
         </state>
       </provider>

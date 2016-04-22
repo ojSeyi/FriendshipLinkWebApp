@@ -14,9 +14,10 @@ if(isset($_GET['name']))
     header("location: view_host.php");
 }
 
-/*
+
 ?>
 
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,10 +70,10 @@ if(isset($_GET['name']))
         </div>
 
        <span>
-            <?php if($_GET['s']) {
+            <?php /*if($_GET['s']) {
                 echo '<span style="color: blue;">Record Added! </span>';
             }elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Added! </span>';}
-            ?>
+            */?>
 
         </span>
 
@@ -82,58 +83,58 @@ if(isset($_GET['name']))
 
         <form action="process_edit_host.php" method="POST">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" value="<?php echo $row['name'];?>" required/>
+            <input type="text" id="name" name="name" value="<?php /*echo $row['name'];*/?>" required/>
             <br>
             <br>
             <label for="address">Address:</label>
-            <input type="text" id="address" name="address" value="<?php echo $row['address'];?>" required/>
+            <input type="text" id="address" name="address" value="<?php /*echo $row['address'];*/?>" required/>
             <br>
             <br>
             <label for="postcode">Postcode:</label>
-            <input type="text" id="postcode" name="postcode" value="<?php echo $row['postcode'];?>" required/>
+            <input type="text" id="postcode" name="postcode" value="<?php /*echo $row['postcode'];*/?>" required/>
             <br>
             <br>
             <label for="phoneNbr">Telephone Number:</label>
-            <input type="number" id="phoneNbr" name="phoneNbr" value="<?php echo $row['phoneNbr'];?>" required/>
+            <input type="number" id="phoneNbr" name="phoneNbr" value="<?php /*echo $row['phoneNbr'];*/?>" required/>
             <br>
             <br>
             <label for="email">E-mail address:</label>
-            <input type="email" id="email" name="email" value="<?php echo $row['email'];?>" required/>
+            <input type="email" id="email" name="email" value="<?php /*echo $row['email'];*/?>" required/>
             <br>
             <br>
             <label for="status">Marital Status:</label>
-            <input type="radio" id="status" name="status" value="<?php echo $row['status'];?>" />
+            <input type="radio" id="status" name="status" value="<?php /*echo $row['status'];*/?>" />
             <br>
             <br>
             <label for="children">No. of Children</label>
-            <input type="number" id="children" name="children" value="<?php echo $row['children'];?>"/>
+            <input type="number" id="children" name="children" value="<?php /*echo $row['children'];*/?>"/>
             <br>
             <br>
             <label for="vegan">Are you happy to provide Vegetarian food?</label>
-            <input type="text" id="vegan" name="vegan" value="<?php echo $row['vegan'];?>"/>
+            <input type="text" id="vegan" name="vegan" value="<?php /*echo $row['vegan'];*/?>"/>
             <br>
             <br>
             <label for="pref">Would you prefer us to link you with male or female students? Or no preference?</label>
-            <input type="radio" id="pref" name="preference" value="<?php echo $row['preference'];?>"/>
+            <input type="radio" id="pref" name="preference" value="<?php /*echo $row['preference'];*/?>"/>
             <br>
             <label for="Church">Church attended</label>
-            <input type="text" id="Church" name="Church" value="<?php echo $row['church'];?>"/>
+            <input type="text" id="Church" name="Church" value="<?php /*echo $row['church'];*/?>"/>
             <br>
             <br>
             <label for="pastor">Name of minister/pastor</label>
-            <input type="text" id="pastor" name="pastor" value="<?php echo $row['pastor'];?>"/>
+            <input type="text" id="pastor" name="pastor" value="<?php /*echo $row['pastor'];*/?>"/>
             <br>
             <br>
             <label for="interests">Special interests (sport, music, hobbies):</label>
-            <textarea name="interests" id="interests" cols="45" rows="3"><?php echo $row['interests'];?></textarea>
+            <textarea name="interests" id="interests" cols="45" rows="3"><?php /*echo $row['interests'];*/?></textarea>
             <br>
             <br>
             <label for="interest_nation">Interest in particular areas of the world:</label>
-            <textarea name="interest_nation" id="interest_nation" cols="45" rows="3"><?php echo $row['interest_nationality'];?></textarea>
+            <textarea name="interest_nation" id="interest_nation" cols="45" rows="3"><?php /*echo $row['interest_nationality'];*/?></textarea>
             <br>
             <br>
             <label for="comments">Any other relevant information:</label>
-            <textarea name="comments" id="comments" cols="45" rows="3"><?php echo $row['comments'];?></textarea>
+            <textarea name="comments" id="comments" cols="45" rows="3"><?php /*echo $row['comments'];*/?></textarea>
             <br>
             <br>
             <br>
@@ -153,4 +154,4 @@ if(isset($_GET['name']))
 </footer>
 </body>
 </html>-->
-*/
+*/-->

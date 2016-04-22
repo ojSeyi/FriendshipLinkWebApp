@@ -35,44 +35,30 @@ include 'dbConnect.php';
 //ATTENTION, THE LINK MAY POINT TO THE MASTER DOMAIN, RATHER THAN YOUR OWN VOLUNTEERLOGIN.PHP
             $txt = "Dear $name,
 					<br><br>
-					An account has been set up in your name.
-					<br>
-					If you would like to fill out a survey concerning your experience with Befriend A Child,
-					please follow
-					<a href='http://befriendachildtestsurvey.azurewebsites.net/Master/volunteerlogin.php'>this link</a>
-					and login with:
+					You have a match.
+
+					you have been matched based on the prefrences made
+
 					<br><br>
 					User's Email address: $h_email
 					<br>
 					Name: $name
 					<br><br>
-					You will be able to change your password once logged in.
+					hope your happy with matches made based on your prefrences.
 					<br><br>
 					King Regards,
 					<br><br>
-					The FrienshipLink Team";
+					The Friendship link";
 
 
-//take in the necessary swiftmailer code
-            require_once '/swiftmailer/lib/swift_required.php';
+            $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465,'ssl')->setUsername('ukpehmfon@gmail.com')->setPassword('seveneleven711');
 
-//this is all swiftmailer magic, using the gmail smtp server of my account...
-            $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
-                ->setUsername('ukpehmfon@gmail.com')
-                ->setPassword('seveneleven711');
-
-//Creates an instance of the mailer
-            $mailer = Swift_Mailer::newInstance($transporter);
-
-//the message supplies some more detailed info
-            $message = Swift_Message::newInstance('FriendshipLink Test Mail')
-                ->setFrom(array('ukpehmfon@gmail.com' => 'Mfon Ukpeh'))//shows my name when email arrives
-                ->setTo(array($h_email => $name))//shows volunteer name as linked to their email address
-                ->setBody($txt, "text/html");    //tells swiftmailer that we're using html text
-
-//Finally the mail is sent
-            $result = $mailer->send($message);
-
+            $mailer = \Swift_Mailer::newInstance($transport);
+            $message = \Swift_Message::newInstance('Our Code World Newsletter')
+                ->setFrom(array('ukpehmfon@gmail.com' => 'FriendshipLink'))
+                ->setTo(array($h_email => $h_email))
+                ->setBody($txt, 'text/html');
+            $mailer->send($message);
 
             echo "Successful";
         header("Location: create_matches.php?s=1");

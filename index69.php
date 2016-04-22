@@ -6,7 +6,7 @@ $dbConnected = mysqli_connect($dbs['DB_SERVER'],$dbs['DB_USERNAME'], $dbs['DB_PA
 
 if($dbConnected) {
     $dbSelected = mysqli_select_db($dbConnected, $dbs['friendshiplink']);
-
+echo 'Db success';
     if ($dbSelected) {
   echo 'DB success!!!';
         $dbSuccess = true;

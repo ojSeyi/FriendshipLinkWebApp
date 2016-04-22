@@ -54,7 +54,7 @@ include 'dbConnect.php';
 
 
 //take in the necessary swiftmailer code
-            require_once '/Master/swiftmailer/lib/swift_required.php';
+            require_once '/swiftmailer/lib/swift_required.php';
 
 //this is all swiftmailer magic, using the gmail smtp server of my account...
             $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")

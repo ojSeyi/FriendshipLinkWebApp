@@ -24,7 +24,7 @@ include ("dbConnect.php");
             <br>
             <br>
             <div class="submit">
-                <input type="submit" name="submit" value = "login" style="float: right" />
+                <input type="submit" name="submit" value = "login"/>
                 <br>
                 <br>
             </div>

@@ -22,7 +22,7 @@ include ("dbConnect.php");
 
 <div class="login-page">
     <div class="form">
-        <form class="register-form" action="login.php">
+        <form class="register-form" action="login.php" method="post">
             <input type="text" placeholder="name"/>
             <input type="password" placeholder="password"/>
             <input type="text" placeholder="email address"/>

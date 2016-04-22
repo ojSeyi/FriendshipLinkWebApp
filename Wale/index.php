@@ -9,26 +9,28 @@ include ("dbConnect.php");
     <title> Admin </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<header>
+<div id ="logo">
+    <a href="index.php"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
+</div>
+</header>
 
 <body>
-
+<h2 style="color: ghostwhite" align="center"> FRIENDSHIPLINK APP - ADMIN LOGIN </h2>
 <div class="login-page">
     <div class="form">
-        <form class="register-form" action="login.php" method="post">
-          <input type="text" name="username" placeholder="username" required />
+        <form method="post" action="login.php" >
+            <label style="color: darkorange"> <strong>USERNAME </strong> </label> <input type="text" name="username" placeholder="username" />
+            <br>
+            <label style="color: darkorange"> <strong>PASSWORD </strong> </label> <input type="password" name="password" placeholder="password"  />
 
             <br>
             <br>
-        <input type="password" name="password" placeholder="password"  />
-
-            <button>create</button>
-            <p class="message">Already registered? <a href="login.php" methods="post">Sign In</a></p>
-        </form>
-        <form class="login-form">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button>login</button>
-
+            <div class="submit">
+             <button type="submit" name="submit" value="login" style="color: darkorange"> <Strong> LOGIN </Strong> </button>
+                <br>
+                <br>
+            </div>
         </form>
     </div>
 </div>

@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wale/home.html" afterPath="$PROJECT_DIR$/Wale/home.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/create_matches.php" afterPath="$PROJECT_DIR$/Wale/create_matches.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/dev/create_match.php" afterPath="$PROJECT_DIR$/Wale/dev/create_match.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/index.php" afterPath="$PROJECT_DIR$/Wale/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/new_host.php" afterPath="$PROJECT_DIR$/Wale/new_host.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/new_student.php" afterPath="$PROJECT_DIR$/Wale/new_student.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/view_host.php" afterPath="$PROJECT_DIR$/Wale/view_host.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/view_match.php" afterPath="$PROJECT_DIR$/Wale/view_match.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/view_student.php" afterPath="$PROJECT_DIR$/Wale/view_student.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/home.php" afterPath="$PROJECT_DIR$/Wale/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/login.php" afterPath="$PROJECT_DIR$/Wale/login.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,12 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wale/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5209677">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding />
+            <state vertical-scroll-proportion="-11.423077">
+              <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,13 +60,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wale/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.5">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.2467742">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
-                <marker date="1461335933888" expanded="true" signature="302:427" placeholder="SELECT uid F... users" />
+                <marker date="1461336351394" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
               </folding>
             </state>
           </provider>
@@ -89,8 +84,8 @@
         <option value="$PROJECT_DIR$/Wale/index.html" />
         <option value="$PROJECT_DIR$/Wale/home.html" />
         <option value="$PROJECT_DIR$/Wale/index.php" />
-        <option value="$PROJECT_DIR$/Wale/login.php" />
         <option value="$PROJECT_DIR$/Wale/home.php" />
+        <option value="$PROJECT_DIR$/Wale/login.php" />
       </list>
     </option>
   </component>
@@ -376,7 +371,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461335954902</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="home page">
+      <created>1461336086187</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1461336086187</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -453,21 +454,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wale/login.php">
+    <entry file="file://$PROJECT_DIR$/Wale/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.5">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state vertical-scroll-proportion="-11.423077">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
           <folding>
-            <marker date="1461335933888" expanded="true" signature="302:427" placeholder="SELECT uid F... users" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wale/home.php">
+    <entry file="file://$PROJECT_DIR$/Wale/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5209677">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="0.2467742">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1461336351394" expanded="true" signature="286:411" placeholder="SELECT uid F... users" />
+          </folding>
         </state>
       </provider>
     </entry>

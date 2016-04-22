@@ -38,6 +38,11 @@
         </ul>
     </nav>
 </header>
+<?php
+include('session.php');
+?>
+<h3 style="color: darkred"> Welcome  <?php echo $login_session; ?></h3>
+
 <main>
     <p> Welcome</p>
     <p>Please use one of the links above to start!</p>

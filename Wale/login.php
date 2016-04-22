@@ -4,8 +4,8 @@ include("dbConnect.php");
 session_start();
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     // username and password sent from form
-    $username = mysqli_real_escape_string($dbConnected,$_POST['username']);
-    $password = mysqli_real_escape_string($dbConnected,$_POST['password']);
+    $username = mysqli_real_escape_string($dbs,$_POST['username']);
+    $password = mysqli_real_escape_string($dbs,$_POST['password']);
 
     $sql = "SELECT uid
             FROM users
@@ -13,7 +13,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             and
             password = '$password'";
 
-    $result = mysqli_query($dbConnected,$sql);
+    $result = mysqli_query($dbs,$sql);
+
     $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
     $active = $row['active'];
 
@@ -25,7 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 //error check here...........
         $_SESSION['login_user'] = $username;
         echo $_SESSION['login_user'];
-        header("location: Home.php");
+        header("location: home.php");
     }else {
         $error = "Your Login Name or Password is invalid";
     }

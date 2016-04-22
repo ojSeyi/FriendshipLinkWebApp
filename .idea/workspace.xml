@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/index.php" afterPath="$PROJECT_DIR$/Wale/index.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wale/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27419356">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.10967742">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
                 <element signature="e#195#410#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -267,7 +266,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461334269690</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="home page">
+      <created>1461334588283</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1461334588283</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -354,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wale/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27419356">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.10967742">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding>
             <element signature="e#195#410#0#PHP" expanded="true" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />

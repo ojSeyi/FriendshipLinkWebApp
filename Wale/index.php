@@ -5,25 +5,11 @@ define('DB_USERNAME','b3c438583f3e44');
 define('DB_PASSWORD','3cf27899');
 define('DB_DATABASE','friendshiplink');
 
-$dbSuccess = false;
 $dbs = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
-
 if($dbs){
-    echo 'successful!!!!';
+    echo 'succesful!!!!';
 }
 
-if($dbs) {
-$dbSelected = mysqli_select_db($dbConnected, $dbs['DB_DATABASE']);
-
-    if ($dbSelected) {
-echo 'good';
-        $dbSuccess = true;
-    } else {
-        echo "DB Selection FAiled";
-    }
-}else{
-    echo "MYSQL Connection FAiled";
-}
 // test if connection was established, and print any errors
 if($dbs ->connect_errno){
     die('Connectfailed['.$dbs->connect_errno.']');}
@@ -41,7 +27,7 @@ if($dbs ->connect_errno){
     <title>FriendshipLink Admin Login </title>
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
-<body>
+<body style="color: mintcream;">
 <h1><a href="home.html">FriendshipLink WebApp - Admin Login </a></h1>
 
     <fieldset>

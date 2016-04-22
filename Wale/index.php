@@ -16,7 +16,7 @@ if($dbs){
 <html>
 <head>
     <meta charset="utf-8">
-    <title> Admin Login </title>
+    <title>FriendshipLink Admin Login </title>
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
 <body style="color: mintcream;">

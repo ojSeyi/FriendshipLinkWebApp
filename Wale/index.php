@@ -29,7 +29,7 @@ include ("dbConnect.php");
             <br>
             <br>
             <div class="submit">
-             <button type="submit" name="submit" value="login"> LOGIN</button>
+             <button type="submit" name="submit" value="login" style="color: darkorange"> <Strong> LOGIN </Strong> </button>
                 <br>
                 <br>
             </div>

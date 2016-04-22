@@ -1,45 +1,10 @@
 <?php
-include "dbConnect.php";
-
-
-if(isset($_POST['update']))
-{
-
-$Name = $_POST['name'];
-$Address = $_POST['address'];
-$Postcode = $_POST['postcode'];
-$phoneNbr = $_POST['phoneNbr'];
-$Email = $_POST['email'];
-$Status = $_POST['status'];
-$Children = $_POST['children'];
-$vegan = $_POST['vegan'];
-$preference = $_POST['preference'];
-$Church = $_POST['Church'];
-$pastor = $_POST['pastor'];
-$interests = $_POST['interests'];
-$interests_nation = $_POST['interest_nation'];
-$comments = $_POST['comments'];
-
-
-
-$sql = "UPDATE host set (name, address,postcode,phoneNbr,email,status,children,vegan,preference,church,pastor,interests,interest_nationality,comments)
-        VALUES ('$Name', '$Address', '$Postcode', '$phoneNbr','$Email', '$Status', $Children, '$vegan','$preference', '$Church', '$pastor', '$interests','$interests_nation','$comments')";
-
-    $result = $dbs->query($sql);
-
-    header('Location:view_host.php?s=1');
-
-
-       }
-else{
-           echo "Error:" . $sql . "<br>" . mysqli_error($dbs);
-           header('Location:view_host.php?f=1');
-       }
+include 'process_edit_host.php';
 
 if(isset($_GET['name']))
 {
     $user_login=$_GET['name'];
-    $sql_query = "select * from host where name ='$login_name'";
+    $sql_query = "select * from host where name ='$user_login'";
     $result = $dbs -> query($sql_query);
     $row = mysqli_fetch_array($result);
 }else {
@@ -119,7 +84,7 @@ if(isset($_GET['name']))
 
         <br>
 
-        <form action="edit_host.php" method="POST">
+        <form action="process_edit_host.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" value="<?php echo $row['name'];?>" required/>
             <br>

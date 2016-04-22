@@ -10,14 +10,14 @@
 <body>
 <header>
     <div id ="logo">
-        <a href="index.html"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
+        <a href="home.php"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
     </div>
 
-    <h1><a href="index.html">FriendshipLink WebApp</a></h1>
+    <h1><a href="home.php">FriendshipLink WebApp</a></h1>
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li class="dropdown">
                 <a class="active dropbtn" href="#">New</a>
                 <div class="dropdown-content">
@@ -35,9 +35,15 @@
             </li>
             <li><a href="create_matches.php">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
+            <li> <a href = "logout.php"> LOG OUT </a>  </li>
         </ul>
     </nav>
 </header>
+<?php
+include('session.php');
+?>
+<h3 style="color: darkorange"> Welcome  <?php echo $login_session; ?></h3>
+
 <main>
     <p> Welcome</p>
     <p>Please use one of the links above to start!</p>

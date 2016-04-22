@@ -9,7 +9,6 @@ $dbs = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 if($dbs){
     echo 'succesful!!!!';
 }
-
 // test if connection was established, and print any errors
 if($dbs ->connect_errno){
     die('Connectfailed['.$dbs->connect_errno.']');}
@@ -27,7 +26,7 @@ if($dbs ->connect_errno){
     <title>FriendshipLink Admin Login </title>
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
-<body style="color: mintcream;">
+<body>
 <h1><a href="home.html">FriendshipLink WebApp - Admin Login </a></h1>
 
     <fieldset>

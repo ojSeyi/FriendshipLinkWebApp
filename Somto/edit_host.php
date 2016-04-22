@@ -1,5 +1,4 @@
 <?php
-include 'process_edit_host.php';
 
 if(isset($_GET['name']))
 {

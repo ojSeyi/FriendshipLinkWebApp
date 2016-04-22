@@ -29,7 +29,7 @@ if($dbs ->connect_errno){
     <title>FriendshipLink Admin Login </title>
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
-<body style="color: mintcream;">
+<body>
 <h1><a href="home.html">FriendshipLink WebApp - Admin Login </a></h1>
 
     <fieldset>

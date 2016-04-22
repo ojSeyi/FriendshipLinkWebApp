@@ -50,6 +50,8 @@ include 'dbConnect.php';
 					<br><br>
 					The Friendship link";
 
+            //take in the necessary swiftmailer code
+            require_once 'swiftmailer/lib/swift_required.php';
 
             $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465,'ssl')->setUsername('ukpehmfon@gmail.com')->setPassword('seveneleven711');
 

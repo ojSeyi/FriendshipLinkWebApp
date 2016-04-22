@@ -37,11 +37,11 @@
       <file leaf-file-name="processmatch.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Master/processmatch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4093098">
-              <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.79454255">
+              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
               <folding>
-                <marker date="1461350850000" expanded="true" signature="212:244" placeholder="select * fro... host" />
-                <marker date="1461350850000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
+                <marker date="1461351301000" expanded="true" signature="212:244" placeholder="select * fro... host" />
+                <marker date="1461351301000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
               </folding>
             </state>
           </provider>
@@ -356,7 +356,19 @@
       <option name="project" value="LOCAL" />
       <updated>1461350871645</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test edit">
+      <created>1461351005523</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1461351005523</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test edit">
+      <created>1461351416320</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1461351416320</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -498,11 +510,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Master/processmatch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4093098">
-          <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.79454255">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
-            <marker date="1461350850000" expanded="true" signature="212:244" placeholder="select * fro... host" />
-            <marker date="1461350850000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
+            <marker date="1461351301000" expanded="true" signature="212:244" placeholder="select * fro... host" />
+            <marker date="1461351301000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
           </folding>
         </state>
       </provider>

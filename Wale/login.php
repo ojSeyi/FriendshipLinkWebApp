@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         header("location: home.php");
 
     }else {
-         'Your Login Name or Password is invalid';
+        $error = 'Your Login Name or Password is invalid';
     }
 }
 

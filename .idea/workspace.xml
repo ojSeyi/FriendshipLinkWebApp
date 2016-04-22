@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Master/processmatch.php" afterPath="$PROJECT_DIR$/Master/processmatch.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -41,8 +40,8 @@
             <state vertical-scroll-proportion="0.68699837">
               <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
               <folding>
-                <marker date="1461347092000" expanded="true" signature="212:244" placeholder="select * fro... host" />
-                <marker date="1461347092000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
+                <marker date="1461347160000" expanded="true" signature="212:244" placeholder="select * fro... host" />
+                <marker date="1461347160000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
               </folding>
             </state>
           </provider>
@@ -52,11 +51,10 @@
         <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="58.416668">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <marker date="1461344284000" expanded="true" signature="105:151" placeholder="select * fro... host" />
-                <marker date="1461344284000" expanded="true" signature="1922:1934" placeholder="..." />
-                <marker date="1461344284000" expanded="true" signature="2012:2024" placeholder="..." />
+                <marker date="1461347127000" expanded="true" signature="105:151" placeholder="select * fro... host" />
+                <marker date="1461347127000" expanded="true" signature="4658:4670" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -65,11 +63,10 @@
       <file leaf-file-name="process_edit_host.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Somto/process_edit_host.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.208334">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state vertical-scroll-proportion="-29.708334">
+              <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1461344284000" expanded="true" signature="656:984" placeholder="UPDATE host " />
               </folding>
             </state>
           </provider>
@@ -305,7 +302,25 @@
       <option name="project" value="LOCAL" />
       <updated>1461344858094</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="test edit">
+      <created>1461347120480</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347120480</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test edit">
+      <created>1461347151640</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347151640</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test edit">
+      <created>1461347165671</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1461347165671</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,9 +391,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461344284000" expanded="true" signature="105:151" placeholder="select * fro... host" />
-            <marker date="1461344284000" expanded="true" signature="1922:1934" placeholder="..." />
-            <marker date="1461344284000" expanded="true" signature="2012:2024" placeholder="..." />
+            <marker date="1461347127000" expanded="true" signature="105:151" placeholder="select * fro... host" />
+            <marker date="1461347127000" expanded="true" signature="4658:4670" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -389,7 +403,6 @@
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461344284000" expanded="true" signature="656:984" placeholder="UPDATE host " />
           </folding>
         </state>
       </provider>
@@ -411,7 +424,7 @@
     <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -419,22 +432,20 @@
     <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="58.416668">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <marker date="1461344284000" expanded="true" signature="105:151" placeholder="select * fro... host" />
-            <marker date="1461344284000" expanded="true" signature="1922:1934" placeholder="..." />
-            <marker date="1461344284000" expanded="true" signature="2012:2024" placeholder="..." />
+            <marker date="1461347127000" expanded="true" signature="105:151" placeholder="select * fro... host" />
+            <marker date="1461347127000" expanded="true" signature="4658:4670" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Somto/process_edit_host.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.208334">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="-29.708334">
+          <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461344284000" expanded="true" signature="656:984" placeholder="UPDATE host " />
           </folding>
         </state>
       </provider>
@@ -454,8 +465,8 @@
         <state vertical-scroll-proportion="0.68699837">
           <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding>
-            <marker date="1461347092000" expanded="true" signature="212:244" placeholder="select * fro... host" />
-            <marker date="1461347092000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
+            <marker date="1461347160000" expanded="true" signature="212:244" placeholder="select * fro... host" />
+            <marker date="1461347160000" expanded="true" signature="526:608" placeholder="INSERT INTO `match`... " />
           </folding>
         </state>
       </provider>

@@ -2,16 +2,9 @@
 include ("dbConnect.php");
 
 
-$dbSuccess = false;
-$dbConnected = mysqli_connect($dbs['hostname'],$dbs['username'], $dbs['password']);
 
-if($dbConnected){
-    echo 'successful!!!!';
-}
 
-?>
 
-<?
 /**
 if($dbConnected) {
 $dbSelected = mysqli_select_db($dbConnected, $db['database']);

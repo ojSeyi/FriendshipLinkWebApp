@@ -1,6 +1,9 @@
 <?php
 include ("dbConnect.php");
 
+if($dbs)
+echo 'successful!!';
+
 ?>
 
 <!doctype html>

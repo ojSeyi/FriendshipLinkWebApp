@@ -1,7 +1,7 @@
 <?php
 include ("dbConnect.php");
 $dbSuccess = false;
-$dbConnected = mysqli_connect($dbs['DB_SERVER'],$dbs['DB_USERNAME'], $dbs['DB_PASSWORD']);
+$dbConnected = mysqli_connect($dbs['DB_SERVER'],$dbs['DB_USERNAME'], $dbs['DB_PASSWORD'],$dbs['friendshiplink']);
 
 
 if($dbConnected) {

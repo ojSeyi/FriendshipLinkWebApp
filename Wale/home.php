@@ -35,13 +35,14 @@
             </li>
             <li><a href="create_matches.php">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
+            <li> <a href = "logout.php"> LOG OUT </a>  </li>
         </ul>
     </nav>
 </header>
 <?php
 include('session.php');
 ?>
-<h3 style="color: darkred"> Welcome  <?php echo $login_session; ?></h3>
+<h3 style="color: darkorange"> Welcome  <?php echo $login_session; ?></h3>
 
 <main>
     <p> Welcome</p>

@@ -54,10 +54,10 @@ include 'dbConnect.php';
 
 
 //take in the necessary swiftmailer code
-            require_once 'swiftmailer/lib/swift_required.php';
+            require_once 'Master/swiftmailer/lib/swift_required.php';
 
 //this is all swiftmailer magic, using the gmail smtp server of my account...
-            $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
+            $transporter = Swift_SmtpTransport::newInstance('smtp.gmail.com', 587, "tls")
                 ->setUsername('ukpehmfon@gmail.com')
                 ->setPassword('seveneleven711');
 
@@ -66,7 +66,7 @@ include 'dbConnect.php';
 
 //the message supplies some more detailed info
             $message = Swift_Message::newInstance('FriendshipLink Test Mail')
-                ->setFrom(array('christophe.meyers.312@gmail.com' => 'Christophe Meyers'))//shows my name when email arrives
+                ->setFrom(array('ukpehmfon@gmail.com' => 'Mfon Ukpeh'))//shows my name when email arrives
                 ->setTo(array($h_email => $name))//shows volunteer name as linked to their email address
                 ->setBody($txt, "text/html");    //tells swiftmailer that we're using html text
 

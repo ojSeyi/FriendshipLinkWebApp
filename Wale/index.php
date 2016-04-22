@@ -15,16 +15,16 @@ include ("dbConnect.php");
 
     <fieldset>
     <form method="post" action="login.php" >
-        <label>Username </label> <input type="text" name="username" placeholder="username" />
+        <label>Username </label> <input type="text" name="username" placeholder="username" required />
 
         <br>
         <br>
-        <label>Password </label> <input type="password" name="password" placeholder="password" />
+        <label>Password </label> <input type="password" name="password" placeholder="password" required />
 
         <br>
         <br>
         <div class="submit">
-        <input type="submit" name="submit" value = "login" />
+        <input type="submit" name="submit" value = "login" style="float: right" />
             <br>
             <br>
       </div>

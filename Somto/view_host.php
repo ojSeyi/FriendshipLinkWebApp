@@ -40,13 +40,25 @@
         </ul>
     </nav>
 </header>
+
+
 <main>
    
     <div id="title">
             <header>
                 <h2>All Host Details</h2>
             </header>
-        </div>
+    </div>
+
+       <span>
+            <?php if($_GET['s']) {
+                echo '<span style="color: blue;">Record Edited! </span>';
+            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Edited! </span>';}
+            ?>
+
+        </span>
+
+
     <div style="overflow-x:auto;">
     <table style="margin-left: auto; margin-right: auto;" class="table_sommy">
         <tr>
@@ -80,7 +92,7 @@
             ?>
         <tr>
             <td><?php echo $counter;?></td>
-            <td><?php echo $row['name'];?></td>
+            <td><a href="edit_host.php?name=<?php echo $row['name'];?>"><?php echo $row['name'];?></a></td>
             <td><?php echo $row['address'];?></td>
             <td><?php echo $row['postcode'];?></td>
             <td><?php echo $row['phoneNbr'];?></td>

@@ -12,7 +12,7 @@ include 'edit_host.php';
 
 $user_login=$_GET['name'];
 
-if(isset($_POST['update'])) {
+/*if(isset($_POST['update'])) {*/
 
     $Name = $_POST['name'];
     $Address = $_POST['address'];
@@ -56,10 +56,10 @@ if(isset($_POST['update'])) {
         echo "Error: " . $sql . "<br>" . mysqli_error($dbs);
         header('Location:view_host.php?f=1');
     }
-}
 
-else{
+
+/*else{
     header('Location: view_host.php');
 
-}
+}*/
 ?>

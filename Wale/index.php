@@ -6,7 +6,7 @@ include ("dbConnect.php");
 <html>
 <head>
     <meta charset="utf-8">
-    <title>FriendshipLink Admin Login </title>
+    <title> Admin Login </title>
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
 <body>

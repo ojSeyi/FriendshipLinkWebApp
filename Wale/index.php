@@ -27,30 +27,20 @@ include ("dbConnect.php");
 
         <br>
         <br>
-
         <div class="submit">
         <input type="submit" name="submit" value = "login" />
             <br>
             <br>
-           <a href="UserEnter.php"> <p style="color: mintcream"> Create New Account </p> </a>;
-</div>
+      </div>
       </form>
     </fieldset>
 
-    <div class="error"><?php //echo $error;?><?php //echo $username; echo   $password;?>
 
 
 </div>
 </div>
 
 
-<footer>
-    <p>
-        <a href="#top"><img alt="" src="images/fi-logo-reverse.png" style="width: 200px; height: 100px;" title="Back to top"></a>
-    </p>
-    <p>Copyright © 2016 Team B(eta) </p>
-
-</footer>
 
 </body>
 </html>

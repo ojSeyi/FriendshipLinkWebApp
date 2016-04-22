@@ -10,13 +10,9 @@ include ("dbConnect.php");
     <title> Admin Login </title>
   <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
 </head>
-<body>
+<body style="color: mintcream;">
 <h1><a href="home.html">FriendshipLink WebApp - Admin Login </a></h1>
 
-<div class="loginBox">
-    <h3> <STRONG> ADMIN LOGIN </STRONG> </h3>
-    <br>
-    <br>
     <fieldset>
     <form method="post" action="login.php" >
         <label>Username </label> <input type="text" name="username" placeholder="username" />
@@ -34,12 +30,6 @@ include ("dbConnect.php");
       </div>
       </form>
     </fieldset>
-
-
-
-</div>
-</div>
-
 
 
 </body>

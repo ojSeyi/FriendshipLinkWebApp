@@ -178,7 +178,7 @@ else{
         <br>
         <br>
         <br>
-        <input type="submit" value="<?php echo $row['h_id'];?>" name="update"/>
+        <input type="submit" value="<?php echo $row['h_id'];?>" id="update" name="update"/>
 
 
     </form>

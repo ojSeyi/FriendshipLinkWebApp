@@ -37,6 +37,7 @@
             </li>
             <li><a href="create_matches.php">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
+            <li> <a href = "logout.php"> LOG OUT </a>  </li>
         </ul>
     </nav>
 </header>

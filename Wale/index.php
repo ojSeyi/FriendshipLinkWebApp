@@ -18,7 +18,7 @@ include ("dbConnect.php");
 
         <br>
         <br>
-        <label>Password </label> <input type="password" name="password" placeholder="password" required />
+        <label>Password </label> <input type="password" name="password" placeholder="password"  />
 
         <br>
         <br>

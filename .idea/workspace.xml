@@ -55,10 +55,10 @@
       <file leaf-file-name="edit_host.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.029310346">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.14655173">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding>
-                <marker date="1461343226789" expanded="true" signature="107:151" placeholder="select * fro... host" />
+                <marker date="1461343416168" expanded="true" signature="105:151" placeholder="select * fro... host" />
               </folding>
             </state>
           </provider>
@@ -278,7 +278,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461343148327</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test edit">
+      <created>1461343236528</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1461343236528</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -378,10 +384,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029310346">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.14655173">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding>
-            <marker date="1461343226789" expanded="true" signature="107:151" placeholder="select * fro... host" />
+            <marker date="1461343416168" expanded="true" signature="105:151" placeholder="select * fro... host" />
           </folding>
         </state>
       </provider>

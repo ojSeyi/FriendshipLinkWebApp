@@ -11,7 +11,7 @@ include ("dbConnect.php");
 </head>
 <header>
 <div id ="logo">
-    <a href="home.php"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
+    <a href="index.php"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
 </div>
 </header>
 
@@ -20,11 +20,11 @@ include ("dbConnect.php");
 <div class="login-page">
     <div class="form">
         <form method="post" action="login.php" >
-            <label>Username </label> <input type="text" name="username" placeholder="username" required />
+            <label>USERNAME </label> <input type="text" name="username" placeholder="username" required />
 
             <br>
             <br>
-            <label>Password </label> <input type="password" name="password" placeholder="password"  />
+            <label>PASSWORD </label> <input type="password" name="password" placeholder="password"  />
 
             <br>
             <br>

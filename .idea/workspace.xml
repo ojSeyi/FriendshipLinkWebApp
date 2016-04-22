@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wale/index.php" afterPath="$PROJECT_DIR$/Wale/index.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wale/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63064516">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.8080645">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -217,12 +218,6 @@
       <created>1461329091619</created>
       <option name="number" value="Default" />
       <updated>1461329091619</updated>
-    </task>
-    <task id="LOCAL-00001" summary="from wale...">
-      <created>1461332542055</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1461332542055</updated>
     </task>
     <task id="LOCAL-00002" summary="from wale...">
       <created>1461332611628</created>
@@ -512,7 +507,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461348426170</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="home page">
+      <created>1461348445737</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1461348445738</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -725,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wale/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63064516">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.8080645">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding />
         </state>
       </provider>

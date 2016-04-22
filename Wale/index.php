@@ -22,7 +22,7 @@ include ("dbConnect.php");
         <input type="password" name="password" placeholder="password"  />
 
             <button>create</button>
-            <p class="message">Already registered? <a href="login.php">Sign In</a></p>
+            <p class="message">Already registered? <a href="login.php" methods="post">Sign In</a></p>
         </form>
         <form class="login-form">
             <input type="text" placeholder="username"/>

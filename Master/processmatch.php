@@ -51,21 +51,14 @@ include 'dbConnect.php';
 					The Friendship link";
 
 
-            $transport = \Swift_SmtpTransport::newInstance()
-                ->setUsername('mfonukpeh@outlook.com')->setPassword('seventyseven77')
-                ->setHost('smtp-mail.windowslive.com')
-                ->setPort(587)->setEncryption('tls');
+            $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465,'ssl')->setUsername('ukpehmfon@gmail.com')->setPassword('seveneleven711');
 
             $mailer = \Swift_Mailer::newInstance($transport);
-
-            $message = \Swift_Message::newInstance()
-                ->setSubject($param['title'])
-                ->setFrom(array('mfonukpeh@outlook.com' => 'Friendship link'))
+            $message = \Swift_Message::newInstance('Our Code World Newsletter')
+                ->setFrom(array('ukpehmfon@gmail.com' => 'FriendshipLink'))
                 ->setTo(array($h_email => $h_email))
-                ->addPart($txt,'text/html')
-            ;
-
-            $result = $mailer->send($message);
+                ->setBody($txt, 'text/html');
+            $mailer->send($message);
 
             echo "Successful";
         header("Location: create_matches.php?s=1");

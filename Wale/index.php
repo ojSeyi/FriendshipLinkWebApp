@@ -20,11 +20,11 @@ include ("dbConnect.php");
 <div class="login-page">
     <div class="form">
         <form method="post" action="login.php" >
-            <label>USERNAME </label> <input type="text" name="username" placeholder="username" required />
+            <label style="color: darkorange">USERNAME </label> <input type="text" name="username" placeholder="username" required />
 
             <br>
             <br>
-            <label>PASSWORD </label> <input type="password" name="password" placeholder="password"  />
+            <label style="color: darkorange">PASSWORD </label> <input type="password" name="password" placeholder="password"  />
 
             <br>
             <br>

@@ -16,7 +16,7 @@ include ("dbConnect.php");
 </header>
 
 <body>
-
+<h2 style="color: ghostwhite" align="center"> FRIENDSHIPLINK APP - ADMIN LOGIN </h2>
 <div class="login-page">
     <div class="form">
         <form method="post" action="login.php" >

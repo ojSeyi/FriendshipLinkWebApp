@@ -6,8 +6,10 @@ define('DB_PASSWORD','3cf27899');
 define('DB_DATABASE','friendshiplink');
 
 $dbs = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+
 if($dbs){
     echo 'succesful!!!!';
+    print 'success!';
 }
 
 // test if connection was established, and print any errors

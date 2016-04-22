@@ -55,10 +55,13 @@
       <file leaf-file-name="edit_host.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14655173">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state vertical-scroll-proportion="-3.425862">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
-                <marker date="1461343416168" expanded="true" signature="105:151" placeholder="select * fro... host" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1461343491191" expanded="true" signature="105:151" placeholder="select * fro... host" />
+                <marker date="1461343491191" expanded="true" signature="1926:1938" placeholder="..." />
+                <marker date="1461343491191" expanded="true" signature="2016:2028" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -284,7 +287,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461343236528</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test edit">
+      <created>1461343429229</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1461343429229</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -384,10 +393,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14655173">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state vertical-scroll-proportion="-3.425862">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
-            <marker date="1461343416168" expanded="true" signature="105:151" placeholder="select * fro... host" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461343491191" expanded="true" signature="105:151" placeholder="select * fro... host" />
+            <marker date="1461343491191" expanded="true" signature="1926:1938" placeholder="..." />
+            <marker date="1461343491191" expanded="true" signature="2016:2028" placeholder="..." />
           </folding>
         </state>
       </provider>

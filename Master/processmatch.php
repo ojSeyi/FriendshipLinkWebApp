@@ -32,7 +32,7 @@ include 'dbConnect.php';
 
 
 //email body in html
-//ATTENTION, THE LINK MAY POINT TO THE MASTER DOMAIN, RATHER THAN YOUR OWN VOLUNTEERLOGIN.PHP
+//ATTENTION, THE LINK MAY POINT TO THE MASTER DOMAIN, RATHER THAN YOUR OWN xxx.PHP
             $txt = "Dear $name,
 					<br><br>
 					You have a match.

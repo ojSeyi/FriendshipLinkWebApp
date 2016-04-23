@@ -6,6 +6,7 @@
     <title>Student</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 </head>
 
 <body>

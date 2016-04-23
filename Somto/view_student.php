@@ -8,8 +8,11 @@
     <title>View Students</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
 </head>
+
 <body>
+
 <header>
     <div id ="logo">
         <a href="index.html"><img src="images/fi-logo.png" alt="Demo" width="200"></a>

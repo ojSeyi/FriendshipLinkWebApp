@@ -1,3 +1,20 @@
+<?php
+include 'dbConnect.php';
+
+if(isset($_GET['S_ID'])){
+    $user_login=$_GET['S_ID'];
+    $sql_query="select * from student where `S_ID` ='$user_login'";
+    $result=$dbs->query($sql_query);
+    $row = $result->fetch_assoc();
+
+}
+else{
+    header("location: view_student.php");
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -14,12 +14,7 @@ $Status = $_POST['status'];
 $ifMarried = $_POST['ifMarried'];
 $university = $_POST['university'];
 $course = $_POST['course'];
-if(empty($_POST['endOfStudy'])){
-    $endOfStudy = "00/00/0000";
-}else{
-    $endOfStudy = $_POST['endOfStudy'];
-}
-
+$endOfStudy = $_POST['endOfStudy'];
 $interests = $_POST['interests'];
 $diet = $_POST['diet'];
 $S_ID = $_POST['update'];
@@ -27,8 +22,23 @@ $S_ID = $_POST['update'];
 
 
         $sql = "UPDATE student
-                SET (name, address,postcode,phoneNbr,email,nationality,age,gender,status,ifMarried,university,course,endOfStudy,interests,diet)
-                VALUES ('$Name', '$Address', '$Postcode',$phoneNbr,'$email', '$nationality', $age, '$gender','$Status', '$ifMarried', '$university', '$course','$endOfStudy','$interests','$diet')
+
+                SET name ='$Name' ,
+                address = '$Address' ,
+                postcode= '$Postcode',
+                phoneNbr= $phoneNbr,
+                email= '$email',
+                nationality= '$nationality',
+                age= $age,
+                gender= '$gender',
+                status= '$Status',
+                ifMarried= '$ifMarried' ,
+                university= '$university',
+                course='$course',
+                endOfStudy='$endOfStudy',
+                interests= '$interests',
+                diet='$diet'
+
                 WHERE S_ID = '$S_ID'";
 
 

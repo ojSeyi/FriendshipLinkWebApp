@@ -68,7 +68,7 @@ else{
 
 
 
-        <form action="process_edit_student.php" method="post">
+        <form action="process_edit_student.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" value="<?php echo $row['name'];?>" required/>
             <br>

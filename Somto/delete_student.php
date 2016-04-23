@@ -13,10 +13,10 @@ $S_ID =  $_GET['S_ID'];
 
 
 
-$deleteQuery = "DELETE FROM students WHERE S_ID = '$S_ID' ";
-$result = $dbs->query($deleteQuery);
+$sql = "DELETE FROM students WHERE S_ID = '$S_ID' ";
+$result = $dbs->query($sql);
 
-if($sth = $dbs->query($deleteQuery)){
+if($result = $dbs->query($sql)){
 
     header('Location:view_student.php?d=1');
 

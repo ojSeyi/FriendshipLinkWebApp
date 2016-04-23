@@ -9,9 +9,11 @@
 
 include "dbConnect.php";
 
+echo $_GET['S_ID'];
 
 
-$deleteQuery = "DELETE FROM students WHERE S_ID = {$_GET['S_ID']} ";
+/*
+$deleteQuery = "DELETE FROM students WHERE S_ID = {} ";
 $result = $dbs->query($deleteQuery);
 
 if($sth = $dbs->query($sql)){
@@ -22,4 +24,4 @@ if($sth = $dbs->query($sql)){
     echo "Error: " . $sql . "<br>" . mysqli_error($dbs);
     header('Location:view_student.php?f=1');
 }
-
+*/

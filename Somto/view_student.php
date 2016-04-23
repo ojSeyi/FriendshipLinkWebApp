@@ -50,7 +50,10 @@
     <span>
             <?php if($_GET['s']) {
                 echo '<span style="color: blue;">Record Edited! </span>';
-            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Edited! </span>';}
+            }elseif ($_GET['f']) {
+                echo '<span style="color: blue;"> Record Not Edited! </span>';
+            }
+            elseif ($_GET['d']) {echo'<span style="color: blue;"> Record Deleted! </span>';}
             ?>
 
         </span>

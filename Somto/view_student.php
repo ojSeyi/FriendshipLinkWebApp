@@ -66,7 +66,7 @@
             <th>End of Study Date</th>
             <th>Special Interests</th>
             <th>Special Diet</th>
-
+            <th>Modify Details</th>
         <?php
             $sql_query = "SELECT * FROM student";
             $result =  $dbs->query($sql_query);
@@ -95,6 +95,9 @@
             <td><?php echo $row['endOfStudy'];?></td>
             <td><?php echo $row['interests'];?></td>
             <td><?php echo $row['diet'];?></td>
+            <td><a href="edit_student.php?S_ID=<?php echo $row['S_ID'];?>">Edit Student</a>
+                <a href="delete_student.php?S_ID=<?php echo $row['S_ID'];?>">Delete Student</a>
+            </td>
         </tr>
         <?php
             }

@@ -77,6 +77,8 @@
             <th >Special Interests</th>
             <th >Interested Nation</th>
             <th >Other Information</th>
+            <th >Modify Details</th>
+
 
 
             <?php

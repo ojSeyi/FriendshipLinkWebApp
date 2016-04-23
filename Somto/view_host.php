@@ -73,10 +73,12 @@
             <th class="table-style">Vegeterian Provision</th>
             <th class="table-style">Student Prefrence</th>
             <th class="table-style">Church Attended</th>
-            <th class="table-style">Name of Pastor</th>
-            <th class="table-style">Special Interests</th>
-            <th class="table-style">Interested Nation</th>
-            <th class="table-style">Other Information</th>
+            <th >Name of Pastor</th>
+            <th >Special Interests</th>
+            <th >Interested Nation</th>
+            <th >Other Information</th>
+            <th >Modify Details</th>
+
 
 
             <?php
@@ -92,7 +94,7 @@
             ?>
         <tr>
             <td><?php echo $counter;?></td>
-            <td><a href="edit_host.php?h_id=<?php echo $row['h_id'];?>"><?php echo $row['name'];?></a></td>
+            <td><?php echo $row['name'];?></td>
             <td><?php echo $row['address'];?></td>
             <td><?php echo $row['postcode'];?></td>
             <td><?php echo $row['phoneNbr'];?></td>
@@ -106,6 +108,9 @@
             <td><?php echo $row['interests'];?></td>
             <td><?php echo $row['interest_nationality'];?></td>
             <td><?php echo $row['comments'];?></td>
+            <td><a href="edit_host.php?h_id=<?php echo $row['h_id'];?>">Edit host</a>
+                <a href="delete_host.php?h_id=<?php echo $row['h_id'];?>">Delete Host</a>
+            </td>
         </tr>
         <?php
         }

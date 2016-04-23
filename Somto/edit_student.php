@@ -110,7 +110,7 @@ else{
             <br>
             <br>
             <label for="university">University:</label>
-            <input type="radio" id="university" name="university" value="<?php echo $row['university'];?>"/>
+            <input type="text" id="university" name="university" value="<?php echo $row['university'];?>"/>
             <br>
             <br>
             <label for="course">Course of study:</label>

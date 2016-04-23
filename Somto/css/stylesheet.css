@@ -219,7 +219,7 @@ footer p {
     vertical-align: bottom;
 }
 
-.table_sommy tr:hover {background-color: orange;}
+.table_sommy tr:hover {background-color: #FFC31F;}
 /* tr:nth-child(even){background-color: #f2f2f2}*/
 
 /*test*/

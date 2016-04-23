@@ -131,7 +131,7 @@ else{
             <br>
             <br>
             <br>
-            <input type="submit" placeholder="Update" value="<?php echo $row['S_ID'];?>" id="update" name="update"/>
+            <input type="submit" placeholder="Update" value="Update:<?php echo $row['S_ID'];?>" id="update" name="update"/>
 
         </form>
     </main>

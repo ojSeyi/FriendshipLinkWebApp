@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Somto/process_edit_student.php" />
+    <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="Delete Student test" />
+    <list id="5a26e2e7-795f-421f-ad75-a0150ebc138e" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Somto/view_student.php" afterPath="$PROJECT_DIR$/Somto/view_student.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,29 +19,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="process_edit_host.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Somto/process_edit_host.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.27655986">
-                    <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-                    <folding>
-                      <element signature="e#6#90#0#PHP" expanded="true" />
-                      <marker date="1461354485375" expanded="true" signature="711:1250" placeholder="UPDATE host " />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
@@ -53,91 +29,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="view_host.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
+      <file leaf-file-name="dbConnect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/dbConnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.923077">
-              <caret line="53" column="12" selection-start-line="52" selection-start-column="7" selection-end-line="58" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1461428814106" expanded="true" signature="1700:1712" placeholder="..." />
-                <marker date="1461428814106" expanded="true" signature="1791:1803" placeholder="..." />
-                <marker date="1461428814106" expanded="true" signature="2831:2849" placeholder="SELECT * FRO... host" />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/view_student.php">
+      <file leaf-file-name="delete_student.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/delete_student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1461429976557" expanded="true" signature="1698:1710" placeholder="..." />
-                <marker date="1461429976557" expanded="true" signature="1789:1801" placeholder="..." />
-                <marker date="1461429976557" expanded="true" signature="2599:2620" placeholder="SELECT * FRO... student" />
+                <marker date="1461434997667" expanded="true" signature="154:194" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="edit_host.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
+        <entry file="file://$PROJECT_DIR$/Master/edit_host.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1461354711286" expanded="true" signature="105:151" placeholder="select * fro... host" />
-                <marker date="1461354711286" expanded="true" signature="817:1349" placeholder="UPDATE host " />
-                <marker date="1461354711286" expanded="true" signature="817:1363" placeholder="UPDATE host " />
+                <marker date="1461503771244" expanded="true" signature="105:151" placeholder="select * fro... host" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_student.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Somto/edit_student.php">
+      <file leaf-file-name="edit_student.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/edit_student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.10157618">
-              <caret line="116" column="95" selection-start-line="116" selection-start-column="95" selection-end-line="116" selection-end-column="95" />
+            <state vertical-scroll-proportion="-44.46154">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
-                <marker date="1461429753310" expanded="true" signature="105:154" placeholder="select * fro... student" />
+                <marker date="1461503966626" expanded="true" signature="105:154" placeholder="select * fro... student" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/index.html">
+        <entry file="file://$PROJECT_DIR$/Master/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.230769">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/css/stylesheet.css">
+      <file leaf-file-name="new_host.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/new_host.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="84.92308">
-              <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_edit_student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Somto/process_edit_student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.846154">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
               <folding>
-                <marker date="1461430476837" expanded="true" signature="609:999" placeholder="UPDATE stude... " />
-                <marker date="1461430476837" expanded="true" signature="615:962" placeholder="INSERT INTO student... " />
+                <marker date="1461505275761" expanded="true" signature="1755:1767" placeholder="..." />
+                <marker date="1461505275761" expanded="true" signature="1845:1857" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_student.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/new_student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+              <folding>
+                <marker date="1461505275795" expanded="true" signature="1740:1752" placeholder="..." />
+                <marker date="1461505275795" expanded="true" signature="1830:1842" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_host.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/view_host.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-85.0">
+              <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+              <folding>
+                <marker date="1461505083612" expanded="true" signature="1788:1800" placeholder="..." />
+                <marker date="1461505083612" expanded="true" signature="1879:1891" placeholder="..." />
+                <marker date="1461505083612" expanded="true" signature="1975:1987" placeholder="..." />
+                <marker date="1461505083612" expanded="true" signature="3046:3064" placeholder="SELECT * FRO... host" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_match.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/view_match.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+              <folding>
+                <marker date="1461505275737" expanded="true" signature="2327:2412" placeholder="SELECT host.... host" />
+                <marker date="1461505275737" expanded="true" signature="3665:3840" placeholder="SELECT stude... student" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_student.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Master/view_student.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="3.810345">
+              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <folding>
+                <marker date="1461505083565" expanded="true" signature="1799:1811" placeholder="..." />
+                <marker date="1461505083565" expanded="true" signature="1890:1902" placeholder="..." />
+                <marker date="1461505083565" expanded="true" signature="1986:1998" placeholder="..." />
+                <marker date="1461505083565" expanded="true" signature="2759:2780" placeholder="SELECT * FRO... student" />
               </folding>
             </state>
           </provider>
@@ -174,12 +185,28 @@
         <option value="$PROJECT_DIR$/Wale/index.php" />
         <option value="$PROJECT_DIR$/Wale/css/style.css" />
         <option value="$PROJECT_DIR$/Somto/process_edit_host.php" />
+        <option value="$PROJECT_DIR$/Somto/process_edit_student.php" />
+        <option value="$PROJECT_DIR$/Somto/delete_student.php" />
+        <option value="$PROJECT_DIR$/Somto/new_host.php" />
+        <option value="$PROJECT_DIR$/Somto/new_student.php" />
+        <option value="$PROJECT_DIR$/Somto/view_match.php" />
         <option value="$PROJECT_DIR$/Somto/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/Somto/index.html" />
+        <option value="$PROJECT_DIR$/Somto/view_student.php" />
         <option value="$PROJECT_DIR$/Somto/view_host.php" />
+        <option value="$PROJECT_DIR$/Somto/processmatch.php" />
+        <option value="$PROJECT_DIR$/Somto/create_matches.php" />
+        <option value="$PROJECT_DIR$/Somto/delete_host.php" />
         <option value="$PROJECT_DIR$/Somto/edit_host.php" />
         <option value="$PROJECT_DIR$/Somto/edit_student.php" />
-        <option value="$PROJECT_DIR$/Somto/view_student.php" />
-        <option value="$PROJECT_DIR$/Somto/process_edit_student.php" />
+        <option value="$PROJECT_DIR$/Master/processmatch.php" />
+        <option value="$PROJECT_DIR$/Master/view_host.php" />
+        <option value="$PROJECT_DIR$/Master/view_student.php" />
+        <option value="$PROJECT_DIR$/Master/create_matches.php" />
+        <option value="$PROJECT_DIR$/Master/index.html" />
+        <option value="$PROJECT_DIR$/Master/new_host.php" />
+        <option value="$PROJECT_DIR$/Master/new_student.php" />
+        <option value="$PROJECT_DIR$/Master/view_match.php" />
       </list>
     </option>
   </component>
@@ -193,9 +220,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -254,6 +282,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FriendshipLinkWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FriendshipLinkWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -262,126 +304,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Master/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Master\images" />
+      <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Master" />
       <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Somto" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/diff.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/github_settings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/other.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vcs.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JavaScript Debug.processhost.php">
     <configuration default="false" name="processhost.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FriendshipLinkWebApp/Somto/processhost.php">
@@ -431,177 +362,10 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="" />
+      <changelist id="5a26e2e7-795f-421f-ad75-a0150ebc138e" name="New changelist" comment="" />
       <created>1461329091619</created>
       <option name="number" value="Default" />
       <updated>1461329091619</updated>
-    </task>
-    <task id="LOCAL-00025" summary="home page">
-      <created>1461335607292</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1461335607292</updated>
-    </task>
-    <task id="LOCAL-00026" summary="home page">
-      <created>1461335666282</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1461335666282</updated>
-    </task>
-    <task id="LOCAL-00027" summary="home page">
-      <created>1461335741789</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1461335741789</updated>
-    </task>
-    <task id="LOCAL-00028" summary="home page">
-      <created>1461335954902</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1461335954902</updated>
-    </task>
-    <task id="LOCAL-00029" summary="home page">
-      <created>1461336086187</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1461336086187</updated>
-    </task>
-    <task id="LOCAL-00030" summary="home page">
-      <created>1461336355665</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1461336355665</updated>
-    </task>
-    <task id="LOCAL-00031" summary="home page">
-      <created>1461336528931</created>
-      <option name="number" value="00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1461336528931</updated>
-    </task>
-    <task id="LOCAL-00032" summary="home page">
-      <created>1461336817524</created>
-      <option name="number" value="00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1461336817524</updated>
-    </task>
-    <task id="LOCAL-00033" summary="home page">
-      <created>1461336837743</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1461336837743</updated>
-    </task>
-    <task id="LOCAL-00034" summary="home page">
-      <created>1461336869331</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1461336869331</updated>
-    </task>
-    <task id="LOCAL-00035" summary="home page">
-      <created>1461337130754</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1461337130754</updated>
-    </task>
-    <task id="LOCAL-00036" summary="home page">
-      <created>1461337254721</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1461337254721</updated>
-    </task>
-    <task id="LOCAL-00037" summary="home page">
-      <created>1461337407496</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1461337407496</updated>
-    </task>
-    <task id="LOCAL-00038" summary="home page">
-      <created>1461337486905</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1461337486905</updated>
-    </task>
-    <task id="LOCAL-00039" summary="home page">
-      <created>1461337572819</created>
-      <option name="number" value="00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1461337572819</updated>
-    </task>
-    <task id="LOCAL-00040" summary="home page">
-      <created>1461337657883</created>
-      <option name="number" value="00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1461337657883</updated>
-    </task>
-    <task id="LOCAL-00041" summary="home page">
-      <created>1461337776172</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1461337776172</updated>
-    </task>
-    <task id="LOCAL-00042" summary="home page">
-      <created>1461347778155</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1461347778155</updated>
-    </task>
-    <task id="LOCAL-00043" summary="home page">
-      <created>1461347844632</created>
-      <option name="number" value="00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1461347844632</updated>
-    </task>
-    <task id="LOCAL-00044" summary="home page">
-      <created>1461347887872</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1461347887872</updated>
-    </task>
-    <task id="LOCAL-00045" summary="home page">
-      <created>1461347996428</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1461347996428</updated>
-    </task>
-    <task id="LOCAL-00046" summary="home page">
-      <created>1461348089400</created>
-      <option name="number" value="00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1461348089400</updated>
-    </task>
-    <task id="LOCAL-00047" summary="home page">
-      <created>1461348259957</created>
-      <option name="number" value="00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1461348259957</updated>
-    </task>
-    <task id="LOCAL-00048" summary="home page">
-      <created>1461348304014</created>
-      <option name="number" value="00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1461348304014</updated>
-    </task>
-    <task id="LOCAL-00049" summary="home page">
-      <created>1461348426170</created>
-      <option name="number" value="00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1461348426170</updated>
-    </task>
-    <task id="LOCAL-00050" summary="home page">
-      <created>1461348445737</created>
-      <option name="number" value="00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1461348445738</updated>
-    </task>
-    <task id="LOCAL-00051" summary="home page">
-      <created>1461348529205</created>
-      <option name="number" value="00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1461348529205</updated>
-    </task>
-    <task id="LOCAL-00052" summary="home page">
-      <created>1461349125788</created>
-      <option name="number" value="00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1461349125788</updated>
     </task>
     <task id="LOCAL-00053" summary="home page">
       <created>1461349248601</created>
@@ -729,14 +493,182 @@
       <option name="project" value="LOCAL" />
       <updated>1461429759010</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Edit student">
+      <created>1461430487859</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1461430487859</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Edit student">
+      <created>1461430741257</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1461430741258</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Edit student to work">
+      <created>1461431191019</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1461431191019</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Edit student to work">
+      <created>1461431864404</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1461431864404</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Delete Student test">
+      <created>1461433426274</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1461433426274</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Delete Student test">
+      <created>1461433675816</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1461433675816</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Delete Student test">
+      <created>1461433791492</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1461433791492</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Delete Student test">
+      <created>1461433912684</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1461433912684</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Delete Student test">
+      <created>1461434287124</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1461434287124</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Delete Student test">
+      <created>1461434314035</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1461434314035</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Delete Student test">
+      <created>1461434436896</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1461434436896</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Delete Student test">
+      <created>1461434878021</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1461434878021</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Delete Student test">
+      <created>1461435003717</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1461435003717</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Delete Student done">
+      <created>1461435321944</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1461435321944</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Delete Student test">
+      <created>1461435700270</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1461435700270</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Delete Student test">
+      <created>1461435932877</created>
+      <option name="number" value="00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1461435932877</updated>
+    </task>
+    <task id="LOCAL-00090" summary="icon for the header">
+      <created>1461439692205</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1461439692205</updated>
+    </task>
+    <task id="LOCAL-00091" summary="style sheet edit . headers">
+      <created>1461498989117</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1461498989117</updated>
+    </task>
+    <task id="LOCAL-00092" summary="confirmation test">
+      <created>1461500043417</created>
+      <option name="number" value="00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1461500043417</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Delete Student confirmation">
+      <created>1461500303830</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1461500303830</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Delete Student test">
+      <created>1461502995103</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1461502995103</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Confrimation text for Match creation">
+      <created>1461503131494</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1461503131494</updated>
+    </task>
+    <task id="LOCAL-00096" summary="New eamil body including Host's preferences and contact address">
+      <created>1461503192064</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1461503192064</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Confirm box test">
+      <created>1461503323228</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1461503323228</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Confirmation text on match created">
+      <created>1461503422557</created>
+      <option name="number" value="00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1461503422557</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Change submit button">
+      <created>1461503795255</created>
+      <option name="number" value="00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1461503795255</updated>
+    </task>
+    <task id="LOCAL-00100" summary="finall changes for master branch push">
+      <created>1461503987740</created>
+      <option name="number" value="00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1461503987740</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Updates from Somto's branch&#10;1. delete student and host&#10;2.confirmation on delete&#10;3.confirmation on match&#10;4. edit student and host&#10;5. favicon tag on the html tab&#10;6. Editied body of email">
+      <created>1461505441624</created>
+      <option name="number" value="00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1461505441624</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2966226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
@@ -797,7 +729,21 @@
     <MESSAGE value="finally O" />
     <MESSAGE value="New edit button" />
     <MESSAGE value="Edit student" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit student" />
+    <MESSAGE value="Edit student to work" />
+    <MESSAGE value="Delete Student done" />
+    <MESSAGE value="icon for the header" />
+    <MESSAGE value="style sheet edit . headers" />
+    <MESSAGE value="confirmation test" />
+    <MESSAGE value="Delete Student confirmation" />
+    <MESSAGE value="Delete Student test" />
+    <MESSAGE value="Confrimation text for Match creation" />
+    <MESSAGE value="New eamil body including Host's preferences and contact address" />
+    <MESSAGE value="Confirm box test" />
+    <MESSAGE value="Confirmation text on match created" />
+    <MESSAGE value="Change submit button" />
+    <MESSAGE value="finall changes for master branch push" />
+    <MESSAGE value="Updates from Somto's branch&#10;1. delete student and host&#10;2.confirmation on delete&#10;3.confirmation on match&#10;4. edit student and host&#10;5. favicon tag on the html tab&#10;6. Editied body of email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates from Somto's branch&#10;1. delete student and host&#10;2.confirmation on delete&#10;3.confirmation on match&#10;4. edit student and host&#10;5. favicon tag on the html tab&#10;6. Editied body of email" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -807,12 +753,65 @@
     <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <folding>
+            <marker date="1461500286349" expanded="true" signature="1792:1804" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1883:1895" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1979:1991" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="3015:3033" placeholder="SELECT * FRO... host" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <folding>
+            <marker date="1461439522381" expanded="true" signature="2326:2411" placeholder="SELECT host.... host" />
+            <marker date="1461439522381" expanded="true" signature="3664:3839" placeholder="SELECT stude... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <marker date="1461500286427" expanded="true" signature="1790:1802" placeholder="..." />
+            <marker date="1461500286427" expanded="true" signature="1881:1893" placeholder="..." />
+            <marker date="1461500286427" expanded="true" signature="1977:1989" placeholder="..." />
+            <marker date="1461500286427" expanded="true" signature="2783:2804" placeholder="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="94" column="70" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="70" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1461428814106" expanded="true" signature="1700:1712" placeholder="..." />
-            <marker date="1461428814106" expanded="true" signature="1791:1803" placeholder="..." />
-            <marker date="1461428814106" expanded="true" signature="2831:2849" placeholder="SELECT * FRO... host" />
+            <marker date="1461500286349" expanded="true" signature="1792:1804" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1883:1895" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1979:1991" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="3015:3033" placeholder="SELECT * FRO... host" />
           </folding>
         </state>
       </provider>
@@ -822,8 +821,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461332512343" expanded="true" signature="1664:1676" placeholder="..." />
-            <marker date="1461332512343" expanded="true" signature="1754:1766" placeholder="..." />
+            <marker date="1461439522191" expanded="true" signature="1755:1767" placeholder="..." />
+            <marker date="1461439522191" expanded="true" signature="1845:1857" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -833,7 +832,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
-            <marker date="1461332512345" expanded="true" signature="262:344" placeholder="INSERT INTO `match`... " />
+            <marker date="1461502984452" expanded="true" signature="210:242" placeholder="select * fro... host" />
+            <marker date="1461502984452" expanded="true" signature="661:743" placeholder="INSERT INTO `match`... " />
           </folding>
         </state>
       </provider>
@@ -843,10 +843,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461332512249" expanded="true" signature="2221:2272" placeholder="..." />
-            <marker date="1461332512249" expanded="true" signature="2352:2403" placeholder="..." />
-            <marker date="1461332512249" expanded="true" signature="3180:3198" placeholder="SELECT * FRO... host" />
-            <marker date="1461332512249" expanded="true" signature="5266:5287" placeholder="SELECT * FRO... student" />
+            <marker date="1461502984292" expanded="true" signature="2312:2363" placeholder="..." />
+            <marker date="1461502984292" expanded="true" signature="2443:2494" placeholder="..." />
+            <marker date="1461502984292" expanded="true" signature="3271:3289" placeholder="SELECT * FRO... host" />
+            <marker date="1461502984292" expanded="true" signature="5378:5399" placeholder="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -856,9 +856,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461354711286" expanded="true" signature="105:151" placeholder="select * fro... host" />
-            <marker date="1461354711286" expanded="true" signature="817:1349" placeholder="UPDATE host " />
-            <marker date="1461354711286" expanded="true" signature="817:1363" placeholder="UPDATE host " />
+            <marker date="1461503771244" expanded="true" signature="105:151" placeholder="select * fro... host" />
+            <marker date="1461503771244" expanded="true" signature="817:1349" placeholder="UPDATE host " />
+            <marker date="1461503771244" expanded="true" signature="817:1363" placeholder="UPDATE host " />
           </folding>
         </state>
       </provider>
@@ -868,7 +868,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
             <marker date="1461354485375" expanded="true" signature="711:1250" placeholder="UPDATE host " />
           </folding>
         </state>
@@ -879,101 +878,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/view_match.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.8076925">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <marker date="1461349345084" expanded="true" signature="2235:2320" placeholder="SELECT host.... host" />
-            <marker date="1461349345084" expanded="true" signature="3573:3748" placeholder="SELECT stude... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/processhost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57186544">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/new_host.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1461332512343" expanded="true" signature="1664:1676" placeholder="..." />
-            <marker date="1461332512343" expanded="true" signature="1754:1766" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/processmatch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029310346">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <marker date="1461332512345" expanded="true" signature="262:344" placeholder="INSERT INTO `match`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/create_matches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1461332512249" expanded="true" signature="2221:2272" placeholder="..." />
-            <marker date="1461332512249" expanded="true" signature="2352:2403" placeholder="..." />
-            <marker date="1461332512249" expanded="true" signature="3180:3198" placeholder="SELECT * FRO... host" />
-            <marker date="1461332512249" expanded="true" signature="5266:5287" placeholder="SELECT * FRO... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="84.92308">
-          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.230769">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/view_student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1461429976557" expanded="true" signature="1698:1710" placeholder="..." />
-            <marker date="1461429976557" expanded="true" signature="1789:1801" placeholder="..." />
-            <marker date="1461429976557" expanded="true" signature="2599:2620" placeholder="SELECT * FRO... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1461354711286" expanded="true" signature="105:151" placeholder="select * fro... host" />
-            <marker date="1461354711286" expanded="true" signature="817:1349" placeholder="UPDATE host " />
-            <marker date="1461354711286" expanded="true" signature="817:1363" placeholder="UPDATE host " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -997,47 +901,354 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.923077">
-          <caret line="53" column="12" selection-start-line="52" selection-start-column="7" selection-end-line="58" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1461428814106" expanded="true" signature="1700:1712" placeholder="..." />
-            <marker date="1461428814106" expanded="true" signature="1791:1803" placeholder="..." />
-            <marker date="1461428814106" expanded="true" signature="2831:2849" placeholder="SELECT * FRO... host" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/process_edit_host.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27655986">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1461354485375" expanded="true" signature="711:1250" placeholder="UPDATE host " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Somto/process_edit_student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.846154">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1461430476837" expanded="true" signature="609:999" placeholder="UPDATE stude... " />
-            <marker date="1461430476837" expanded="true" signature="615:962" placeholder="INSERT INTO student... " />
+            <marker date="1461431179554" expanded="true" signature="530:1140" placeholder="UPDATE stude... " />
+            <marker date="1461431179554" expanded="true" signature="536:1103" placeholder="INSERT INTO student... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/delete_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <marker date="1461434997667" expanded="true" signature="154:179" placeholder="DELETE FROM " />
+            <marker date="1461434997667" expanded="true" signature="154:187" placeholder="DELETE FROM " />
+            <marker date="1461434997667" expanded="true" signature="154:194" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/new_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23448277">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <marker date="1461439522191" expanded="true" signature="1755:1767" placeholder="..." />
+            <marker date="1461439522191" expanded="true" signature="1845:1857" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <folding>
+            <marker date="1461439522381" expanded="true" signature="2326:2411" placeholder="SELECT host.... host" />
+            <marker date="1461439522381" expanded="true" signature="3664:3839" placeholder="SELECT stude... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.923077">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.2534482">
+          <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/delete_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19767442">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1461503603212" expanded="true" signature="158:195" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/edit_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8689655">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <marker date="1461503771244" expanded="true" signature="105:151" placeholder="select * fro... host" />
+            <marker date="1461503771244" expanded="true" signature="817:1349" placeholder="UPDATE host " />
+            <marker date="1461503771244" expanded="true" signature="817:1363" placeholder="UPDATE host " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Somto/edit_student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.10157618">
-          <caret line="116" column="95" selection-start-line="116" selection-start-column="95" selection-end-line="116" selection-end-column="95" />
+        <state vertical-scroll-proportion="-11.846154">
+          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
           <folding>
-            <marker date="1461429753310" expanded="true" signature="105:154" placeholder="select * fro... student" />
+            <marker date="1461503966626" expanded="true" signature="105:154" placeholder="select * fro... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/new_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23448277">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <marker date="1461439522274" expanded="true" signature="1740:1752" placeholder="..." />
+            <marker date="1461439522274" expanded="true" signature="1830:1842" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/process_edit_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7362069">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <marker date="1461354485375" expanded="true" signature="711:1250" placeholder="UPDATE host " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/process_edit_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.79137933">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461354485375" expanded="true" signature="711:1250" placeholder="UPDATE host " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/process_edit_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461431179554" expanded="true" signature="530:1140" placeholder="UPDATE stude... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/processhost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.153846">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/processhost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.23077">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332506740" expanded="true" signature="1136:1475" placeholder="INSERT INTO host... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/processmatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.230769">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <marker date="1461504711521" expanded="true" signature="212:244" placeholder="select * fro... host" />
+            <marker date="1461504711521" expanded="true" signature="676:758" placeholder="INSERT INTO `match`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/processstudent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.769231">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461332506744" expanded="true" signature="671:1009" placeholder="INSERT INTO student... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/processmatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.9230769">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <marker date="1461502984452" expanded="true" signature="210:242" placeholder="select * fro... host" />
+            <marker date="1461502984452" expanded="true" signature="661:743" placeholder="INSERT INTO `match`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+          <folding>
+            <marker date="1461500286349" expanded="true" signature="1792:1804" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1883:1895" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1979:1991" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="3015:3033" placeholder="SELECT * FRO... host" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.8128161">
+          <caret line="133" column="7" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="7" />
+          <folding>
+            <marker date="1461500286427" expanded="true" signature="1790:1802" placeholder="..." />
+            <marker date="1461500286427" expanded="true" signature="1881:1893" placeholder="..." />
+            <marker date="1461500286427" expanded="true" signature="1977:1989" placeholder="..." />
+            <marker date="1461500286427" expanded="true" signature="2783:2804" placeholder="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/create_matches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2637931">
+          <caret line="9" column="90" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="90" />
+          <folding>
+            <marker date="1461502984292" expanded="true" signature="2312:2363" placeholder="..." />
+            <marker date="1461502984292" expanded="true" signature="2443:2494" placeholder="..." />
+            <marker date="1461502984292" expanded="true" signature="3271:3289" placeholder="SELECT * FRO... host" />
+            <marker date="1461502984292" expanded="true" signature="5378:5399" placeholder="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/create_matches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+          <folding>
+            <marker date="1461505275897" expanded="true" signature="2312:2363" placeholder="..." />
+            <marker date="1461505275897" expanded="true" signature="2443:2494" placeholder="..." />
+            <marker date="1461505275897" expanded="true" signature="3271:3289" placeholder="SELECT * FRO... host" />
+            <marker date="1461505275897" expanded="true" signature="5378:5399" placeholder="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/delete_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461503603212" expanded="true" signature="158:195" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/dbConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/delete_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461434997667" expanded="true" signature="154:194" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/edit_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461503771244" expanded="true" signature="105:151" placeholder="select * fro... host" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/edit_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-44.46154">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <marker date="1461503966626" expanded="true" signature="105:154" placeholder="select * fro... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/new_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <marker date="1461505275761" expanded="true" signature="1755:1767" placeholder="..." />
+            <marker date="1461505275761" expanded="true" signature="1845:1857" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/new_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <marker date="1461505275795" expanded="true" signature="1740:1752" placeholder="..." />
+            <marker date="1461505275795" expanded="true" signature="1830:1842" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/view_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-85.0">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+          <folding>
+            <marker date="1461505083612" expanded="true" signature="1788:1800" placeholder="..." />
+            <marker date="1461505083612" expanded="true" signature="1879:1891" placeholder="..." />
+            <marker date="1461505083612" expanded="true" signature="1975:1987" placeholder="..." />
+            <marker date="1461505083612" expanded="true" signature="3046:3064" placeholder="SELECT * FRO... host" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/view_match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <folding>
+            <marker date="1461505275737" expanded="true" signature="2327:2412" placeholder="SELECT host.... host" />
+            <marker date="1461505275737" expanded="true" signature="3665:3840" placeholder="SELECT stude... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/view_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.810345">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <marker date="1461505083565" expanded="true" signature="1799:1811" placeholder="..." />
+            <marker date="1461505083565" expanded="true" signature="1890:1902" placeholder="..." />
+            <marker date="1461505083565" expanded="true" signature="1986:1998" placeholder="..." />
+            <marker date="1461505083565" expanded="true" signature="2759:2780" placeholder="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>

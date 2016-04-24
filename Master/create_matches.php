@@ -181,18 +181,20 @@
                 </tbody>
         </table>
     </div>
-    </form>
 
     <script type="text/javascript">
         var elems = document.getElementsByClassName('confirmation');
         var confirmIt = function (e) {
             if (!confirm('Are you sure you want to create this match?' +
-                        'An email notification will be sent to the host if successful. ')) e.preventDefault();
+                    'An email notification will be sent to the host if successful. ')) e.preventDefault();
         };
         for (var i = 0, l = elems.length; i < l; i++) {
             elems[i].addEventListener('click', confirmIt, false);
         }
     </script>
+    </form>
+
+
 
 
 

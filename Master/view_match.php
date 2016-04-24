@@ -1,5 +1,14 @@
-<?php session_start(); ?>
-<?php include 'dbConnect.php' ?>
+
+<?php include 'dbConnect.php';
+
+
+session_start();
+if(!isset($_SESSION['login_user'])){
+    header("location:index.php");
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

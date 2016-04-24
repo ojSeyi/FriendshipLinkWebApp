@@ -1,6 +1,12 @@
-<?php session_start(); ?>
+
 <?php
 include 'dbConnect.php';
+
+session_start();
+if(!isset($_SESSION['login_user'])){
+    header("location:index.php");
+}
+
 
 if(isset($_GET['S_ID'])){
     $user_login=$_GET['S_ID'];

@@ -41,13 +41,15 @@ include 'dbConnect.php';
              $txt = "Dear $name,
 					<br><br>
 					Thank you for being a part of International Students Friendship Link
-					<br>
+					<br><br>
 					You have a match on the friendship link program.
-					<br>
+					<br><br>
 					This match was made based on your preferences at sign-up:
 					<br>
 					Gender prefrence: $gender
+					<br>
 					Interested Nationality to host: $nation
+					<br>
 					Hobbies: $hobbies
 
 					<br><br>

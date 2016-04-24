@@ -8,6 +8,7 @@
     <title>View Students</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
 </head>
 <body>
 <header>
@@ -41,11 +42,22 @@
     </nav>
 </header>
 <main>
-<div id="title">
+        <div id="title">
             <header>
                 <h2>All Student Details</h2>
             </header>
         </div>
+        <span>
+            <?php if($_GET['s']) {
+                echo '<span style="color: blue;">Record Edited! </span>';
+            }elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Edited! </span>';}
+            elseif ($_GET['d']){echo "<span style='color: blue;'> Record Deleted!</span>";}
+            ?>
+
+        </span>
+
+
+
 
     <div style="overflow-x:auto;">
     <table class="table_sommy" style="margin-left: auto; margin-right: auto;">
@@ -95,6 +107,9 @@
             <td><?php echo $row['endOfStudy'];?></td>
             <td><?php echo $row['interests'];?></td>
             <td><?php echo $row['diet'];?></td>
+            <td><a href="edit_student.php?S_ID=<?php echo $row['S_ID'];?>">Edit Student</a>
+                <a href="delete_student.php?S_ID=<?php echo $row['S_ID'];?>"  class="confirmation">Delete Student</a>
+            </td>
         </tr>
         <?php
             }
@@ -104,6 +119,16 @@
         ?>
     </table>
     </div>
+    <script type="text/javascript">
+        var elems = document.getElementsByClassName('confirmation');
+        var confirmIt = function (e) {
+            if (!confirm('Are you sure you want to delete this record?')) e.preventDefault();
+        };
+        for (var i = 0, l = elems.length; i < l; i++) {
+            elems[i].addEventListener('click', confirmIt, false);
+        }
+    </script>
+
 
 </main>
 

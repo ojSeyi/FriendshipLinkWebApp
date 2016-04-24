@@ -6,6 +6,7 @@
     <title>Host</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 </head>
 
 
@@ -123,7 +124,7 @@
             <br>
             <br>
             <br>
-            <input type="submit" value="Submit" name="submit"/>
+            <button type="submit" value="Submit" name="submit">Submit</button>
 
         </form>
     </main>

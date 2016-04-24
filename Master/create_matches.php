@@ -1,5 +1,8 @@
-<?php session_start(); ?>
-<?php include 'dbConnect.php' ?>
+<?php ?>
+<?php include 'dbConnect.php' ;
+
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">

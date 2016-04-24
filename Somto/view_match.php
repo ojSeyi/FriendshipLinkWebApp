@@ -61,6 +61,11 @@
 
     <p>The Table below shows the Host first with the students matched to the host directly below it</p>
 
+    <?php
+    if ($_GET['d']){echo "<span style='color: blue;'> Record Deleted!</span>";}
+    elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Edited! </span>';}
+    ?>
+
 
     <table class="table_sommy">
         <thead>
@@ -127,6 +132,9 @@
             <td><?php echo $row2['gender'];?></td>
             <td><?php echo $row2['nationality'];?></td>
             <td><?php echo $row2['diet'];?></td>
+            <td>
+                <a href="delete_match_student.php?S_ID=<?php echo $row['S_ID'];?>"  class="confirmation">Remove match</a>
+            </td>
         </tr>
         <?php
         }
@@ -139,12 +147,17 @@
         ?>
     </table>
 
-    <script>
-        $('.header').click(function(){
-            $(this).toggleClass('expand').nextUntil('tr.header').slideToggle(100);
-        });
 
+        <script type="text/javascript">
+        var elems = document.getElementsByClassName('confirmation');
+        var confirmIt = function (e) {
+            if (!confirm('Are you sure you want to delete this match?')) e.preventDefault();
+        };
+        for (var i = 0, l = elems.length; i < l; i++) {
+            elems[i].addEventListener('click', confirmIt, false);
+        }
     </script>
+   =
 
 </main>
 

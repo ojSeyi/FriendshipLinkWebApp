@@ -37,4 +37,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 if(empty($_POST["username"]) || empty($_POST["password"])) {
 
     echo "Both fields are required. ";
+    header("location:index.php");
 }

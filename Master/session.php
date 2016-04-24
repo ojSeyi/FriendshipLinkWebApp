@@ -17,6 +17,9 @@ $login_session = $row['username']; // This displays the username the client or u
 if(!isset($_SESSION['login_user'])){
     header("location:login.php");
 }
+else{
+    header("location: index.php");
+}
 
 
 ?>

@@ -31,11 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     }else {
         $error = 'Your Login Name or Password is invalid';
         echo 'Your Login Name or Password is invalid';
+        header ("location:index.php");
     }
 }
 
-if(empty($_POST["username"]) || empty($_POST["password"])) {
-
-    echo "Both fields are required. ";
-    header("location:index.php");
-}

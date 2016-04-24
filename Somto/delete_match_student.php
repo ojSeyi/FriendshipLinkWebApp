@@ -13,7 +13,7 @@ $S_ID =  $_GET['S_ID'];
 
 
 
-$sql = "DELETE FROM match WHERE S_ID = '$S_ID' ";
+$sql = "DELETE FROM `match` WHERE `match`.S_ID = '$S_ID' ";
 $result = $dbs->query($sql);
 
 if($result = $dbs->query($sql)){

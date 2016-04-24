@@ -18,33 +18,40 @@ include 'dbConnect.php';
      }
      $h_email = $row['email'];
      $name = $row['name'];
+     $food = $row['vegan'];
+     $gender = $row['preference'];
+     $hobbies = $row['interests'];
+     $nation = $row['interest_nationality'];
 
-    foreach($_POST['studentSelected'] as $student){
 
-    $sql = "INSERT INTO `match` (`h_id`, `S_ID`)
+     foreach($_POST['studentSelected'] as $student){
+
+         $sql = "INSERT INTO `match` (`h_id`, `S_ID`)
             VALUES ('$getHostId', '$student')";
-        if($query = $dbs ->query($sql)){
+         if($query = $dbs ->query($sql)){
 
-            //setting some variables with form value
+             //setting some variables with form value
 
 //email subject
-            $subject = "Befriend A Child - Survey Login";
+             $subject = "Friendship Link has been created for you!";
 
 
 //email body in html
 //ATTENTION, THE LINK MAY POINT TO THE MASTER DOMAIN, RATHER THAN YOUR OWN xxx.PHP
-            $txt = "Dear $name,
+             $txt = "Dear $name,
 					<br><br>
-					You have a match.
-
-					you have been matched based on the prefrences made
-
-					<br><br>
-					User's Email address: $h_email
+					Thank you for being a part of International Students Friendship Link
 					<br>
-					Name: $name
+					You have a match on the friendship link program.
+					<br>
+					This match was made based on your preferences at sign-up:
+					<br>
+					Gender prefrence: $gender
+					Interested Nationality to host: $nation
+					Hobbies: $hobbies
+
 					<br><br>
-					hope your happy with matches made based on your prefrences.
+					Please contact Kathrine on kathrine@friendsUk.com for more infomation on the student selected.
 					<br><br>
 					King Regards,
 					<br><br>

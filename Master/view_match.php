@@ -42,7 +42,7 @@
                 <div class="dropdown-content">
                     <a href="view_student.php">View Students </a>
                     <a href="view_host.php">View Hosts</a>
-                    <a href="view_match.html">View Match</a>
+                    <a href="view_match.php">View Match</a>
                 </div>
             </li>
             <li><a href="create_matches.php">Create Match</a></li>
@@ -61,6 +61,11 @@
 
     <p>The Table below shows the Host first with the students matched to the host directly below it</p>
 
+    <?php
+    if ($_GET['d']){echo "<span style='color: blue;'> Record Deleted!</span>";}
+    elseif ($_GET['f']) {echo'<span style="color: blue;"> Record Not Edited! </span>';}
+    ?>
+
 
     <table class="table_sommy">
         <thead>
@@ -75,76 +80,84 @@
         </thead>
         <tbody>
         <?php
-            $sql_query = "SELECT host.* FROM host, `match` where host.h_id = `match`.h_id Group by `match`.h_id;";
+        $sql_query = "SELECT host.* FROM host, `match` where host.h_id = `match`.h_id Group by `match`.h_id;";
 
-            $result =  $dbs->query($sql_query);
+        $result =  $dbs->query($sql_query);
 
-            if(mysqli_num_rows($result)>0){
-                $counter = 0;
+        if(mysqli_num_rows($result)>0){
+            $counter = 0;
 
-                while ($row = $result->fetch_array())
-                {
-                    $counter++;
-        ?>
-                    <tr>
-                        <td style="padding: 15px"></td>
-                        <td style="padding: 15px"></td>
-                        <td style="padding: 15px"></td>
-                        <td style="padding: 15px"></td>
-                        <td style="padding: 15px"></td>
-                        <td style="padding: 15px"></td>
-                    </tr>
-        <tr>
-            <td ><strong><?php echo "Host ". $counter;?></strong></td>
-            <td><?php echo $row['name'];?></td>
-            <td><?php echo $row['preference'];?></td>
-            <td><?php echo $row['interests'];?></td>
-            <td><?php echo $row['interest_nationality'];?></td>
-            <td><?php echo $row['vegan'];?></td>
-        </tr>
+            while ($row = $result->fetch_array())
+            {
+                $counter++;
+                ?>
+                <tr>
+                    <td style="padding: 15px"></td>
+                    <td style="padding: 15px"></td>
+                    <td style="padding: 15px"></td>
+                    <td style="padding: 15px"></td>
+                    <td style="padding: 15px"></td>
+                    <td style="padding: 15px"></td>
+                </tr>
+                <tr>
+                    <td ><strong><?php echo "Host ". $counter;?></strong></td>
+                    <td><?php echo $row['name'];?></td>
+                    <td><?php echo $row['preference'];?></td>
+                    <td><?php echo $row['interests'];?></td>
+                    <td><?php echo $row['interest_nationality'];?></td>
+                    <td><?php echo $row['vegan'];?></td>
+                </tr>
 
-        <br>
-        <tr>
-            <th>Students Matched</th>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Gender</th>
-            <th>Country</th>
-            <th>Diet</th>
-        </tr>
-        <tr><?php
+                <br>
+                <tr>
+                    <th>Students Matched</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Country</th>
+                    <th>Diet</th>
+                </tr>
+                <tr><?php
 
                 $sql = "SELECT student.*
                         FROM student
                           inner Join `match` on student.S_ID = `match`.S_ID
                         WHERE `match`.h_ID = {$row['h_id']}";
-                    $result2= $dbs->query($sql);
-                    while( $row2 = $result2->fetch_array()){
-        ?>
-            <td style="border-bottom: hidden"></td>
-            <td><?php echo $row2['name'];?></td>
-            <td><?php echo $row2['age'];?></td>
-            <td><?php echo $row2['gender'];?></td>
-            <td><?php echo $row2['nationality'];?></td>
-            <td><?php echo $row2['diet'];?></td>
-        </tr>
-        <?php
-        }
+                $result2= $dbs->query($sql);
+                while( $row2 = $result2->fetch_array()){
+                    ?>
+                    <td style="border-bottom: hidden"></td>
+                    <td><?php echo $row2['name'];?></td>
+                    <td><?php echo $row2['age'];?></td>
+                    <td><?php echo $row2['gender'];?></td>
+                    <td><?php echo $row2['nationality'];?></td>
+                    <td><?php echo $row2['diet'];?></td>
+                    <td>
+                        <a href="delete_match_student.php?S_ID=<?php echo $row2['S_ID'];?>"  class="confirmation">Remove match</a>
+                    </td>
+                    </tr>
+                    <?php
+                }
             }
 
 
         }
-            $result->close();
+        $result->close();
         $dbs->close();
         ?>
     </table>
 
-    <script>
-        $('.header').click(function(){
-            $(this).toggleClass('expand').nextUntil('tr.header').slideToggle(100);
-        });
 
+    <script type="text/javascript">
+        var elems = document.getElementsByClassName('confirmation');
+        var confirmIt = function (e) {
+            if (!confirm('Are you sure you want to delete this match?')) e.preventDefault();
+        };
+        for (var i = 0, l = elems.length; i < l; i++) {
+            elems[i].addEventListener('click', confirmIt, false);
+        }
     </script>
+
 
 </main>
 

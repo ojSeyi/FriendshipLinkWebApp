@@ -157,7 +157,7 @@
             elems[i].addEventListener('click', confirmIt, false);
         }
     </script>
-   =
+
 
 </main>
 

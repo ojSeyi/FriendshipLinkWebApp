@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="Delete Student test" />
-    <list id="5a26e2e7-795f-421f-ad75-a0150ebc138e" name="New changelist" comment="">
+    <list default="true" id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="Delete Student test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Master/create_matches.php" afterPath="$PROJECT_DIR$/Master/create_matches.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Master/view_host.php" afterPath="$PROJECT_DIR$/Master/view_host.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Master/view_student.php" afterPath="$PROJECT_DIR$/Master/view_student.php" />
     </list>
     <ignored path="FriendshipLinkWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,83 +31,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dbConnect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Master/dbConnect.php">
+      <file leaf-file-name="create_matches.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Master/create_matches.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Master/delete_student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="25.5">
+              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding>
-                <marker date="1461434997667" expanded="true" signature="154:194" placeholder="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_host.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Master/edit_host.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1461503771244" expanded="true" signature="105:151" placeholder="select * fro... host" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Master/edit_student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-44.46154">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding>
-                <marker date="1461503966626" expanded="true" signature="105:154" placeholder="select * fro... student" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Master/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_host.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Master/new_host.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
-              <folding>
-                <marker date="1461505275761" expanded="true" signature="1755:1767" placeholder="..." />
-                <marker date="1461505275761" expanded="true" signature="1845:1857" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Master/new_student.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
-              <folding>
-                <marker date="1461505275795" expanded="true" signature="1740:1752" placeholder="..." />
-                <marker date="1461505275795" expanded="true" signature="1830:1842" placeholder="..." />
+                <marker date="1461508401659" expanded="true" signature="2312:2363" placeholder="..." />
+                <marker date="1461508401659" expanded="true" signature="2443:2494" placeholder="..." />
+                <marker date="1461508401659" expanded="true" signature="3271:3289" placeholder="SELECT * FRO... host" />
+                <marker date="1461508401659" expanded="true" signature="5293:5314" placeholder="SELECT * FRO... student" />
               </folding>
             </state>
           </provider>
@@ -114,13 +49,14 @@
       <file leaf-file-name="view_host.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Master/view_host.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-85.0">
-              <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+            <state vertical-scroll-proportion="-6.9615383">
+              <caret line="111" column="138" selection-start-line="111" selection-start-column="138" selection-end-line="111" selection-end-column="138" />
               <folding>
-                <marker date="1461505083612" expanded="true" signature="1788:1800" placeholder="..." />
-                <marker date="1461505083612" expanded="true" signature="1879:1891" placeholder="..." />
-                <marker date="1461505083612" expanded="true" signature="1975:1987" placeholder="..." />
-                <marker date="1461505083612" expanded="true" signature="3046:3064" placeholder="SELECT * FRO... host" />
+                <element signature="n#style#0;n#a#1;n#td#15;n#tr#1;n#table#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1461508401558" expanded="true" signature="1788:1800" placeholder="..." />
+                <marker date="1461508401558" expanded="true" signature="1879:1891" placeholder="..." />
+                <marker date="1461508401558" expanded="true" signature="1975:1987" placeholder="..." />
+                <marker date="1461508401558" expanded="true" signature="3046:3064" placeholder="SELECT * FRO... host" />
               </folding>
             </state>
           </provider>
@@ -129,11 +65,13 @@
       <file leaf-file-name="view_match.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Master/view_match.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+            <state vertical-scroll-proportion="-13.192307">
+              <caret line="135" column="114" selection-start-line="135" selection-start-column="114" selection-end-line="135" selection-end-column="156" />
               <folding>
-                <marker date="1461505275737" expanded="true" signature="2327:2412" placeholder="SELECT host.... host" />
-                <marker date="1461505275737" expanded="true" signature="3665:3840" placeholder="SELECT stude... student" />
+                <marker date="1461508256960" expanded="true" signature="2038:2050" placeholder="..." />
+                <marker date="1461508256960" expanded="true" signature="2122:2134" placeholder="..." />
+                <marker date="1461508256960" expanded="true" signature="2508:2593" placeholder="SELECT host.... host" />
+                <marker date="1461508256960" expanded="true" signature="3942:4117" placeholder="SELECT stude... student" />
               </folding>
             </state>
           </provider>
@@ -142,13 +80,14 @@
       <file leaf-file-name="view_student.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Master/view_student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.810345">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.42931035">
+              <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
               <folding>
-                <marker date="1461505083565" expanded="true" signature="1799:1811" placeholder="..." />
-                <marker date="1461505083565" expanded="true" signature="1890:1902" placeholder="..." />
-                <marker date="1461505083565" expanded="true" signature="1986:1998" placeholder="..." />
-                <marker date="1461505083565" expanded="true" signature="2759:2780" placeholder="SELECT * FRO... student" />
+                <element signature="n#style#0;n#a#1;n#td#16;n#tr#1;n#table#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1461508401478" expanded="true" signature="1799:1811" placeholder="..." />
+                <marker date="1461508401478" expanded="true" signature="1890:1902" placeholder="..." />
+                <marker date="1461508401478" expanded="true" signature="1986:1998" placeholder="..." />
+                <marker date="1461508401478" expanded="true" signature="2759:2780" placeholder="SELECT * FRO... student" />
               </folding>
             </state>
           </provider>
@@ -189,7 +128,6 @@
         <option value="$PROJECT_DIR$/Somto/delete_student.php" />
         <option value="$PROJECT_DIR$/Somto/new_host.php" />
         <option value="$PROJECT_DIR$/Somto/new_student.php" />
-        <option value="$PROJECT_DIR$/Somto/view_match.php" />
         <option value="$PROJECT_DIR$/Somto/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/Somto/index.html" />
         <option value="$PROJECT_DIR$/Somto/view_student.php" />
@@ -200,13 +138,15 @@
         <option value="$PROJECT_DIR$/Somto/edit_host.php" />
         <option value="$PROJECT_DIR$/Somto/edit_student.php" />
         <option value="$PROJECT_DIR$/Master/processmatch.php" />
-        <option value="$PROJECT_DIR$/Master/view_host.php" />
-        <option value="$PROJECT_DIR$/Master/view_student.php" />
-        <option value="$PROJECT_DIR$/Master/create_matches.php" />
         <option value="$PROJECT_DIR$/Master/index.html" />
         <option value="$PROJECT_DIR$/Master/new_host.php" />
         <option value="$PROJECT_DIR$/Master/new_student.php" />
+        <option value="$PROJECT_DIR$/Somto/delete_match_student.php" />
+        <option value="$PROJECT_DIR$/Somto/view_match.php" />
         <option value="$PROJECT_DIR$/Master/view_match.php" />
+        <option value="$PROJECT_DIR$/Master/create_matches.php" />
+        <option value="$PROJECT_DIR$/Master/view_host.php" />
+        <option value="$PROJECT_DIR$/Master/view_student.php" />
       </list>
     </option>
   </component>
@@ -309,9 +249,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Master\images" />
       <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Master" />
       <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Somto" />
+      <recent name="C:\Users\Sommy B\PhpstormProjects\new\FriendshipLinkWebApp\Master\images" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.processhost.php">
@@ -362,52 +302,10 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e5dcd337-927a-49c6-8113-7794e4db01e2" name="Default" comment="" />
-      <changelist id="5a26e2e7-795f-421f-ad75-a0150ebc138e" name="New changelist" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1461329091619</created>
       <option name="number" value="Default" />
       <updated>1461329091619</updated>
-    </task>
-    <task id="LOCAL-00053" summary="home page">
-      <created>1461349248601</created>
-      <option name="number" value="00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1461349248601</updated>
-    </task>
-    <task id="LOCAL-00054" summary="home page">
-      <created>1461349388938</created>
-      <option name="number" value="00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1461349388939</updated>
-    </task>
-    <task id="LOCAL-00055" summary="home page">
-      <created>1461349509649</created>
-      <option name="number" value="00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1461349509649</updated>
-    </task>
-    <task id="LOCAL-00056" summary="home page">
-      <created>1461349646248</created>
-      <option name="number" value="00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1461349646248</updated>
-    </task>
-    <task id="LOCAL-00057" summary="home page">
-      <created>1461349868320</created>
-      <option name="number" value="00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1461349868320</updated>
-    </task>
-    <task id="LOCAL-00058" summary="home page">
-      <created>1461349971138</created>
-      <option name="number" value="00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1461349971138</updated>
-    </task>
-    <task id="LOCAL-00059" summary="home page">
-      <created>1461350052383</created>
-      <option name="number" value="00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1461350052383</updated>
     </task>
     <task id="LOCAL-00060" summary="home page">
       <created>1461350092589</created>
@@ -661,7 +559,49 @@
       <option name="project" value="LOCAL" />
       <updated>1461505441624</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="jjj">
+      <created>1461505497808</created>
+      <option name="number" value="00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1461505497808</updated>
+    </task>
+    <task id="LOCAL-00103" summary="delete student matched">
+      <created>1461507286621</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1461507286621</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Delete Student test">
+      <created>1461507465987</created>
+      <option name="number" value="00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1461507465987</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Delete Student test">
+      <created>1461507592074</created>
+      <option name="number" value="00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1461507592075</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Student matched">
+      <created>1461507980881</created>
+      <option name="number" value="00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1461507980881</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Update">
+      <created>1461508174164</created>
+      <option name="number" value="00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1461508174164</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Updates">
+      <created>1461508269647</created>
+      <option name="number" value="00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1461508269647</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -721,8 +661,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
-    <MESSAGE value="from wale..." />
-    <MESSAGE value="Edit host" />
     <MESSAGE value="edit host test 1" />
     <MESSAGE value="edit" />
     <MESSAGE value="home page" />
@@ -735,7 +673,6 @@
     <MESSAGE value="style sheet edit . headers" />
     <MESSAGE value="confirmation test" />
     <MESSAGE value="Delete Student confirmation" />
-    <MESSAGE value="Delete Student test" />
     <MESSAGE value="Confrimation text for Match creation" />
     <MESSAGE value="New eamil body including Host's preferences and contact address" />
     <MESSAGE value="Confirm box test" />
@@ -743,7 +680,13 @@
     <MESSAGE value="Change submit button" />
     <MESSAGE value="finall changes for master branch push" />
     <MESSAGE value="Updates from Somto's branch&#10;1. delete student and host&#10;2.confirmation on delete&#10;3.confirmation on match&#10;4. edit student and host&#10;5. favicon tag on the html tab&#10;6. Editied body of email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates from Somto's branch&#10;1. delete student and host&#10;2.confirmation on delete&#10;3.confirmation on match&#10;4. edit student and host&#10;5. favicon tag on the html tab&#10;6. Editied body of email" />
+    <MESSAGE value="jjj" />
+    <MESSAGE value="delete student matched" />
+    <MESSAGE value="Delete Student test" />
+    <MESSAGE value="Student matched" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -768,8 +711,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
           <folding>
-            <marker date="1461439522381" expanded="true" signature="2326:2411" placeholder="SELECT host.... host" />
-            <marker date="1461439522381" expanded="true" signature="3664:3839" placeholder="SELECT stude... student" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461507853362" expanded="true" signature="2038:2050" placeholder="..." />
+            <marker date="1461507853362" expanded="true" signature="2122:2134" placeholder="..." />
+            <marker date="1461507853362" expanded="true" signature="2512:2597" placeholder="SELECT host.... host" />
+            <marker date="1461507853362" expanded="true" signature="3850:4025" placeholder="SELECT stude... student" />
           </folding>
         </state>
       </provider>
@@ -935,17 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/view_match.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
-          <folding>
-            <marker date="1461439522381" expanded="true" signature="2326:2411" placeholder="SELECT host.... host" />
-            <marker date="1461439522381" expanded="true" signature="3664:3839" placeholder="SELECT stude... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Somto/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.923077">
@@ -1086,19 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-          <folding>
-            <marker date="1461500286349" expanded="true" signature="1792:1804" placeholder="..." />
-            <marker date="1461500286349" expanded="true" signature="1883:1895" placeholder="..." />
-            <marker date="1461500286349" expanded="true" signature="1979:1991" placeholder="..." />
-            <marker date="1461500286349" expanded="true" signature="3015:3033" placeholder="SELECT * FRO... host" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Somto/view_student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.8128161">
@@ -1121,19 +1043,6 @@
             <marker date="1461502984292" expanded="true" signature="2443:2494" placeholder="..." />
             <marker date="1461502984292" expanded="true" signature="3271:3289" placeholder="SELECT * FRO... host" />
             <marker date="1461502984292" expanded="true" signature="5378:5399" placeholder="SELECT * FRO... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Master/create_matches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
-          <folding>
-            <marker date="1461505275897" expanded="true" signature="2312:2363" placeholder="..." />
-            <marker date="1461505275897" expanded="true" signature="2443:2494" placeholder="..." />
-            <marker date="1461505275897" expanded="true" signature="3271:3289" placeholder="SELECT * FRO... host" />
-            <marker date="1461505275897" expanded="true" signature="5378:5399" placeholder="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -1216,39 +1125,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.807693">
+          <caret line="210" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461507853362" expanded="true" signature="2038:2050" placeholder="..." />
+            <marker date="1461507853362" expanded="true" signature="2122:2134" placeholder="..." />
+            <marker date="1461507853362" expanded="true" signature="2512:2597" placeholder="SELECT host.... host" />
+            <marker date="1461507853362" expanded="true" signature="3850:4025" placeholder="SELECT stude... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/delete_match_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461507584771" expanded="true" signature="154:202" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/delete_match_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6448276">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1461507584771" expanded="true" signature="154:202" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Somto/view_host.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1982758">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="96" />
+          <folding>
+            <marker date="1461500286349" expanded="true" signature="1792:1804" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1883:1895" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="1979:1991" placeholder="..." />
+            <marker date="1461500286349" expanded="true" signature="3015:3033" placeholder="SELECT * FRO... host" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Master/create_matches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.5">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <marker date="1461508401659" expanded="true" signature="2312:2363" placeholder="..." />
+            <marker date="1461508401659" expanded="true" signature="2443:2494" placeholder="..." />
+            <marker date="1461508401659" expanded="true" signature="3271:3289" placeholder="SELECT * FRO... host" />
+            <marker date="1461508401659" expanded="true" signature="5293:5314" placeholder="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Master/view_host.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-85.0">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        <state vertical-scroll-proportion="-6.9615383">
+          <caret line="111" column="138" selection-start-line="111" selection-start-column="138" selection-end-line="111" selection-end-column="138" />
           <folding>
-            <marker date="1461505083612" expanded="true" signature="1788:1800" placeholder="..." />
-            <marker date="1461505083612" expanded="true" signature="1879:1891" placeholder="..." />
-            <marker date="1461505083612" expanded="true" signature="1975:1987" placeholder="..." />
-            <marker date="1461505083612" expanded="true" signature="3046:3064" placeholder="SELECT * FRO... host" />
+            <element signature="n#style#0;n#a#1;n#td#15;n#tr#1;n#table#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461508401558" expanded="true" signature="1788:1800" placeholder="..." />
+            <marker date="1461508401558" expanded="true" signature="1879:1891" placeholder="..." />
+            <marker date="1461508401558" expanded="true" signature="1975:1987" placeholder="..." />
+            <marker date="1461508401558" expanded="true" signature="3046:3064" placeholder="SELECT * FRO... host" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Master/view_match.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        <state vertical-scroll-proportion="-13.192307">
+          <caret line="135" column="114" selection-start-line="135" selection-start-column="114" selection-end-line="135" selection-end-column="156" />
           <folding>
-            <marker date="1461505275737" expanded="true" signature="2327:2412" placeholder="SELECT host.... host" />
-            <marker date="1461505275737" expanded="true" signature="3665:3840" placeholder="SELECT stude... student" />
+            <marker date="1461508256960" expanded="true" signature="2038:2050" placeholder="..." />
+            <marker date="1461508256960" expanded="true" signature="2122:2134" placeholder="..." />
+            <marker date="1461508256960" expanded="true" signature="2508:2593" placeholder="SELECT host.... host" />
+            <marker date="1461508256960" expanded="true" signature="3942:4117" placeholder="SELECT stude... student" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Master/view_student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.810345">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.42931035">
+          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
           <folding>
-            <marker date="1461505083565" expanded="true" signature="1799:1811" placeholder="..." />
-            <marker date="1461505083565" expanded="true" signature="1890:1902" placeholder="..." />
-            <marker date="1461505083565" expanded="true" signature="1986:1998" placeholder="..." />
-            <marker date="1461505083565" expanded="true" signature="2759:2780" placeholder="SELECT * FRO... student" />
+            <element signature="n#style#0;n#a#1;n#td#16;n#tr#1;n#table#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461508401478" expanded="true" signature="1799:1811" placeholder="..." />
+            <marker date="1461508401478" expanded="true" signature="1890:1902" placeholder="..." />
+            <marker date="1461508401478" expanded="true" signature="1986:1998" placeholder="..." />
+            <marker date="1461508401478" expanded="true" signature="2759:2780" placeholder="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>

@@ -132,9 +132,9 @@
     </div>
 
 <div class="middle">
-         <p><strong> <--------- </strong></p>
+
    <button class="confirmation" id="match" name="match" type="submit" style=" color:darkorange;border-radius: 5000px ">MATCH</button>
-    <p><strong> ---------> </strong></p>
+
 
 </div>
 

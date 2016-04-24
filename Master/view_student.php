@@ -108,7 +108,7 @@
             <td><?php echo $row['interests'];?></td>
             <td><?php echo $row['diet'];?></td>
             <td><a href="edit_student.php?S_ID=<?php echo $row['S_ID'];?>">Edit Student</a>
-                <a href="delete_student.php?S_ID=<?php echo $row['S_ID'];?>"  class="confirmation">Delete Student</a>
+                <a href="delete_student.php?S_ID=<?php echo $row['S_ID'];?>"  class="confirmation" style="text-decoration: none; color: red ">Delete Student</a>
             </td>
         </tr>
         <?php

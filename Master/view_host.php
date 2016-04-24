@@ -109,7 +109,7 @@
             <td><?php echo $row['interest_nationality'];?></td>
             <td><?php echo $row['comments'];?></td>
             <td><a href="edit_host.php?h_id=<?php echo $row['h_id'];?>">Edit host</a>
-                <a href="delete_host.php?h_id=<?php echo $row['h_id'];?>"  class="confirmation">Delete Host</a>
+                <a href="delete_host.php?h_id=<?php echo $row['h_id'];?>"  class="confirmation" style="text-decoration: none; color: red ">Delete Host</a>
             </td>
         </tr>
         <?php

@@ -109,7 +109,7 @@
             <td><?php echo $row['interests'];?></td>
             <td><?php echo $row['diet'];?></td>
             <td><a href="edit_student.php?S_ID=<?php echo $row['S_ID'];?>">Edit Student</a>
-                <a href="delete_student.php?S_ID=<?php echo $row['S_ID'];?>">Delete Student</a>
+                <a href="delete_student.php?S_ID=<?php echo $row['S_ID'];?>"  class="confirmation">Delete Student</a>
             </td>
         </tr>
         <?php
@@ -120,6 +120,16 @@
         ?>
     </table>
     </div>
+
+    <script type="text/javascript">
+        var elems = document.getElementsByClassName('confirmation');
+        var confirmIt = function (e) {
+            if (!confirm('Are you sure you want to delete this record?')) e.preventDefault();
+        };
+        for (var i = 0, l = elems.length; i < l; i++) {
+            elems[i].addEventListener('click', confirmIt, false);
+        }
+    </script>
 
 </main>
 

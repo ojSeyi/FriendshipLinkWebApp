@@ -133,7 +133,7 @@
 
 <div class="middle">
          <p><strong> <--------- </strong></p>
-   <button id="match" name="match" type="submit" style=" color:darkorange;border-radius: 5000px ">MATCH</button>
+   <button class="confirmation" id="match" name="match" type="submit" style=" color:darkorange;border-radius: 5000px ">MATCH</button>
     <p><strong> ---------> </strong></p>
 
 </div>
@@ -182,6 +182,18 @@
                 </tbody>
         </table>
     </div>
+
+    <script type="text/javascript">
+        var elems = document.getElementsByClassName('confirmation');
+        var confirmIt = function (e) {
+            if (!confirm('Are you sure you want to delete this record?')) e.preventDefault();
+        };
+        for (var i = 0, l = elems.length; i < l; i++) {
+            elems[i].addEventListener('click', confirmIt, false);
+        }
+    </script>
+
+
     </form>
 
 

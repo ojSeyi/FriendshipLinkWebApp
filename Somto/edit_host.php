@@ -179,7 +179,7 @@ else{
         <br>
         <br>
         <br>
-        <input type="submit" value="<?php echo $row['h_id'];?>" id="update" name="update"/>
+        <button type="submit" value="<?php echo $row['h_id'];?>" id="update" name="update">Submit</button>
 
 
     </form>

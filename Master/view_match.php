@@ -132,8 +132,8 @@
                     <td><?php echo $row2['gender'];?></td>
                     <td><?php echo $row2['nationality'];?></td>
                     <td><?php echo $row2['diet'];?></td>
-                    <td>
-                        <a href="delete_match_student.php?S_ID=<?php echo $row2['S_ID'];?>"  class="confirmation">Remove match</a>
+                    <td style="border-bottom: hidden;text-decoration: none; color: red ">
+                        <a href="delete_match_student.php?S_ID=<?php echo $row2['S_ID'];?>"  class="confirmation">Delete match</a>
                     </td>
                     </tr>
                     <?php

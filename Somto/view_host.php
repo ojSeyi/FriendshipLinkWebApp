@@ -1,5 +1,6 @@
 <?php include 'dbConnect.php';?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,9 +112,11 @@
             <td><?php echo $row['interest_nationality'];?></td>
             <td><?php echo $row['comments'];?></td>
             <td><a href="edit_host.php?h_id=<?php echo $row['h_id'];?>">Edit host</a>
-                <a href="delete_host.php?h_id=<?php echo $row['h_id'];?>">Delete Host</a>
+                <a href="delete_host.php?h_id=<?php echo $row['h_id'];?>"  class="confirmation">Delete Host</a>
             </td>
         </tr>
+
+
         <?php
         }
         }
@@ -122,6 +125,19 @@
         ?>
     </table>
     </div>
+
+
+    <script type="text/javascript">
+        var elems = document.getElementsByClassName('confirmation');
+        var confirmIt = function (e) {
+            if (!confirm('Are you sure?')) e.preventDefault();
+        };
+        for (var i = 0, l = elems.length; i < l; i++) {
+            elems[i].addEventListener('click', confirmIt, false);
+        }
+    </script>
+
+
 </main>
 
 <footer>

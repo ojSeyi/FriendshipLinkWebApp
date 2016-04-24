@@ -133,7 +133,7 @@
             <td><?php echo $row2['nationality'];?></td>
             <td><?php echo $row2['diet'];?></td>
             <td>
-                <a href="delete_match_student.php?S_ID=<?php echo $row['S_ID'];?>"  class="confirmation">Remove match</a>
+                <a href="delete_match_student.php?S_ID=<?php echo $row2['S_ID'];?>"  class="confirmation">Remove match</a>
             </td>
         </tr>
         <?php

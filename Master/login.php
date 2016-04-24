@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     if($count == 1) {
 //error check here...........
         $_SESSION['login_user'] = $username;
-        echo $_SESSION['login_user'];
+        //echo $_SESSION['login_user'];
         header("location: home.php");
 
     }else {

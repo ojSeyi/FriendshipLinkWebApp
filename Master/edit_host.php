@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php
 include 'dbConnect.php';
 
@@ -107,6 +108,7 @@ else{
             </li>
             <li><a href="create_matches.php">Create Match</a></li>
             <li><a href="#">Generate Report</a></li>
+            <li  style="float:right"> <a href = "logout.php">Log Out</a></li>
         </ul>
     </nav>
 </header>

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +49,7 @@
 
 <main>
 
-    <p> Welcome back <?php echo $login_session; ?></p>
+    <p> Welcome back <?php echo $_SESSION['login_user']; ?></p>
     <p>Please use one of the links above to start!</p>
 
 </main>

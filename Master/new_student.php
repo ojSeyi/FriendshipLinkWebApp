@@ -129,7 +129,7 @@
             <br>
             <br>
             <label for="endOfStudy">End of Study date:</label>
-            <input type="date" id="endOfStudy" name="endOfStudy" value="" placeholder="yyyy/mm/dd"/>
+            <input type="text" id="endOfStudy" name="endOfStudy" value="" placeholder="yyyy/mm/dd"/>
             <br>
             <br>
             <label for="interests">Special interests (sport, music, hobbies):</label>

@@ -8,21 +8,22 @@ include ("dbConnect.php");
     <meta charset="UTF-8">
     <title> Admin </title>
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <header>
 <div id ="logo">
-    <a href="index.php"><img src="images/fi-logo.png" alt="Demo" width="200"></a>
+    <a href="index.php"><img src="images/fi-logo-reverse.png" alt="Demo" width="200"></a>
 </div>
 </header>
 
 <body>
-<h2 style="color: ghostwhite" align="center"> FRIENDSHIPLINK APP - ADMIN LOGIN </h2>
+<h2 style="color: ghostwhite" align="center"> Administrator Login </h2>
 <div class="login-page">
     <div class="form">
         <form method="post" action="login.php" >
-            <label style="color: darkorange"> <strong>USERNAME </strong> </label> <input type="text" name="username" placeholder="username" />
+            <label style="color: darkorange"> Username </label> <input type="text" name="username" placeholder="username" />
             <br>
-            <label style="color: darkorange"> <strong>PASSWORD </strong> </label> <input type="password" name="password" placeholder="password"  />
+            <label style="color: darkorange"> Password </label> <input type="password" name="password" placeholder="password"  />
 
             <br>
             <br>
